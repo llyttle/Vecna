@@ -1,0 +1,8 @@
+<launch>
+    <node
+    pkg="tutorials"
+    type="first_node"
+    name="first_node"
+    output="log"
+    ></node>
+</launch>
