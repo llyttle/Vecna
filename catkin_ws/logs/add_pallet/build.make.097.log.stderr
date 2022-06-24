@@ -1,0 +1,13 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:28:23:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::Rate::sleep(double)[m[K’
+         rate.sleep(0.5[01;31m[K)[m[K // Wait for other node to initialize and print its statements
+                       [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:39:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:1[m[K:
+[01m[K/opt/ros/melodic/include/ros/rate.h:65:8:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::Rate::sleep()
+   bool [01;36m[Ksleep[m[K();
+        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/rate.h:65:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+make[2]: *** [CMakeFiles/remote_add.dir/src/remote_add.cpp.o] Error 1
+make[1]: *** [CMakeFiles/remote_add.dir/all] Error 2
+make: *** [all] Error 2

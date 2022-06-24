@@ -2,6 +2,7 @@
 
 Reads and maintains the following parameters on the ROS server
 
-- \b "~int_param" : \b [int] An Integer parameter min: 0, default: 50, max: 100
-- \b "~bool_param" : \b [bool] A Boolean parameter min: False, default: True, max: True
+- \b "~pallet_type_param" : \b [str] Name of new pallet type min: , default: NULL, max: 
+- \b "~width_param" : \b [int] width of pallet (meters) min: 0, default: 100, max: 200
+- \b "~depth_param" : \b [int] depth of pallet (meters) min: 0, default: 100, max: 200
 

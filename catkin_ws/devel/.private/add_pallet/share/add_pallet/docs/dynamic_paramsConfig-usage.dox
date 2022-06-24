@@ -1,8 +1,9 @@
 \subsubsection usage Usage
 \verbatim
 <node name="add_pallet" pkg="add_pallet" type="add_pallet">
-  <param name="int_param" type="int" value="50" />
-  <param name="bool_param" type="bool" value="True" />
+  <param name="pallet_type_param" type="str" value="NULL" />
+  <param name="width_param" type="int" value="100" />
+  <param name="depth_param" type="int" value="100" />
 </node>
 \endverbatim
 

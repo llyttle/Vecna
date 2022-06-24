@@ -1,0 +1,8 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:25:105:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass add_pallet::dynamic_paramsConfig[m[K’ has no member named ‘[01m[Kname[m[K’
+     std::shared_ptr<FeatureDetectionInfo> palletpointer = std::make_shared<FeatureDetectionInfo>(config.[01;31m[Kname[m[K);
+                                                                                                         [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

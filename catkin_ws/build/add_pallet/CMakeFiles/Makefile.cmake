@@ -188,7 +188,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/server.dir/DependInfo.cmake"
+  "CMakeFiles/remote_add.dir/DependInfo.cmake"
   "CMakeFiles/dynamic_reconfigure_gencfg.dir/DependInfo.cmake"
   "CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/DependInfo.cmake"
   "CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/DependInfo.cmake"
@@ -212,6 +212,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/DependInfo.cmake"
   "CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake"
   "CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/DependInfo.cmake"
+  "CMakeFiles/pallet_library.dir/DependInfo.cmake"
   "CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake"
   "CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake"

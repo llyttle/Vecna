@@ -116,7 +116,7 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-# include
+  include
   ${catkin_INCLUDE_DIRS}
   ${dynamic_reconfigure_PACKAGE_PATH}/cmake/cfgbuild.cmake
 )
@@ -134,7 +134,11 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-add_executable(server src/server.cpp)
+# add_executable(server src/server.cpp)
+
+add_executable(pallet_library src/pallet_library.cpp) # Server Node
+add_executable(remote_add src/remote_add.cpp) # Client Node
+
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -144,10 +148,15 @@ add_executable(server src/server.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-add_dependencies(server ${PROJECT_NAME}_gencfg)
+# add_dependencies(server ${PROJECT_NAME}_gencfg)
+add_dependencies(pallet_library ${PROJECT_NAME}_gencfg)
+add_dependencies(remote_add ${PROJECT_NAME}_gencfg)
 
 ## Specify libraries to link a library or executable target against
-target_link_libraries(server
+target_link_libraries(pallet_library
+  ${catkin_LIBRARIES}
+)
+target_link_libraries(remote_add
   ${catkin_LIBRARIES}
 )
 

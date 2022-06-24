@@ -1,0 +1,7 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:47:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kros::service[m[K’ has not been declared
+     ros::[01;31m[Kservice[m[K::call("/pallet_library_node/set_parameters", srv_req, srv_resp);
+          [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/remote_add.dir/src/remote_add.cpp.o] Error 1
+make[1]: *** [CMakeFiles/remote_add.dir/all] Error 2
+make: *** [all] Error 2

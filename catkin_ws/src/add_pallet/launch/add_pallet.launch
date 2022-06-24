@@ -1,0 +1,6 @@
+<launch>
+    <!-- launch the ros server  (place where new pallet detection classes are built) -->
+    <node name='pallet_library_node' pkg='add_pallet' type='pallet_library' output='screen'/>
+    <!-- launch the ros client (place that sends new pallet information) -->
+    <node name='remote_add_node' pkg='add_pallet' type='remote_add' output='screen'/>
+</launch>

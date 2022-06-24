@@ -1,0 +1,7 @@
+[31m[1mCMake Error[0m at /home/loren.lyttle/tests/catkin_ws/src/add_pallet/CMakeLists.txt:156 (target_link_libraries):
+  Target "remote_add" of type EXECUTABLE may not be linked into another
+  target.  One may link only to STATIC or SHARED libraries, or to executables
+  with the ENABLE_EXPORTS property set.
+
+
+make: *** [cmake_check_build_system] Error 1

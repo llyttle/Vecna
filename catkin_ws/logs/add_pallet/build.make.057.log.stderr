@@ -1,0 +1,67 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:28:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ was not declared in this scope
+     [01;31m[Kstring[m[K name;
+     [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:28:5:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/7/string:39:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:1[m[K:
+[01m[K/usr/include/c++/7/bits/stringfwd.h:74:33:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::string[m[K’
+   typedef basic_string<char>    [01;36m[Kstring[m[K;
+                                 [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stringfwd.h:74:33:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::string[m[K’
+In file included from [01m[K/usr/include/boost/lexical_cast/detail/converter_lexical.hpp:52:0[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/try_lexical_convert.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:1[m[K:
+[01m[K/usr/include/boost/container/container_fwd.hpp:195:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::container::string[m[K’
+ [01;36m[Kstring[m[K;
+ [01;36m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:31:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope
+     [01;31m[Kcout[m[K << "Name pallet: ";
+     [01;31m[K^~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:31:5:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/opt/ros/melodic/include/ros/time.h:54:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:1[m[K:
+[01m[K/usr/include/c++/7/iostream:61:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::cout[m[K’
+   extern ostream [01;36m[Kcout[m[K;  /// Linked to standard output
+                  [01;36m[K^~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcin[m[K’ was not declared in this scope
+     [01;31m[Kcin[m[K >> name;
+     [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:32:5:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/opt/ros/melodic/include/ros/time.h:54:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:1[m[K:
+[01m[K/usr/include/c++/7/iostream:60:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::cin[m[K’
+   extern istream [01;36m[Kcin[m[K;  /// Linked to standard input
+                  [01;36m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:32:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kname[m[K’ was not declared in this scope
+     cin >> [01;31m[Kname[m[K;
+            [01;31m[K^~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:32:12:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knanq[m[K’
+     cin >> [01;36m[Kname[m[K;
+            [01;36m[K^~~~[m[K
+            [32m[Knanq[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:33:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ was not declared in this scope
+     cout << "Enter pallet width and depth:" << [01;31m[Kendl[m[K;
+                                                [01;31m[K^~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:33:48:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/c++/7/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:1[m[K:
+[01m[K/usr/include/c++/7/ostream:590:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::endl[m[K’
+     [01;36m[Kendl[m[K(basic_ostream<_CharT, _Traits>& __os)
+     [01;36m[K^~~~[m[K
+make[2]: *** [CMakeFiles/remote_add.dir/src/remote_add.cpp.o] Error 1
+make[1]: *** [CMakeFiles/remote_add.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

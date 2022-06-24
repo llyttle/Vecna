@@ -1,8 +1,0 @@
-[ 33%] [34m[1mGenerating dynamic reconfigure files from cfg/dynamic_params.cfg: /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include/add_pallet/dynamic_paramsConfig.h /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/python2.7/dist-packages/add_pallet/cfg/dynamic_paramsConfig.py[0m
-Generating reconfiguration files for dynamic_params in add_pallet
-Wrote header file in /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include/add_pallet/dynamic_paramsConfig.h
-[ 33%] Built target add_pallet_gencfg
-[35m[1mScanning dependencies of target server[0m
-[ 66%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server[0m
-[100%] Built target server

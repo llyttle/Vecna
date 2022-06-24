@@ -1,0 +1,7 @@
+[31m[1mCMake Error[0m at /opt/ros/melodic/share/catkin/cmake/custom_install.cmake:13 (_install):
+  _install DIRECTORY given no DESTINATION!
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:192 (install)
+
+
+make: *** [cmake_check_build_system] Error 1

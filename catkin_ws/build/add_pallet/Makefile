@@ -168,17 +168,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named server
+# Target rules for targets named remote_add
 
 # Build rule for target.
-server: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 server
-.PHONY : server
+remote_add: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 remote_add
+.PHONY : remote_add
 
 # fast build rule for target.
-server/fast:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
-.PHONY : server/fast
+remote_add/fast:
+	$(MAKE) -f CMakeFiles/remote_add.dir/build.make CMakeFiles/remote_add.dir/build
+.PHONY : remote_add/fast
 
 #=============================================================================
 # Target rules for targets named dynamic_reconfigure_gencfg
@@ -480,6 +480,19 @@ rosgraph_msgs_generate_messages_eus/fast:
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 #=============================================================================
+# Target rules for targets named pallet_library
+
+# Build rule for target.
+pallet_library: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pallet_library
+.PHONY : pallet_library
+
+# fast build rule for target.
+pallet_library/fast:
+	$(MAKE) -f CMakeFiles/pallet_library.dir/build.make CMakeFiles/pallet_library.dir/build
+.PHONY : pallet_library/fast
+
+#=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -583,32 +596,59 @@ gtest/fast:
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-src/server.o: src/server.cpp.o
+src/pallet_library.o: src/pallet_library.cpp.o
 
-.PHONY : src/server.o
+.PHONY : src/pallet_library.o
 
 # target to build an object file
-src/server.cpp.o:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/server.cpp.o
-.PHONY : src/server.cpp.o
+src/pallet_library.cpp.o:
+	$(MAKE) -f CMakeFiles/pallet_library.dir/build.make CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o
+.PHONY : src/pallet_library.cpp.o
 
-src/server.i: src/server.cpp.i
+src/pallet_library.i: src/pallet_library.cpp.i
 
-.PHONY : src/server.i
+.PHONY : src/pallet_library.i
 
 # target to preprocess a source file
-src/server.cpp.i:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/server.cpp.i
-.PHONY : src/server.cpp.i
+src/pallet_library.cpp.i:
+	$(MAKE) -f CMakeFiles/pallet_library.dir/build.make CMakeFiles/pallet_library.dir/src/pallet_library.cpp.i
+.PHONY : src/pallet_library.cpp.i
 
-src/server.s: src/server.cpp.s
+src/pallet_library.s: src/pallet_library.cpp.s
 
-.PHONY : src/server.s
+.PHONY : src/pallet_library.s
 
 # target to generate assembly for a file
-src/server.cpp.s:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/server.cpp.s
-.PHONY : src/server.cpp.s
+src/pallet_library.cpp.s:
+	$(MAKE) -f CMakeFiles/pallet_library.dir/build.make CMakeFiles/pallet_library.dir/src/pallet_library.cpp.s
+.PHONY : src/pallet_library.cpp.s
+
+src/remote_add.o: src/remote_add.cpp.o
+
+.PHONY : src/remote_add.o
+
+# target to build an object file
+src/remote_add.cpp.o:
+	$(MAKE) -f CMakeFiles/remote_add.dir/build.make CMakeFiles/remote_add.dir/src/remote_add.cpp.o
+.PHONY : src/remote_add.cpp.o
+
+src/remote_add.i: src/remote_add.cpp.i
+
+.PHONY : src/remote_add.i
+
+# target to preprocess a source file
+src/remote_add.cpp.i:
+	$(MAKE) -f CMakeFiles/remote_add.dir/build.make CMakeFiles/remote_add.dir/src/remote_add.cpp.i
+.PHONY : src/remote_add.cpp.i
+
+src/remote_add.s: src/remote_add.cpp.s
+
+.PHONY : src/remote_add.s
+
+# target to generate assembly for a file
+src/remote_add.cpp.s:
+	$(MAKE) -f CMakeFiles/remote_add.dir/build.make CMakeFiles/remote_add.dir/src/remote_add.cpp.s
+.PHONY : src/remote_add.cpp.s
 
 # Help Target
 help:
@@ -619,7 +659,7 @@ help:
 	@echo "... install/strip"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... server"
+	@echo "... remote_add"
 	@echo "... dynamic_reconfigure_gencfg"
 	@echo "... dynamic_reconfigure_generate_messages_py"
 	@echo "... dynamic_reconfigure_generate_messages_lisp"
@@ -647,6 +687,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... install"
 	@echo "... rosgraph_msgs_generate_messages_eus"
+	@echo "... pallet_library"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_py"
@@ -655,9 +696,12 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... src/server.o"
-	@echo "... src/server.i"
-	@echo "... src/server.s"
+	@echo "... src/pallet_library.o"
+	@echo "... src/pallet_library.i"
+	@echo "... src/pallet_library.s"
+	@echo "... src/remote_add.o"
+	@echo "... src/remote_add.i"
+	@echo "... src/remote_add.s"
 .PHONY : help
 
 

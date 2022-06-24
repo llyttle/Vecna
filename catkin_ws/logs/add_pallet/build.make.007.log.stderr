@@ -1,0 +1,65 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:9:6:[m[K [01;31m[Kerror: [m[K‘[01m[KFeatureDetectionInfo[m[K’ has not been declared
+ void [01;31m[KFeatureDetectionInfo[m[K::FeatureDetectionInfo::initializeParams(const float width, const float width_tolerance, const float depth, const float depth_tolerance) {
+      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid initializeParams(float, float, float, float)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:10:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ks_width[m[K’ was not declared in this scope
+         [01;31m[Ks_width[m[K = width;
+         [01;31m[K^~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:10:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kwidth[m[K’
+         [01;36m[Ks_width[m[K = width;
+         [01;36m[K^~~~~~~[m[K
+         [32m[Kwidth[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:11:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ks_width_tolerance[m[K’ was not declared in this scope
+         [01;31m[Ks_width_tolerance[m[K = width_tolerance;
+         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:11:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kwidth_tolerance[m[K’
+         [01;36m[Ks_width_tolerance[m[K = width_tolerance;
+         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+         [32m[Kwidth_tolerance[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:12:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ks_depth[m[K’ was not declared in this scope
+         [01;31m[Ks_depth[m[K = depth;
+         [01;31m[K^~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:12:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kdepth[m[K’
+         [01;36m[Ks_depth[m[K = depth;
+         [01;36m[K^~~~~~~[m[K
+         [32m[Kdepth[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ks_depth_tolerance[m[K’ was not declared in this scope
+         [01;31m[Ks_depth_tolerance[m[K = depth_tolerance;
+         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kdepth_tolerance[m[K’
+         [01;36m[Ks_depth_tolerance[m[K = depth_tolerance;
+         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+         [32m[Kdepth_tolerance[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 8 has type ‘[01m[Kstd::__cxx11::string {aka std::__cxx11::basic_string<char>}[m[K’ [[01;35m[K-Wformat=[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:17:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     [01;36m[KR[m[KOS_INFO("Reconfigure Request: %s %d %d",
+     [01;36m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:22:21:[m[K [01;31m[Kerror: [m[K‘[01m[KFeatureDetectionInfo[m[K’ was not declared in this scope
+     std::shared_ptr<[01;31m[KFeatureDetectionInfo[m[K> palletpointer = std::make_shared<FeatureDetectionInfo>(config.name);
+                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:22:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+     std::shared_ptr<FeatureDetectionInfo[01;31m[K>[m[K palletpointer = std::make_shared<FeatureDetectionInfo>(config.name);
+                                         [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:22:105:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass add_pallet::dynamic_paramsConfig[m[K’ has no member named ‘[01m[Kname[m[K’
+     std::shared_ptr<FeatureDetectionInfo> palletpointer = std::make_shared<FeatureDetectionInfo>(config.[01;31m[Kname[m[K);
+                                                                                                         [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

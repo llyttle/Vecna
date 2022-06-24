@@ -1,0 +1,25 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring_param[m[K’ was not declared in this scope
+     [01;31m[Kstring_param[m[K.name = "pallet_type_param";
+     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:38:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksched_param[m[K’
+     [01;36m[Kstring_param[m[K.name = "pallet_type_param";
+     [01;36m[K^~~~~~~~~~~~[m[K
+     [32m[Ksched_param[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kconf[m[K’ was not declared in this scope
+     [01;31m[Kconf[m[K.strs.push_back(string_param);
+     [01;31m[K^~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:40:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcosf[m[K’
+     [01;36m[Kconf[m[K.strs.push_back(string_param);
+     [01;36m[K^~~~[m[K
+     [32m[Kcosf[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:42:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kint_param[m[K’ was not declared in this scope
+     [01;31m[Kint_param[m[K.name = "width_param";
+     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:42:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kintptr_t[m[K’
+     [01;36m[Kint_param[m[K.name = "width_param";
+     [01;36m[K^~~~~~~~~[m[K
+     [32m[Kintptr_t[m[K
+make[2]: *** [CMakeFiles/remote_add.dir/src/remote_add.cpp.o] Error 1
+make[1]: *** [CMakeFiles/remote_add.dir/all] Error 2
+make: *** [all] Error 2

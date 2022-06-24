@@ -1,0 +1,7 @@
+  File "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg", line 11
+    gen.add("depth_param "depth of pallet (meters)", 100, 0, 200)
+                              ^
+SyntaxError: invalid syntax
+make[2]: *** [/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include/add_pallet/dynamic_paramsConfig.h] Error 1
+make[1]: *** [CMakeFiles/add_pallet_gencfg.dir/all] Error 2
+make: *** [all] Error 2

@@ -90,25 +90,6 @@ server_EXTERNAL_OBJECTS =
 
 /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server: CMakeFiles/server.dir/src/server.cpp.o
 /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server: CMakeFiles/server.dir/build.make
-/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server: /opt/ros/melodic/lib/libroscpp.so
-/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server: /opt/ros/melodic/lib/librosconsole.so
-/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server: /opt/ros/melodic/lib/librostime.so
-/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server: /opt/ros/melodic/lib/libcpp_common.so
-/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server: CMakeFiles/server.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/loren.lyttle/tests/catkin_ws/build/add_pallet/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/server.dir/link.txt --verbose=$(VERBOSE)

@@ -1,4 +1,0 @@
-<launch>
-    <node name='server' pkg='add_pallet' type='server' output='screen'/>
-    <node name='client' pkg='add_pallet' type='client.py' output='screen'/>
-</launch>

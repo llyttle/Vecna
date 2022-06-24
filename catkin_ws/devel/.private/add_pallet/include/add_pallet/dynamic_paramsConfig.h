@@ -236,13 +236,15 @@ class DEFAULT
         boost::any val;
         (*_i)->getValue(config, val);
 
-        if("int_param"==(*_i)->name){int_param = boost::any_cast<int>(val);}
-        if("bool_param"==(*_i)->name){bool_param = boost::any_cast<bool>(val);}
+        if("pallet_type_param"==(*_i)->name){pallet_type_param = boost::any_cast<std::string>(val);}
+        if("width_param"==(*_i)->name){width_param = boost::any_cast<int>(val);}
+        if("depth_param"==(*_i)->name){depth_param = boost::any_cast<int>(val);}
       }
     }
 
-    int int_param;
-bool bool_param;
+    std::string pallet_type_param;
+int width_param;
+int depth_param;
 
     bool state;
     std::string name;
@@ -253,9 +255,11 @@ bool bool_param;
 
 
 //#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      int int_param;
+      std::string pallet_type_param;
 //#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      bool bool_param;
+      int width_param;
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      int depth_param;
 //#line 228 "/opt/ros/melodic/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template"
 
     bool __fromMessage__(dynamic_reconfigure::Config &msg)
@@ -395,25 +399,35 @@ bool bool_param;
     {
 dynamic_paramsConfig::GroupDescription<dynamic_paramsConfig::DEFAULT, dynamic_paramsConfig> Default("Default", "", 0, 0, true, &dynamic_paramsConfig::groups);
 //#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __min__.int_param = 0;
+      __min__.pallet_type_param = "";
 //#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __max__.int_param = 100;
+      __max__.pallet_type_param = "";
 //#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __default__.int_param = 50;
+      __default__.pallet_type_param = "NULL";
 //#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      Default.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<int>("int_param", "int", 0, "An Integer parameter", "", &dynamic_paramsConfig::int_param)));
+      Default.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<std::string>("pallet_type_param", "str", 0, "Name of new pallet type", "", &dynamic_paramsConfig::pallet_type_param)));
 //#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<int>("int_param", "int", 0, "An Integer parameter", "", &dynamic_paramsConfig::int_param)));
+      __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<std::string>("pallet_type_param", "str", 0, "Name of new pallet type", "", &dynamic_paramsConfig::pallet_type_param)));
 //#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __min__.bool_param = 0;
+      __min__.width_param = 0;
 //#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __max__.bool_param = 1;
+      __max__.width_param = 200;
 //#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __default__.bool_param = 1;
+      __default__.width_param = 100;
 //#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      Default.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<bool>("bool_param", "bool", 0, "A Boolean parameter", "", &dynamic_paramsConfig::bool_param)));
+      Default.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<int>("width_param", "int", 0, "width of pallet (meters)", "", &dynamic_paramsConfig::width_param)));
 //#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<bool>("bool_param", "bool", 0, "A Boolean parameter", "", &dynamic_paramsConfig::bool_param)));
+      __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<int>("width_param", "int", 0, "width of pallet (meters)", "", &dynamic_paramsConfig::width_param)));
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __min__.depth_param = 0;
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __max__.depth_param = 200;
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __default__.depth_param = 100;
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      Default.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<int>("depth_param", "int", 0, "depth of pallet (meters)", "", &dynamic_paramsConfig::depth_param)));
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<int>("depth_param", "int", 0, "depth of pallet (meters)", "", &dynamic_paramsConfig::depth_param)));
 //#line 246 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       Default.convertParams();
 //#line 246 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
