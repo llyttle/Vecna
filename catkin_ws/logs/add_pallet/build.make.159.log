@@ -1,0 +1,26 @@
+[ 20%] Built target add_pallet_gencfg
+[35m[1mScanning dependencies of target remote_add[0m
+[ 60%] Built target pallet_library
+[ 80%] [32mBuilding CXX object CMakeFiles/remote_add.dir/src/remote_add.cpp.o[0m
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:25:9:[m[K [01;31m[Kerror: [m[K‘[01m[KFltParameter[m[K’ was not declared in this scope
+         [01;31m[KFltParameter[m[K w_param, d_param;
+         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:54:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kw_param[m[K’ was not declared in this scope
+         [01;31m[Kw_param[m[K.name = "AA_max_width_param";
+         [01;31m[K^~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:56:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kdynamic_reconfigure::Config {aka struct dynamic_reconfigure::Config_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kfloats[m[K’
+         conf.[01;31m[Kfloats[m[K.push_back(w_param);
+              [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:59:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kd_param[m[K’ was not declared in this scope
+         [01;31m[Kd_param[m[K.name = "AA_max_depth_param";
+         [01;31m[K^~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:61:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kdynamic_reconfigure::Config {aka struct dynamic_reconfigure::Config_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kfloats[m[K’
+         conf.[01;31m[Kfloats[m[K.push_back(d_param);
+              [01;31m[K^~~~~~[m[K
+CMakeFiles/remote_add.dir/build.make:62: recipe for target 'CMakeFiles/remote_add.dir/src/remote_add.cpp.o' failed
+make[2]: *** [CMakeFiles/remote_add.dir/src/remote_add.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/remote_add.dir/all' failed
+make[1]: *** [CMakeFiles/remote_add.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

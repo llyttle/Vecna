@@ -1,0 +1,23 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:25:25:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (1, should be at least 2)
+     std::map<std::string[01;31m[K>[m[K map_s;
+                         [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/map:61:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/console.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/c++/7/bits/stl_map.h:99:11:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> class std::map[m[K’
+     class [01;36m[Kmap[m[K
+           [01;36m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:26:21:[m[K [01;31m[Kerror: [m[Kassignment of read-only location ‘[01m[K"name"[map_s][m[K’
+     map_s["name"] = [01;31m[K's'[m[K;
+                     [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:27:22:[m[K [01;31m[Kerror: [m[Kassignment of read-only location ‘[01m[K"width"[map_s][m[K’
+     map_s["width"] = [01;31m[K'b'[m[K;
+                      [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:28:22:[m[K [01;31m[Kerror: [m[Kassignment of read-only location ‘[01m[K"depth"[map_s][m[K’
+     map_s["depth"] = [01;31m[K'c'[m[K;
+                      [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,9 +1,11 @@
 \subsubsection usage Usage
 \verbatim
 <node name="add_pallet" pkg="add_pallet" type="add_pallet">
-  <param name="pallet_type_param" type="str" value="NULL" />
-  <param name="width_param" type="int" value="100" />
-  <param name="depth_param" type="int" value="100" />
+  <param name="AA_type_param" type="str" value="Default" />
+  <param name="AA_max_width_param" type="double" value="2.0" />
+  <param name="AA_min_width_param" type="double" value="1.0" />
+  <param name="AA_max_depth_param" type="double" value="2.0" />
+  <param name="AA_min_depth_param" type="double" value="1.0" />
 </node>
 \endverbatim
 

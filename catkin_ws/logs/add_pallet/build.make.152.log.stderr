@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg", line 11, in <module>
+    dpp.add("_pallet_type_param", str_t, 0, "Name of new pallet type", "Default")
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py", line 145, in add
+    check_name(name)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py", line 76, in check_name
+    raise Exception("The name of field \'%s\' does not follow the ROS naming conventions, see http://wiki.ros.org/ROS/Patterns/Conventions" % name)
+Exception: The name of field '_pallet_type_param' does not follow the ROS naming conventions, see http://wiki.ros.org/ROS/Patterns/Conventions
+make[2]: *** [/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include/add_pallet/dynamic_paramsConfig.h] Error 1
+make[1]: *** [CMakeFiles/add_pallet_gencfg.dir/all] Error 2
+make: *** [all] Error 2

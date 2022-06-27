@@ -236,30 +236,65 @@ class DEFAULT
         boost::any val;
         (*_i)->getValue(config, val);
 
-        if("pallet_type_param"==(*_i)->name){pallet_type_param = boost::any_cast<std::string>(val);}
-        if("width_param"==(*_i)->name){width_param = boost::any_cast<int>(val);}
-        if("depth_param"==(*_i)->name){depth_param = boost::any_cast<int>(val);}
+
       }
     }
 
-    std::string pallet_type_param;
-int width_param;
-int depth_param;
+    
+
+    bool state;
+    std::string name;
+
+    class DYNAMIC_PALLET_PARAMETERS
+{
+  public:
+    DYNAMIC_PALLET_PARAMETERS()
+    {
+      state = true;
+      name = "Dynamic_Pallet_Parameters";
+    }
+
+    void setParams(dynamic_paramsConfig &config, const std::vector<AbstractParamDescriptionConstPtr> params)
+    {
+      for (std::vector<AbstractParamDescriptionConstPtr>::const_iterator _i = params.begin(); _i != params.end(); ++_i)
+      {
+        boost::any val;
+        (*_i)->getValue(config, val);
+
+        if("AA_type_param"==(*_i)->name){AA_type_param = boost::any_cast<std::string>(val);}
+        if("AA_max_width_param"==(*_i)->name){AA_max_width_param = boost::any_cast<double>(val);}
+        if("AA_min_width_param"==(*_i)->name){AA_min_width_param = boost::any_cast<double>(val);}
+        if("AA_max_depth_param"==(*_i)->name){AA_max_depth_param = boost::any_cast<double>(val);}
+        if("AA_min_depth_param"==(*_i)->name){AA_min_depth_param = boost::any_cast<double>(val);}
+      }
+    }
+
+    std::string AA_type_param;
+double AA_max_width_param;
+double AA_min_width_param;
+double AA_max_depth_param;
+double AA_min_depth_param;
 
     bool state;
     std::string name;
 
     
+}dynamic_pallet_parameters;
+
 }groups;
 
 
 
-//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      std::string pallet_type_param;
-//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      int width_param;
-//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      int depth_param;
+//#line 11 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      std::string AA_type_param;
+//#line 12 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      double AA_max_width_param;
+//#line 13 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      double AA_min_width_param;
+//#line 14 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      double AA_max_depth_param;
+//#line 15 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      double AA_min_depth_param;
 //#line 228 "/opt/ros/melodic/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template"
 
     bool __fromMessage__(dynamic_reconfigure::Config &msg)
@@ -398,36 +433,63 @@ int depth_param;
     dynamic_paramsConfigStatics()
     {
 dynamic_paramsConfig::GroupDescription<dynamic_paramsConfig::DEFAULT, dynamic_paramsConfig> Default("Default", "", 0, 0, true, &dynamic_paramsConfig::groups);
-//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __min__.pallet_type_param = "";
-//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __max__.pallet_type_param = "";
-//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __default__.pallet_type_param = "NULL";
-//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      Default.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<std::string>("pallet_type_param", "str", 0, "Name of new pallet type", "", &dynamic_paramsConfig::pallet_type_param)));
-//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<std::string>("pallet_type_param", "str", 0, "Name of new pallet type", "", &dynamic_paramsConfig::pallet_type_param)));
-//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __min__.width_param = 0;
-//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __max__.width_param = 200;
-//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __default__.width_param = 100;
-//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      Default.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<int>("width_param", "int", 0, "width of pallet (meters)", "", &dynamic_paramsConfig::width_param)));
-//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<int>("width_param", "int", 0, "width of pallet (meters)", "", &dynamic_paramsConfig::width_param)));
-//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __min__.depth_param = 0;
-//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __max__.depth_param = 200;
-//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __default__.depth_param = 100;
-//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      Default.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<int>("depth_param", "int", 0, "depth of pallet (meters)", "", &dynamic_paramsConfig::depth_param)));
-//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<int>("depth_param", "int", 0, "depth of pallet (meters)", "", &dynamic_paramsConfig::depth_param)));
+dynamic_paramsConfig::GroupDescription<dynamic_paramsConfig::DEFAULT::DYNAMIC_PALLET_PARAMETERS, dynamic_paramsConfig::DEFAULT> Dynamic_Pallet_Parameters("Dynamic_Pallet_Parameters", "", 0, 1, true, &dynamic_paramsConfig::DEFAULT::dynamic_pallet_parameters);
+//#line 11 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      __min__.AA_type_param = "";
+//#line 11 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      __max__.AA_type_param = "";
+//#line 11 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      __default__.AA_type_param = "Default";
+//#line 11 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      Dynamic_Pallet_Parameters.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<std::string>("AA_type_param", "str", 0, "Name of new pallet type", "", &dynamic_paramsConfig::AA_type_param)));
+//#line 11 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<std::string>("AA_type_param", "str", 0, "Name of new pallet type", "", &dynamic_paramsConfig::AA_type_param)));
+//#line 12 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      __min__.AA_max_width_param = 0.0;
+//#line 12 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      __max__.AA_max_width_param = 5.0;
+//#line 12 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      __default__.AA_max_width_param = 2.0;
+//#line 12 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      Dynamic_Pallet_Parameters.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<double>("AA_max_width_param", "double", 0, "width of pallet (meters)", "", &dynamic_paramsConfig::AA_max_width_param)));
+//#line 12 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<double>("AA_max_width_param", "double", 0, "width of pallet (meters)", "", &dynamic_paramsConfig::AA_max_width_param)));
+//#line 13 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      __min__.AA_min_width_param = 0.0;
+//#line 13 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      __max__.AA_min_width_param = 5.0;
+//#line 13 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      __default__.AA_min_width_param = 1.0;
+//#line 13 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      Dynamic_Pallet_Parameters.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<double>("AA_min_width_param", "double", 0, "width of pallet (meters)", "", &dynamic_paramsConfig::AA_min_width_param)));
+//#line 13 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<double>("AA_min_width_param", "double", 0, "width of pallet (meters)", "", &dynamic_paramsConfig::AA_min_width_param)));
+//#line 14 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      __min__.AA_max_depth_param = 0.0;
+//#line 14 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      __max__.AA_max_depth_param = 5.0;
+//#line 14 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      __default__.AA_max_depth_param = 2.0;
+//#line 14 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      Dynamic_Pallet_Parameters.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<double>("AA_max_depth_param", "double", 0, "depth of pallet (meters)", "", &dynamic_paramsConfig::AA_max_depth_param)));
+//#line 14 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<double>("AA_max_depth_param", "double", 0, "depth of pallet (meters)", "", &dynamic_paramsConfig::AA_max_depth_param)));
+//#line 15 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      __min__.AA_min_depth_param = 0.0;
+//#line 15 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      __max__.AA_min_depth_param = 5.0;
+//#line 15 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      __default__.AA_min_depth_param = 1.0;
+//#line 15 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      Dynamic_Pallet_Parameters.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<double>("AA_min_depth_param", "double", 0, "depth of pallet (meters)", "", &dynamic_paramsConfig::AA_min_depth_param)));
+//#line 15 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
+      __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<double>("AA_min_depth_param", "double", 0, "depth of pallet (meters)", "", &dynamic_paramsConfig::AA_min_depth_param)));
+//#line 124 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      Dynamic_Pallet_Parameters.convertParams();
+//#line 124 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      Default.groups.push_back(dynamic_paramsConfig::AbstractGroupDescriptionConstPtr(new dynamic_paramsConfig::GroupDescription<dynamic_paramsConfig::DEFAULT::DYNAMIC_PALLET_PARAMETERS, dynamic_paramsConfig::DEFAULT>(Dynamic_Pallet_Parameters)));
+//#line 124 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __group_descriptions__.push_back(dynamic_paramsConfig::AbstractGroupDescriptionConstPtr(new dynamic_paramsConfig::GroupDescription<dynamic_paramsConfig::DEFAULT::DYNAMIC_PALLET_PARAMETERS, dynamic_paramsConfig::DEFAULT>(Dynamic_Pallet_Parameters)));
 //#line 246 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       Default.convertParams();
 //#line 246 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"

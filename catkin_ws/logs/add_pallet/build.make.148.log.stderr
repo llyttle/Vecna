@@ -1,0 +1,43 @@
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:6:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include/add_pallet/dynamic_paramsConfig.h:[m[K In constructor ‘[01m[Kadd_pallet::dynamic_paramsConfigStatics::dynamic_paramsConfigStatics()[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include/add_pallet/dynamic_paramsConfig.h:476:171:[m[K [01;31m[Kerror: [m[K‘[01m[Ktest[m[K’ was not declared in this scope
+       test_group.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<int>("max_width", "int", [01;31m[Ktest[m[K int, "5", "", &dynamic_paramsConfig::max_width)));
+                                                                                                                                                                           [01;31m[K^~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include/add_pallet/dynamic_paramsConfig.h:476:171:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktzset[m[K’
+       test_group.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<int>("max_width", "int", [01;36m[Ktest[m[K int, "5", "", &dynamic_paramsConfig::max_width)));
+                                                                                                                                                                           [01;36m[K^~~~[m[K
+                                                                                                                                                                           [32m[Ktzset[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include/add_pallet/dynamic_paramsConfig.h:478:94:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K([m[K’ token
+       __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr[01;31m[K([m[Knew dynamic_paramsConfig::ParamDescription<int>("max_width", "int", test int, "5", "", &dynamic_paramsConfig::max_width)));
+                                                                                              [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include/add_pallet/dynamic_paramsConfig.h:478:168:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kint[m[K’
+       __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<int>("max_width", "int", test [01;31m[Kint[m[K, "5", "", &dynamic_paramsConfig::max_width)));
+                                                                                                                                                                        [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include/add_pallet/dynamic_paramsConfig.h:486:102:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K([m[K’ token
+       test_group.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr[01;31m[K([m[Knew dynamic_paramsConfig::ParamDescription<int>("min_width", "int", test int, "2", "", &dynamic_paramsConfig::min_width)));
+                                                                                                      [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include/add_pallet/dynamic_paramsConfig.h:486:176:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kint[m[K’
+       test_group.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<int>("min_width", "int", test [01;31m[Kint[m[K, "2", "", &dynamic_paramsConfig::min_width)));
+                                                                                                                                                                                [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include/add_pallet/dynamic_paramsConfig.h:488:94:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K([m[K’ token
+       __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr[01;31m[K([m[Knew dynamic_paramsConfig::ParamDescription<int>("min_width", "int", test int, "2", "", &dynamic_paramsConfig::min_width)));
+                                                                                              [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include/add_pallet/dynamic_paramsConfig.h:488:168:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kint[m[K’
+       __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<int>("min_width", "int", test [01;31m[Kint[m[K, "2", "", &dynamic_paramsConfig::min_width)));
+                                                                                                                                                                        [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include/add_pallet/dynamic_paramsConfig.h:496:102:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K([m[K’ token
+       test_group.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr[01;31m[K([m[Knew dynamic_paramsConfig::ParamDescription<int>("std_width", "int", test int, "3", "", &dynamic_paramsConfig::std_width)));
+                                                                                                      [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include/add_pallet/dynamic_paramsConfig.h:496:176:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kint[m[K’
+       test_group.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<int>("std_width", "int", test [01;31m[Kint[m[K, "3", "", &dynamic_paramsConfig::std_width)));
+                                                                                                                                                                                [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include/add_pallet/dynamic_paramsConfig.h:498:94:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K([m[K’ token
+       __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr[01;31m[K([m[Knew dynamic_paramsConfig::ParamDescription<int>("std_width", "int", test int, "3", "", &dynamic_paramsConfig::std_width)));
+                                                                                              [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include/add_pallet/dynamic_paramsConfig.h:498:168:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kint[m[K’
+       __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<int>("std_width", "int", test [01;31m[Kint[m[K, "3", "", &dynamic_paramsConfig::std_width)));
+                                                                                                                                                                        [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

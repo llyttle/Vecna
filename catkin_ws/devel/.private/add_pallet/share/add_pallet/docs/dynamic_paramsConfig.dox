@@ -2,7 +2,9 @@
 
 Reads and maintains the following parameters on the ROS server
 
-- \b "~pallet_type_param" : \b [str] Name of new pallet type min: , default: NULL, max: 
-- \b "~width_param" : \b [int] width of pallet (meters) min: 0, default: 100, max: 200
-- \b "~depth_param" : \b [int] depth of pallet (meters) min: 0, default: 100, max: 200
+- \b "~AA_type_param" : \b [str] Name of new pallet type min: , default: Default, max: 
+- \b "~AA_max_width_param" : \b [double] width of pallet (meters) min: 0.0, default: 2.0, max: 5.0
+- \b "~AA_min_width_param" : \b [double] width of pallet (meters) min: 0.0, default: 1.0, max: 5.0
+- \b "~AA_max_depth_param" : \b [double] depth of pallet (meters) min: 0.0, default: 2.0, max: 5.0
+- \b "~AA_min_depth_param" : \b [double] depth of pallet (meters) min: 0.0, default: 1.0, max: 5.0
 

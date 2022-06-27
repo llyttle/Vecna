@@ -1,0 +1,18 @@
+Default:
+  max_depth: 2.0
+  max_width: 2.0
+  min_depth: 1.0
+  min_width: 1.0
+a_max_depth_param: 2.0
+a_max_width_param: 2.0
+a_min_depth_param: 1.0
+a_min_width_param: 1.0
+a_pallet_type_param: Default
+mario:
+  depth: 7
+  width: 6
+thor:
+  max_depth: 2.0
+  max_width: 2.0
+  min_depth: 1.0
+  min_width: 1.0

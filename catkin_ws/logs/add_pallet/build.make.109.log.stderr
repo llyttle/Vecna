@@ -1,0 +1,4 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:37:15:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Ksystem("echo 'ROS Params dumped at : ' $(pwd); rosparam dump $(find add_pallet)/dynamic_params.yaml")[m[K;
+         [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

@@ -1,3 +1,4 @@
+#include <iostream>
 #include <ros/ros.h>
 
 // Dynamic reconfigure parameter includes
@@ -21,37 +22,47 @@ int main(int argc, char **argv) {
         ReconfigureRequest srv_req;
         ReconfigureResponse srv_resp;
         StrParameter string_param;
-        IntParameter w_param, d_param;
+        DoubleParameter w_param, d_param;
         Config conf;
 
-        string type;
-        int width, depth;
+        string pallet_name;
+        float width, depth;
 
-        rate.sleep(); // Wait for other node to initialize and print its statements
+
+        // int number_to_get;
+        // nh.getParam("/pallet_library/depth_param", number_to_get);
+        // cout << "Read Integer: " << number_to_get << endl;
+
+        // ros::param::dump("cfg/dynamic_params.yaml");
+
+
+
+
+        rate.sleep(); // Give some time for other node to initialize and print its statements
 
         cout << "Name pallet: ";
-        cin >> type;
+        cin >> pallet_name;
         cout << "Enter pallet width and depth:" << endl;
         cin >> width >> depth;
 
         // push pallet type (name used for identification)
-        string_param.name = "pallet_type_param";
-        string_param.value = type;
+        string_param.name = "AA_type_param";
+        string_param.value = pallet_name;
         conf.strs.push_back(string_param);
 
         // push pallet width (cm)
-        w_param.name = "width_param";
+        w_param.name = "AA_max_width_param";
         w_param.value = width;
-        conf.ints.push_back(w_param);
+        conf.doubles.push_back(w_param);
 
         // push palled depth (cm)
-        d_param.name = "depth_param";
+        d_param.name = "AA_max_depth_param";
         d_param.value = depth;
-        conf.ints.push_back(d_param);
+        conf.doubles.push_back(d_param);
 
         srv_req.config = conf;
 
-        ros::service::call("/pallet_library_node/set_parameters", srv_req, srv_resp);
+        ros::service::call("/pallet_library/set_parameters", srv_req, srv_resp);
         rate.sleep();
     }
 

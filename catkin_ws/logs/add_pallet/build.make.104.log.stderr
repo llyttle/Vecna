@@ -1,0 +1,25 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:42:56:[m[K [01;31m[Kerror: [m[Kcall of overloaded ‘[01m[Kset(const char [10], <brace-enclosed initializer list>)[m[K’ is ambiguous
+         ros::param::set("test_dict", {d1:1, d2:2, d3:3}[01;31m[K)[m[K;
+                                                        [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:54:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:2[m[K:
+[01m[K/opt/ros/melodic/include/ros/param.h:60:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const string&)
+ ROSCPP_DECL void [01;36m[Kset[m[K(const std::string& key, const std::string& s);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:104:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const std::vector<double>&)
+ ROSCPP_DECL void [01;36m[Kset[m[K(const std::string& key, const std::vector<double>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:111:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const std::vector<float>&)
+ ROSCPP_DECL void [01;36m[Kset[m[K(const std::string& key, const std::vector<float>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:118:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const std::vector<int>&)
+ ROSCPP_DECL void [01;36m[Kset[m[K(const std::string& key, const std::vector<int>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:125:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const std::vector<bool>&)
+ ROSCPP_DECL void [01;36m[Kset[m[K(const std::string& key, const std::vector<bool>& vec);
+                  [01;36m[K^~~[m[K
+make[2]: *** [CMakeFiles/remote_add.dir/src/remote_add.cpp.o] Error 1
+make[1]: *** [CMakeFiles/remote_add.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

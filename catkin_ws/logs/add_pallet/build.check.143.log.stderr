@@ -1,0 +1,11 @@
+[31m[1mCMake Error[0m at /home/loren.lyttle/tests/catkin_ws/src/add_pallet/CMakeLists.txt:153 (add_dependencies):
+  The dependency target "add_pallet_gencfg" of target "remote_add" does not
+  exist.
+
+
+[31m[1mCMake Error[0m at /home/loren.lyttle/tests/catkin_ws/src/add_pallet/CMakeLists.txt:152 (add_dependencies):
+  The dependency target "add_pallet_gencfg" of target "pallet_library" does
+  not exist.
+
+
+make: *** [cmake_check_build_system] Error 1

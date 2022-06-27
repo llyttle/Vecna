@@ -1,0 +1,51 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:25:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kto_string(const string&)[m[K’
+     ros::param::set(std::to_string(ros::this_node::getName()[01;31m[K)[m[K+config.pallet_type_param, "width:"+std::to_string(config.width_param)+" depth:"+std::to_string(config.depth_param));
+                                                             [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:6414:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(int)
+   [01;36m[Kto_string[m[K(int __val)
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:6414:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst string {aka const std::__cxx11::basic_string<char>}[m[K’ to ‘[01m[Kint[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:6419:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(unsigned int)
+   [01;36m[Kto_string[m[K(unsigned __val)
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:6419:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst string {aka const std::__cxx11::basic_string<char>}[m[K’ to ‘[01m[Kunsigned int[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:6425:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(long int)
+   [01;36m[Kto_string[m[K(long __val)
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:6425:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst string {aka const std::__cxx11::basic_string<char>}[m[K’ to ‘[01m[Klong int[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:6430:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(long unsigned int)
+   [01;36m[Kto_string[m[K(unsigned long __val)
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:6430:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst string {aka const std::__cxx11::basic_string<char>}[m[K’ to ‘[01m[Klong unsigned int[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:6436:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(long long int)
+   [01;36m[Kto_string[m[K(long long __val)
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:6436:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst string {aka const std::__cxx11::basic_string<char>}[m[K’ to ‘[01m[Klong long int[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:6442:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(long long unsigned int)
+   [01;36m[Kto_string[m[K(unsigned long long __val)
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:6442:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst string {aka const std::__cxx11::basic_string<char>}[m[K’ to ‘[01m[Klong long unsigned int[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:6448:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(float)
+   [01;36m[Kto_string[m[K(float __val)
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:6448:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst string {aka const std::__cxx11::basic_string<char>}[m[K’ to ‘[01m[Kfloat[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:6457:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(double)
+   [01;36m[Kto_string[m[K(double __val)
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:6457:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst string {aka const std::__cxx11::basic_string<char>}[m[K’ to ‘[01m[Kdouble[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:6466:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(long double)
+   [01;36m[Kto_string[m[K(long double __val)
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:6466:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst string {aka const std::__cxx11::basic_string<char>}[m[K’ to ‘[01m[Klong double[m[K’
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:26:11:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Ksystem("echo 'ROS Params dumped at : ' $(pwd); rosparam dump dynamic_params.yaml /pallet_library_node/")[m[K;
+     [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

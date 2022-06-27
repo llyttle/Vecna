@@ -1,0 +1,21 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:25:85:[m[K [01;31m[Kerror: [m[K‘[01m[Ktostring[m[K’ is not a member of ‘[01m[Kstd[m[K’
+     ros::param::set("/pallet_library_node/"+config.pallet_type_param, "width:"+std::[01;31m[Ktostring[m[K(config.width_param)+" depth:2"+std::tostring(config.depth_param));
+                                                                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:25:85:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kisprint[m[K’
+     ros::param::set("/pallet_library_node/"+config.pallet_type_param, "width:"+std::[01;36m[Ktostring[m[K(config.width_param)+" depth:2"+std::tostring(config.depth_param));
+                                                                                     [01;36m[K^~~~~~~~[m[K
+                                                                                     [32m[Kisprint[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:25:130:[m[K [01;31m[Kerror: [m[K‘[01m[Ktostring[m[K’ is not a member of ‘[01m[Kstd[m[K’
+     ros::param::set("/pallet_library_node/"+config.pallet_type_param, "width:"+std::tostring(config.width_param)+" depth:2"+std::[01;31m[Ktostring[m[K(config.depth_param));
+                                                                                                                                  [01;31m[K^~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:25:130:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kisprint[m[K’
+     ros::param::set("/pallet_library_node/"+config.pallet_type_param, "width:"+std::tostring(config.width_param)+" depth:2"+std::[01;36m[Ktostring[m[K(config.depth_param));
+                                                                                                                                  [01;36m[K^~~~~~~~[m[K
+                                                                                                                                  [32m[Kisprint[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:26:11:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Ksystem("echo 'ROS Params dumped at : ' $(pwd); rosparam dump dynamic_params.yaml /pallet_library_node/")[m[K;
+     [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2
