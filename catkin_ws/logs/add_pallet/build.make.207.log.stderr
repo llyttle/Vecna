@@ -1,0 +1,20 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t, ros::NodeHandle)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:46:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::map<std::__cxx11::basic_string<char>, float>[m[K’ has no member named ‘[01m[Kfirst[m[K’
+     cout << parameter << " TEST DATA: " << library_struct.[01;31m[Kfirst[m[K, library_struct.second, library_struct.third << endl;
+                                                           [01;31m[K^~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:46:81:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::map<std::__cxx11::basic_string<char>, float>[m[K’ has no member named ‘[01m[Ksecond[m[K’; did you mean ‘[01m[Kcend[m[K’?
+     cout << parameter << " TEST DATA: " << library_struct.first, library_struct.[01;31m[Ksecond[m[K, library_struct.third << endl;
+                                                                                 [01;31m[K^~~~~~[m[K
+                                                                                 [32m[Kcend[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:46:104:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::map<std::__cxx11::basic_string<char>, float>[m[K’ has no member named ‘[01m[Kthird[m[K’
+     cout << parameter << " TEST DATA: " << library_struct.first, library_struct.second, library_struct.[01;31m[Kthird[m[K << endl;
+                                                                                                        [01;31m[K^~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:41:11:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Ksystem("echo 'ROS Params dumped at : ' $(pwd)")[m[K;
+     [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:42:11:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Ksystem("rosparam dump /home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.yaml /pallet_library/")[m[K;
+     [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

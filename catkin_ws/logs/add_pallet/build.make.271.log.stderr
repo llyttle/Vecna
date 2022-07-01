@@ -1,0 +1,7 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t, ros::NodeHandle)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:66:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass YAML::Node[m[K’ has no member named ‘[01m[Kfirst[m[K’
+         std::cout << lib["Default"].[01;31m[Kfirst[m[K() << endl;
+                                     [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

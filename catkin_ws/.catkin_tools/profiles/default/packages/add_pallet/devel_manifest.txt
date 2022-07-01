@@ -4,7 +4,9 @@ add_pallet
 /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/python2.7/dist-packages/add_pallet/__init__.py /home/loren.lyttle/tests/catkin_ws/devel/lib/python2.7/dist-packages/add_pallet/__init__.py
 /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/python2.7/dist-packages/add_pallet/cfg/dynamic_paramsConfig.py /home/loren.lyttle/tests/catkin_ws/devel/lib/python2.7/dist-packages/add_pallet/cfg/dynamic_paramsConfig.py
 /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/python2.7/dist-packages/add_pallet/cfg/__init__.py /home/loren.lyttle/tests/catkin_ws/devel/lib/python2.7/dist-packages/add_pallet/cfg/__init__.py
+/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/test_subscriber /home/loren.lyttle/tests/catkin_ws/devel/lib/add_pallet/test_subscriber
 /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/pallet_library /home/loren.lyttle/tests/catkin_ws/devel/lib/add_pallet/pallet_library
+/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/load_pallet /home/loren.lyttle/tests/catkin_ws/devel/lib/add_pallet/load_pallet
 /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server /home/loren.lyttle/tests/catkin_ws/devel/lib/add_pallet/server
 /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/remote_add /home/loren.lyttle/tests/catkin_ws/devel/lib/add_pallet/remote_add
 /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/first_node /home/loren.lyttle/tests/catkin_ws/devel/lib/add_pallet/first_node

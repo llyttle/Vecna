@@ -11,9 +11,13 @@ iostream
 -
 ros/ros.h
 -
+numeric
+-
 dynamic_reconfigure/IntParameter.h
 -
 dynamic_reconfigure/StrParameter.h
+-
+dynamic_reconfigure/BoolParameter.h
 -
 dynamic_reconfigure/Reconfigure.h
 -

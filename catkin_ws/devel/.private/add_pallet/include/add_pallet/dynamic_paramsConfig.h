@@ -236,65 +236,42 @@ class DEFAULT
         boost::any val;
         (*_i)->getValue(config, val);
 
-
+        if("AA_dynamic_type_param"==(*_i)->name){AA_dynamic_type_param = boost::any_cast<std::string>(val);}
+        if("AA_dynamic_yaml_file_path_param"==(*_i)->name){AA_dynamic_yaml_file_path_param = boost::any_cast<std::string>(val);}
+        if("AA_dynamic_save_change_param"==(*_i)->name){AA_dynamic_save_change_param = boost::any_cast<bool>(val);}
+        if("AA_dynamic_bools_string"==(*_i)->name){AA_dynamic_bools_string = boost::any_cast<std::string>(val);}
+        if("AA_dynamic_doubles_string"==(*_i)->name){AA_dynamic_doubles_string = boost::any_cast<std::string>(val);}
+        if("AA_dynamic_ints_string"==(*_i)->name){AA_dynamic_ints_string = boost::any_cast<std::string>(val);}
       }
     }
 
-    
-
-    bool state;
-    std::string name;
-
-    class DYNAMIC_PALLET_PARAMETERS
-{
-  public:
-    DYNAMIC_PALLET_PARAMETERS()
-    {
-      state = true;
-      name = "Dynamic_Pallet_Parameters";
-    }
-
-    void setParams(dynamic_paramsConfig &config, const std::vector<AbstractParamDescriptionConstPtr> params)
-    {
-      for (std::vector<AbstractParamDescriptionConstPtr>::const_iterator _i = params.begin(); _i != params.end(); ++_i)
-      {
-        boost::any val;
-        (*_i)->getValue(config, val);
-
-        if("AA_type_param"==(*_i)->name){AA_type_param = boost::any_cast<std::string>(val);}
-        if("AA_max_width_param"==(*_i)->name){AA_max_width_param = boost::any_cast<double>(val);}
-        if("AA_min_width_param"==(*_i)->name){AA_min_width_param = boost::any_cast<double>(val);}
-        if("AA_max_depth_param"==(*_i)->name){AA_max_depth_param = boost::any_cast<double>(val);}
-        if("AA_min_depth_param"==(*_i)->name){AA_min_depth_param = boost::any_cast<double>(val);}
-      }
-    }
-
-    std::string AA_type_param;
-double AA_max_width_param;
-double AA_min_width_param;
-double AA_max_depth_param;
-double AA_min_depth_param;
+    std::string AA_dynamic_type_param;
+std::string AA_dynamic_yaml_file_path_param;
+bool AA_dynamic_save_change_param;
+std::string AA_dynamic_bools_string;
+std::string AA_dynamic_doubles_string;
+std::string AA_dynamic_ints_string;
 
     bool state;
     std::string name;
 
     
-}dynamic_pallet_parameters;
-
 }groups;
 
 
 
-//#line 11 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      std::string AA_type_param;
-//#line 12 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      double AA_max_width_param;
-//#line 13 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      double AA_min_width_param;
-//#line 14 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      double AA_max_depth_param;
-//#line 15 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      double AA_min_depth_param;
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      std::string AA_dynamic_type_param;
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      std::string AA_dynamic_yaml_file_path_param;
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      bool AA_dynamic_save_change_param;
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      std::string AA_dynamic_bools_string;
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      std::string AA_dynamic_doubles_string;
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      std::string AA_dynamic_ints_string;
 //#line 228 "/opt/ros/melodic/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template"
 
     bool __fromMessage__(dynamic_reconfigure::Config &msg)
@@ -433,63 +410,66 @@ double AA_min_depth_param;
     dynamic_paramsConfigStatics()
     {
 dynamic_paramsConfig::GroupDescription<dynamic_paramsConfig::DEFAULT, dynamic_paramsConfig> Default("Default", "", 0, 0, true, &dynamic_paramsConfig::groups);
-dynamic_paramsConfig::GroupDescription<dynamic_paramsConfig::DEFAULT::DYNAMIC_PALLET_PARAMETERS, dynamic_paramsConfig::DEFAULT> Dynamic_Pallet_Parameters("Dynamic_Pallet_Parameters", "", 0, 1, true, &dynamic_paramsConfig::DEFAULT::dynamic_pallet_parameters);
-//#line 11 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      __min__.AA_type_param = "";
-//#line 11 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      __max__.AA_type_param = "";
-//#line 11 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      __default__.AA_type_param = "Default";
-//#line 11 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      Dynamic_Pallet_Parameters.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<std::string>("AA_type_param", "str", 0, "Name of new pallet type", "", &dynamic_paramsConfig::AA_type_param)));
-//#line 11 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<std::string>("AA_type_param", "str", 0, "Name of new pallet type", "", &dynamic_paramsConfig::AA_type_param)));
-//#line 12 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      __min__.AA_max_width_param = 0.0;
-//#line 12 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      __max__.AA_max_width_param = 5.0;
-//#line 12 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      __default__.AA_max_width_param = 2.0;
-//#line 12 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      Dynamic_Pallet_Parameters.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<double>("AA_max_width_param", "double", 0, "width of pallet (meters)", "", &dynamic_paramsConfig::AA_max_width_param)));
-//#line 12 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<double>("AA_max_width_param", "double", 0, "width of pallet (meters)", "", &dynamic_paramsConfig::AA_max_width_param)));
-//#line 13 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      __min__.AA_min_width_param = 0.0;
-//#line 13 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      __max__.AA_min_width_param = 5.0;
-//#line 13 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      __default__.AA_min_width_param = 1.0;
-//#line 13 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      Dynamic_Pallet_Parameters.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<double>("AA_min_width_param", "double", 0, "width of pallet (meters)", "", &dynamic_paramsConfig::AA_min_width_param)));
-//#line 13 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<double>("AA_min_width_param", "double", 0, "width of pallet (meters)", "", &dynamic_paramsConfig::AA_min_width_param)));
-//#line 14 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      __min__.AA_max_depth_param = 0.0;
-//#line 14 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      __max__.AA_max_depth_param = 5.0;
-//#line 14 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      __default__.AA_max_depth_param = 2.0;
-//#line 14 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      Dynamic_Pallet_Parameters.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<double>("AA_max_depth_param", "double", 0, "depth of pallet (meters)", "", &dynamic_paramsConfig::AA_max_depth_param)));
-//#line 14 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<double>("AA_max_depth_param", "double", 0, "depth of pallet (meters)", "", &dynamic_paramsConfig::AA_max_depth_param)));
-//#line 15 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      __min__.AA_min_depth_param = 0.0;
-//#line 15 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      __max__.AA_min_depth_param = 5.0;
-//#line 15 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      __default__.AA_min_depth_param = 1.0;
-//#line 15 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      Dynamic_Pallet_Parameters.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<double>("AA_min_depth_param", "double", 0, "depth of pallet (meters)", "", &dynamic_paramsConfig::AA_min_depth_param)));
-//#line 15 "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.cfg"
-      __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<double>("AA_min_depth_param", "double", 0, "depth of pallet (meters)", "", &dynamic_paramsConfig::AA_min_depth_param)));
-//#line 124 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      Dynamic_Pallet_Parameters.convertParams();
-//#line 124 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      Default.groups.push_back(dynamic_paramsConfig::AbstractGroupDescriptionConstPtr(new dynamic_paramsConfig::GroupDescription<dynamic_paramsConfig::DEFAULT::DYNAMIC_PALLET_PARAMETERS, dynamic_paramsConfig::DEFAULT>(Dynamic_Pallet_Parameters)));
-//#line 124 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __group_descriptions__.push_back(dynamic_paramsConfig::AbstractGroupDescriptionConstPtr(new dynamic_paramsConfig::GroupDescription<dynamic_paramsConfig::DEFAULT::DYNAMIC_PALLET_PARAMETERS, dynamic_paramsConfig::DEFAULT>(Dynamic_Pallet_Parameters)));
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __min__.AA_dynamic_type_param = "";
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __max__.AA_dynamic_type_param = "";
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __default__.AA_dynamic_type_param = "Default";
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      Default.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<std::string>("AA_dynamic_type_param", "str", 0, "Name of new pallet type", "", &dynamic_paramsConfig::AA_dynamic_type_param)));
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<std::string>("AA_dynamic_type_param", "str", 0, "Name of new pallet type", "", &dynamic_paramsConfig::AA_dynamic_type_param)));
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __min__.AA_dynamic_yaml_file_path_param = "";
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __max__.AA_dynamic_yaml_file_path_param = "";
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __default__.AA_dynamic_yaml_file_path_param = "/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/test.yaml";
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      Default.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<std::string>("AA_dynamic_yaml_file_path_param", "str", 0, "Path to the pallet library YAML file", "", &dynamic_paramsConfig::AA_dynamic_yaml_file_path_param)));
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<std::string>("AA_dynamic_yaml_file_path_param", "str", 0, "Path to the pallet library YAML file", "", &dynamic_paramsConfig::AA_dynamic_yaml_file_path_param)));
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __min__.AA_dynamic_save_change_param = 0;
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __max__.AA_dynamic_save_change_param = 1;
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __default__.AA_dynamic_save_change_param = 1;
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      Default.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<bool>("AA_dynamic_save_change_param", "bool", 0, "Indicate whether new pallet configuration should be saved to the library or just used once", "", &dynamic_paramsConfig::AA_dynamic_save_change_param)));
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<bool>("AA_dynamic_save_change_param", "bool", 0, "Indicate whether new pallet configuration should be saved to the library or just used once", "", &dynamic_paramsConfig::AA_dynamic_save_change_param)));
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __min__.AA_dynamic_bools_string = "";
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __max__.AA_dynamic_bools_string = "";
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __default__.AA_dynamic_bools_string = "";
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      Default.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<std::string>("AA_dynamic_bools_string", "str", 0, "A string that holds the keys and values of bool parameters", "", &dynamic_paramsConfig::AA_dynamic_bools_string)));
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<std::string>("AA_dynamic_bools_string", "str", 0, "A string that holds the keys and values of bool parameters", "", &dynamic_paramsConfig::AA_dynamic_bools_string)));
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __min__.AA_dynamic_doubles_string = "";
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __max__.AA_dynamic_doubles_string = "";
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __default__.AA_dynamic_doubles_string = "";
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      Default.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<std::string>("AA_dynamic_doubles_string", "str", 0, "A string that holds the keys and values of double parameters", "", &dynamic_paramsConfig::AA_dynamic_doubles_string)));
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<std::string>("AA_dynamic_doubles_string", "str", 0, "A string that holds the keys and values of double parameters", "", &dynamic_paramsConfig::AA_dynamic_doubles_string)));
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __min__.AA_dynamic_ints_string = "";
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __max__.AA_dynamic_ints_string = "";
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __default__.AA_dynamic_ints_string = "";
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      Default.abstract_parameters.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<std::string>("AA_dynamic_ints_string", "str", 0, "A string that holds the keys and values of integer parameters", "", &dynamic_paramsConfig::AA_dynamic_ints_string)));
+//#line 291 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
+      __param_descriptions__.push_back(dynamic_paramsConfig::AbstractParamDescriptionConstPtr(new dynamic_paramsConfig::ParamDescription<std::string>("AA_dynamic_ints_string", "str", 0, "A string that holds the keys and values of integer parameters", "", &dynamic_paramsConfig::AA_dynamic_ints_string)));
 //#line 246 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       Default.convertParams();
 //#line 246 "/opt/ros/melodic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"

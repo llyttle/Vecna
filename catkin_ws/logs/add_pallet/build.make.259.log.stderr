@@ -1,0 +1,22 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t, ros::NodeHandle)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:65:31:[m[K [01;31m[Kerror: [m[Kinvalid user-defined conversion from ‘[01m[KYAML::Node[m[K’ to ‘[01m[Kchar[m[K’ [[01;31m[K-fpermissive[m[K]
+         testName = lib["mario"[01;31m[K][m[K;//.as<std::map<std::string,float>>();
+                               [01;31m[K^[m[K
+In file included from [01m[K/usr/include/yaml-cpp/node/node.h:14:0[m[K,
+                 from [01m[K/usr/include/yaml-cpp/yaml.h:16[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:4[m[K:
+[01m[K/usr/include/yaml-cpp/node/node.h:59:3:[m[K [01;36m[Knote: [m[Kcandidate is: YAML::Node::operator YAML::detail::unspecified_bool_type() const <near match>
+   [01;36m[KY[m[KAML_CPP_OPERATOR_BOOL();
+   [01;36m[K^[m[K
+[01m[K/usr/include/yaml-cpp/node/node.h:59:3:[m[K [01;36m[Knote: [m[K  no known conversion from ‘[01m[KYAML::detail::unspecified_bool_type {aka void (*)(YAML::detail::unspecified_bool::NOT_ALLOWED*)}[m[K’ to ‘[01m[Kchar[m[K’
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:704:7:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+       [01;36m[Koperator[m[K=(_CharT __c)
+       [01;36m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

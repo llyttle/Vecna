@@ -1,0 +1,18 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:19:29:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kwrite_to_library[m[K’ declared void
+ void write_to_library(config[01;31m[K)[m[K {
+                             [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:19:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kconfig[m[K’ was not declared in this scope
+ void write_to_library([01;31m[Kconfig[m[K) {
+                       [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:19:23:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kconjq[m[K’
+ void write_to_library([01;36m[Kconfig[m[K) {
+                       [01;36m[K^~~~~~[m[K
+                       [32m[Kconjq[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kwrite_to_library[m[K’ was not declared in this scope
+     [01;31m[Kwrite_to_library[m[K(config);
+     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

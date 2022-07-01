@@ -1,0 +1,14 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:24:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kadd_pallet::dynamic_paramsConfig::Default[m[K’ has not been declared
+     add_pallet::dynamic_paramsConfig::[01;31m[KDefault[m[K::strings_group strings;
+                                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstrings[m[K’ was not declared in this scope
+     [01;31m[Kstrings[m[K = config.groups.strings_group;
+     [01;31m[K^~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:25:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstdin[m[K’
+     [01;36m[Kstrings[m[K = config.groups.strings_group;
+     [01;36m[K^~~~~~~[m[K
+     [32m[Kstdin[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

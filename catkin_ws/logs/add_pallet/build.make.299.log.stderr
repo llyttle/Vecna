@@ -1,0 +1,13 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t, ros::NodeHandle)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:80:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass YAML::Node[m[K’ has no member named ‘[01m[Kfirst[m[K’
+         lib.[01;31m[Kfirst[m[K().as<std::string>() >> pallet.max_depth;
+             [01;31m[K^~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:80:35:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+         lib.first().as<std::string[01;31m[K>[m[K() >> pallet.max_depth;
+                                   [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:80:37:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+         lib.first().as<std::string>([01;31m[K)[m[K >> pallet.max_depth;
+                                     [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

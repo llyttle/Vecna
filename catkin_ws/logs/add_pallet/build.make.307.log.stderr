@@ -1,0 +1,19 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:26:1:[m[K [01;31m[Kerror: [m[Kan explicit specialization must be preceded by ‘[01m[Ktemplate <>[m[K’
+ [01;31m[Kstruct convert<Pallet>[m[K {
+ [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+ [32m[Ktemplate <> [m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In static member function ‘[01m[Kstatic bool YAML::convert<Pallet>::decode(const YAML::Node&, Pallet&)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:37:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[K![m[K’ token
+         if [01;31m[K![m[Knode.IsSequence() || node.size() != 4 {
+            [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t, ros::NodeHandle)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:72:73:[m[K [01;31m[Kerror: [m[K‘[01m[Klibrary_struct[m[K’ was not declared in this scope
+     ros::param::set(ros::this_node::getName()+"/"+config.AA_type_param, [01;31m[Klibrary_struct[m[K);
+                                                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:72:73:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__locale_struct[m[K’
+     ros::param::set(ros::this_node::getName()+"/"+config.AA_type_param, [01;36m[Klibrary_struct[m[K);
+                                                                         [01;36m[K^~~~~~~~~~~~~~[m[K
+                                                                         [32m[K__locale_struct[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

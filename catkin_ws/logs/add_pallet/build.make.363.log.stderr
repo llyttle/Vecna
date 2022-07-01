@@ -1,0 +1,19 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:67:46:[m[K [01;31m[Kerror: [m[K‘[01m[KTrue[m[K’ was not declared in this scope
+         SetParams(pallet_name, width, depth, [01;31m[KTrue[m[K);
+                                              [01;31m[K^~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:67:46:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kfree[m[K’
+         SetParams(pallet_name, width, depth, [01;36m[KTrue[m[K);
+                                              [01;36m[K^~~~[m[K
+                                              [32m[Kfree[m[K
+make[2]: *** [CMakeFiles/remote_add.dir/src/remote_add.cpp.o] Error 1
+make[1]: *** [CMakeFiles/remote_add.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:49:105:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass add_pallet::dynamic_paramsConfig[m[K’ has no member named ‘[01m[Kpallet_type_param[m[K’; did you mean ‘[01m[KAA_type_param[m[K’?
+     std::shared_ptr<FeatureDetectionInfo> palletpointer = std::make_shared<FeatureDetectionInfo>(config.[01;31m[Kpallet_type_param[m[K);
+                                                                                                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+                                                                                                         [32m[KAA_type_param[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

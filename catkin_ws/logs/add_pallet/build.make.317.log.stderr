@@ -1,0 +1,24 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid load_pallet(std::__cxx11::string)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:28:10:[m[K [01;31m[Kerror: [m[K‘[01m[Knh[m[K’ was not declared in this scope
+     if (![01;31m[Knh[m[K.getParam("/pallet_library/AA_yaml_file_path", std::string path)) {
+          [01;31m[K^~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:28:71:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpath[m[K’
+     if (!nh.getParam("/pallet_library/AA_yaml_file_path", std::string [01;31m[Kpath[m[K)) {
+                                                                       [01;31m[K^~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:33:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath[m[K’ was not declared in this scope
+         param_library = YAML::LoadFile([01;31m[Kpath[m[K.c_str());
+                                        [01;31m[K^~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:33:40:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kputw[m[K’
+         param_library = YAML::LoadFile([01;36m[Kpath[m[K.c_str());
+                                        [01;36m[K^~~~[m[K
+                                        [32m[Kputw[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:47:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kconfig[m[K’ was not declared in this scope
+         ros::param::set(ros::this_node::getName()+"/"+[01;31m[Kconfig[m[K.AA_type_param, read_map);
+                                                       [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:47:55:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kconjq[m[K’
+         ros::param::set(ros::this_node::getName()+"/"+[01;36m[Kconfig[m[K.AA_type_param, read_map);
+                                                       [01;36m[K^~~~~~[m[K
+                                                       [32m[Kconjq[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

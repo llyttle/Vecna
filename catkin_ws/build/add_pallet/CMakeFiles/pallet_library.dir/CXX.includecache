@@ -31,9 +31,13 @@ iostream
 /home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp
 ros/ros.h
 -
-dynamic_reconfigure/server.h
--
 memory
+-
+sstream
+-
+vector
+-
+dynamic_reconfigure/server.h
 -
 add_pallet/dynamic_paramsConfig.h
 -

@@ -1,0 +1,32 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[KDynamicLib[m[K’ was not declared in this scope
+     [01;31m[KDynamicLib[m[K write_map;
+     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:35:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KDynamicList[m[K’
+     [01;36m[KDynamicLib[m[K write_map;
+     [01;36m[K^~~~~~~~~~[m[K
+     [32m[KDynamicList[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:60:57:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[Ktype name[m[K’
+         std::map<std::string, std::map<std::string std::[01;31m[Kstring[m[K> > write_map;
+                                                         [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:60:63:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (1, should be at least 2)
+         std::map<std::string, std::map<std::string std::string[01;31m[K>[m[K > write_map;
+                                                               [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/map:61:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/console.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/c++/7/bits/stl_map.h:99:11:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> class std::map[m[K’
+     class [01;36m[Kmap[m[K
+           [01;36m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:60:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+         std::map<std::string, std::map<std::string std::string> [01;31m[K>[m[K write_map;
+                                                                 [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:60:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:61:40:[m[K [01;31m[Kerror: [m[Kassignment of read-only location ‘[01m[K"name"[((int)"strings"[write_map])][m[K’
+         write_map["strings"]["name"] = [01;31m[K"mario"[m[K;
+                                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:61:40:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kchar[m[K’ [[01;31m[K-fpermissive[m[K]
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,84 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:[m[K In lambda function:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:33:84:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kto_string(const std::__cxx11::basic_string<char>&)[m[K’
+         return s + (s.empty() ? std::string() : delimiter) + std::to_string(p.first[01;31m[K)[m[K;
+                                                                                    [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/usr/include/c++/7/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/7/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/7/ios:42[m[K,
+                 from [01m[K/usr/include/c++/7/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/7/iostream:39[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:1[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:6414:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(int)
+   [01;36m[Kto_string[m[K(int __val)
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:6414:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kint[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:6419:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(unsigned int)
+   [01;36m[Kto_string[m[K(unsigned __val)
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:6419:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kunsigned int[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:6425:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(long int)
+   [01;36m[Kto_string[m[K(long __val)
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:6425:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’ to ‘[01m[Klong int[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:6430:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(long unsigned int)
+   [01;36m[Kto_string[m[K(unsigned long __val)
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:6430:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’ to ‘[01m[Klong unsigned int[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:6436:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(long long int)
+   [01;36m[Kto_string[m[K(long long __val)
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:6436:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’ to ‘[01m[Klong long int[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:6442:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(long long unsigned int)
+   [01;36m[Kto_string[m[K(unsigned long long __val)
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:6442:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’ to ‘[01m[Klong long unsigned int[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:6448:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(float)
+   [01;36m[Kto_string[m[K(float __val)
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:6448:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kfloat[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:6457:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(double)
+   [01;36m[Kto_string[m[K(double __val)
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:6457:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kdouble[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:6466:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(long double)
+   [01;36m[Kto_string[m[K(long double __val)
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:6466:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’ to ‘[01m[Klong double[m[K’
+In file included from [01m[K/usr/include/c++/7/numeric:62:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:3[m[K:
+/usr/include/c++/7/bits/stl_numeric.h: In instantiation of ‘[01m[K_Tp std::accumulate(_InputIterator, _InputIterator, _Tp, _BinaryOperation) [with _InputIterator = std::_Rb_tree_iterator<std::pair<const std::__cxx11::basic_string<char>, double> >; _Tp = std::__cxx11::basic_string<char>; _BinaryOperation = SetParams(std::__cxx11::string, int, int, bool)::<lambda(const string&, const std::pair<const std::__cxx11::basic_string<char>, double>&)>][m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:34:6:[m[K   required from here
+[01m[K/usr/include/c++/7/bits/stl_numeric.h:154:9:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ and ‘[01m[Kvoid[m[K’)
+  [01;31m[K__init = __binary_op(__init, *__first)[m[K;
+  [01;31m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/usr/include/c++/7/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/7/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/7/ios:42[m[K,
+                 from [01m[K/usr/include/c++/7/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/7/iostream:39[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:1[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:654:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Koperator[m[K=(const basic_string& __str)
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:654:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:693:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Koperator[m[K=(const _CharT* __s)
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:693:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst char*[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:704:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Koperator[m[K=(_CharT __c)
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:704:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kchar[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:722:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Koperator[m[K=(basic_string&& __str)
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:722:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:785:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Koperator[m[K=(initializer_list<_CharT> __l)
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:785:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::initializer_list<char>[m[K’
+make[2]: *** [CMakeFiles/remote_add.dir/src/remote_add.cpp.o] Error 1
+make[1]: *** [CMakeFiles/remote_add.dir/all] Error 2
+make: *** [all] Error 2

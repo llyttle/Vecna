@@ -10,6 +10,8 @@ find_package(catkin REQUIRED COMPONENTS
   dynamic_reconfigure
 )
 
+find_package(yaml-cpp REQUIRED)
+
 message(STATUS "================================================")
 message(STATUS "DR: " ${dynamic_reconfigure_FOUND})
 message(STATUS "================================================")
@@ -117,6 +119,7 @@ catkin_package(
 ## Your package locations should be listed before other locations
 include_directories(
   include
+  ${YAML_CPP_INCLUDE_DIRS}
   ${catkin_INCLUDE_DIRS}
   ${dynamic_reconfigure_PACKAGE_PATH}/cmake/cfgbuild.cmake
 )
@@ -137,8 +140,22 @@ include_directories(
 # add_executable(server src/server.cpp)
 
 add_executable(pallet_library src/pallet_library.cpp) # Server Node
-add_executable(remote_add src/remote_add.cpp) # Client Node
+target_link_libraries(pallet_library ${catkin_LIBRARIES})
+add_dependencies(pallet_library ${PROJECT_NAME}_gencfg)
 
+
+add_executable(remote_add src/remote_add.cpp) # Client Node
+target_link_libraries(remote_add ${catkin_LIBRARIES})
+add_dependencies(remote_add ${PROJECT_NAME}_gencfg)
+
+
+add_executable(load_pallet src/load_pallet.cpp) # Client Node
+target_link_libraries(load_pallet ${catkin_LIBRARIES} ${YAML_CPP_LIBRARIES})
+add_dependencies(load_pallet ${PROJECT_NAME}_gencfg)
+
+add_executable(test_subscriber src/test_subscriber.cpp) # Client Node
+target_link_libraries(test_subscriber ${catkin_LIBRARIES})
+add_dependencies(test_subscriber ${PROJECT_NAME}_gencfg)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -149,16 +166,11 @@ add_executable(remote_add src/remote_add.cpp) # Client Node
 ## Add cmake target dependencies of the executable
 ## same as for the library above
 # add_dependencies(server ${PROJECT_NAME}_gencfg)
-add_dependencies(pallet_library ${PROJECT_NAME}_gencfg)
-add_dependencies(remote_add ${PROJECT_NAME}_gencfg)
+
 
 ## Specify libraries to link a library or executable target against
-target_link_libraries(pallet_library
-  ${catkin_LIBRARIES}
-)
-target_link_libraries(remote_add
-  ${catkin_LIBRARIES}
-)
+
+
 
 #############
 ## Install ##

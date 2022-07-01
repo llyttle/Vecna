@@ -1,0 +1,7 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t, ros::NodeHandle)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:66:98:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[K("/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/test.yaml")[m[K’, which is of non-class type ‘[01m[Kconst char [64][m[K’
+         lib = YAML::LoadFile(("/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/test.yaml").[01;31m[Kc_str[m[K());
+                                                                                                  [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

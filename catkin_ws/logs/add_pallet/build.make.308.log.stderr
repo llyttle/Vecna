@@ -1,0 +1,7 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:26:1:[m[K [01;31m[Kerror: [m[Kan explicit specialization must be preceded by ‘[01m[Ktemplate <>[m[K’
+ [01;31m[Kstruct convert<Pallet>[m[K {
+ [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+ [32m[Ktemplate <> [m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

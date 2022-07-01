@@ -1,0 +1,43 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t, ros::NodeHandle)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:56:9:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_INFO[m[K’ has not been declared
+         [01;31m[KROS_INFO[m[K::error("Required Parameter 'yaml_file_path' was not specified");
+         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/cstdlib:75:0[m[K,
+                 from [01m[K/usr/include/c++/7/stdlib.h:36[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/platform.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:57:16:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [[01;31m[K-fpermissive[m[K]
+         return [01;31m[KE[m[KXIT_FAILURE;
+                [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:62:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kdoc[m[K’ was not declared in this scope
+         testName = [01;31m[Kdoc[m[K["mario"].as<std::string>();
+                    [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:62:47:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+         testName = doc["mario"].as<std::string[01;31m[K>[m[K();
+                                               [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:62:49:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+         testName = doc["mario"].as<std::string>([01;31m[K)[m[K;
+                                                 [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:65:9:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_INFO[m[K’ has not been declared
+         [01;31m[KROS_INFO[m[K::error("Yaml test file parsing exception. Did you specify the correct test file (with full path)?: %s", e.what());
+         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/cstdlib:75:0[m[K,
+                 from [01m[K/usr/include/c++/7/stdlib.h:36[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/platform.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:66:16:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [[01;31m[K-fpermissive[m[K]
+         return [01;31m[KE[m[KXIT_FAILURE;
+                [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:42:11:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Ksystem("echo 'ROS Params dumped at : ' $(pwd)")[m[K;
+     [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:43:11:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Ksystem("rosparam dump /home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.yaml /pallet_library/")[m[K;
+     [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,18 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t, ros::NodeHandle)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:66:20:[m[K [01;31m[Kerror: [m[K‘[01m[KIterator[m[K’ is not a member of ‘[01m[KYAML[m[K’
+         for (YAML::[01;31m[KIterator[m[K it=lib.begin();it!=lib.end();++it) {
+                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:66:20:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kiterator[m[K’
+         for (YAML::[01;36m[KIterator[m[K it=lib.begin();it!=lib.end();++it) {
+                    [01;36m[K^~~~~~~~[m[K
+                    [32m[Kiterator[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:66:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kit[m[K’ was not declared in this scope
+         for (YAML::Iterator it=lib.begin();[01;31m[Kit[m[K!=lib.end();++it) {
+                                            [01;31m[K^~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:66:44:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kint[m[K’
+         for (YAML::Iterator it=lib.begin();[01;36m[Kit[m[K!=lib.end();++it) {
+                                            [01;36m[K^~[m[K
+                                            [32m[Kint[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

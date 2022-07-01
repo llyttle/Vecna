@@ -1,0 +1,15 @@
+Default:
+  max_depth: 2.0
+  max_width: 2.0
+  min_depth: 1.0
+  min_width: 1.0
+luigi:
+  max_depth: 2.0
+  max_width: 2.0
+  min_depth: 1.0
+  min_width: 1.0
+mario:
+  max_depth: 5.0
+  max_width: 5.0
+  min_depth: 1.0
+  min_width: 1.0

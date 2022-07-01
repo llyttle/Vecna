@@ -1,18 +1,14 @@
+AA_dynamic_bools_string: ''
+AA_dynamic_doubles_string: ''
+AA_dynamic_ints_string: ''
+AA_dynamic_save_change_param: true
+AA_dynamic_type_param: Default
+AA_dynamic_yaml_file_path_param: /home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/test.yaml
 Default:
-  max_depth: 2.0
-  max_width: 2.0
-  min_depth: 1.0
-  min_width: 1.0
-a_max_depth_param: 2.0
-a_max_width_param: 2.0
-a_min_depth_param: 1.0
-a_min_width_param: 1.0
-a_pallet_type_param: Default
+  bools_string: ''
+  doubles_string: ''
+  ints_string: ''
 mario:
-  depth: 7
-  width: 6
-thor:
-  max_depth: 2.0
-  max_width: 2.0
-  min_depth: 1.0
-  min_width: 1.0
+  bools_string: test_switch_false:0,test_switch_true:1
+  doubles_string: max_depth:2.000000,max_width:2.000000,min_depth:1.000000,min_width:1.000000
+  ints_string: test_int1:67,test_int2:14,test_int3:8

@@ -1,0 +1,10 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t, ros::NodeHandle)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:63:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kparam_library[m[K’ declared as reference but not initialized
+         YAML::Node& [01;31m[Kparam_library[m[K;
+                     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:65:46:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[KYAML::Node&[m[K’ to an rvalue of type ‘[01m[KYAML::Node[m[K’
+         YAML::Node& m = param_library["mario"[01;31m[K][m[K;
+                                              [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,32 @@
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:22:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass add_pallet::dynamic_paramsConfig[m[K’ has no member named ‘[01m[KAA_type_param[m[K’; did you mean ‘[01m[KAA_dynamic_type_param[m[K’?
+     ROS_INFO("Reconfigure Request: [%s]", config.[01;31m[KA[m[KA_type_param.c_str());
+                                                  [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:22:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     [01;36m[KR[m[KOS_INFO("Reconfigure Request: [%s]", config.AA_type_param.c_str());
+     [01;36m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:33:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass add_pallet::dynamic_paramsConfig[m[K’ has no member named ‘[01m[KAA_save_pallet[m[K’; did you mean ‘[01m[KAA_dynamic_save_pallet[m[K’?
+     if (!config.[01;31m[KAA_save_pallet[m[K)
+                 [01;31m[K^~~~~~~~~~~~~~[m[K
+                 [32m[KAA_dynamic_save_pallet[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:43:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass add_pallet::dynamic_paramsConfig[m[K’ has no member named ‘[01m[KAA_type_param[m[K’; did you mean ‘[01m[KAA_dynamic_type_param[m[K’?
+         ros::param::set(ros::this_node::getName()+"/"+config.[01;31m[KAA_type_param[m[K, write_map);
+                                                              [01;31m[K^~~~~~~~~~~~~[m[K
+                                                              [32m[KAA_dynamic_type_param[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

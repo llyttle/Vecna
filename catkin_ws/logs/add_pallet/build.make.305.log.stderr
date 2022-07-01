@@ -1,0 +1,17 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t, ros::NodeHandle)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:80:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KYAML::Node::as<std::map>()[m[K’
+         pallet = lib["Default"].as<std::map>([01;31m[K)[m[K;// >> pallet.max_depth;
+                                              [01;31m[K^[m[K
+In file included from [01m[K/usr/include/yaml-cpp/yaml.h:16:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:4[m[K:
+[01m[K/usr/include/yaml-cpp/node/node.h:64:11:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> const T YAML::Node::as() const
+   const T [01;36m[Kas[m[K() const;
+           [01;36m[K^~[m[K
+[01m[K/usr/include/yaml-cpp/node/node.h:64:11:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/yaml-cpp/node/node.h:66:11:[m[K [01;36m[Knote: [m[Kcandidate: template<class T, class S> const T YAML::Node::as(const S&) const
+   const T [01;36m[Kas[m[K(const S& fallback) const;
+           [01;36m[K^~[m[K
+[01m[K/usr/include/yaml-cpp/node/node.h:66:11:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

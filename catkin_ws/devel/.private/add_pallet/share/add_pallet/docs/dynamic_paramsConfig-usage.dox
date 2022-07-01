@@ -1,11 +1,12 @@
 \subsubsection usage Usage
 \verbatim
 <node name="add_pallet" pkg="add_pallet" type="add_pallet">
-  <param name="AA_type_param" type="str" value="Default" />
-  <param name="AA_max_width_param" type="double" value="2.0" />
-  <param name="AA_min_width_param" type="double" value="1.0" />
-  <param name="AA_max_depth_param" type="double" value="2.0" />
-  <param name="AA_min_depth_param" type="double" value="1.0" />
+  <param name="AA_dynamic_type_param" type="str" value="Default" />
+  <param name="AA_dynamic_yaml_file_path_param" type="str" value="/home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/test.yaml" />
+  <param name="AA_dynamic_save_change_param" type="bool" value="True" />
+  <param name="AA_dynamic_bools_string" type="str" value="" />
+  <param name="AA_dynamic_doubles_string" type="str" value="" />
+  <param name="AA_dynamic_ints_string" type="str" value="" />
 </node>
 \endverbatim
 

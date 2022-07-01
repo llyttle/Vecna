@@ -1,0 +1,24 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:[m[K In function ‘[01m[Kvoid SetParams(std::__cxx11::string)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:52:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kb_param[m[K’ was not declared in this scope
+     [01;31m[Kb_param[m[K.name = "AA_dynamic_save_change_param";
+     [01;31m[K^~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:52:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktype_param[m[K’
+     [01;36m[Kb_param[m[K.name = "AA_dynamic_save_change_param";
+     [01;36m[K^~~~~~~[m[K
+     [32m[Ktype_param[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:62:51:[m[K [01;31m[Kerror: [m[K‘[01m[KD[m[K’ was not declared in this scope
+     bools_string.value = type_map_to_string<bool>([01;31m[KD[m[K);
+                                                   [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:84:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktype_map_to_string<double>(std::map<std::__cxx11::basic_string<char>, int>&)[m[K’
+     ints_string.value = type_map_to_string<double>(I[01;31m[K)[m[K;
+                                                     [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:16:8:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> std::__cxx11::string type_map_to_string(std::map<std::__cxx11::basic_string<char>, T>&)
+ string [01;36m[Ktype_map_to_string[m[K(map<string,T>  &m)
+        [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:16:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:84:53:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[KI[m[K’ (type ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, int>[m[K’) to type ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, double>&[m[K’
+     ints_string.value = type_map_to_string<double>(I[01;36m[K)[m[K;
+                                                     [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/remote_add.dir/src/remote_add.cpp.o] Error 1
+make[1]: *** [CMakeFiles/remote_add.dir/all] Error 2
+make: *** [all] Error 2

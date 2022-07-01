@@ -1,0 +1,25 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:77:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktype[m[K’ was not declared in this scope
+     nh.getParam("type", [01;31m[Ktype[m[K);
+                         [01;31m[K^~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:77:25:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/boost/bind/bind.hpp:27:0[m[K,
+                 from [01m[K/usr/include/boost/bind.hpp:22[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:2[m[K:
+[01m[K/usr/include/boost/type.hpp:14:10:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::type[m[K’
+   struct [01;36m[Ktype[m[K {};
+          [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/boost/bind.hpp:22:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:2[m[K:
+[01m[K/usr/include/boost/bind/bind.hpp:146:25:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::_bi::type[m[K’
+ template<class T> class [01;36m[Ktype[m[K {};
+                         [01;36m[K^~~~[m[K
+make[2]: *** [CMakeFiles/load_pallet.dir/src/load_pallet.cpp.o] Error 1
+make[1]: *** [CMakeFiles/load_pallet.dir/all] Error 2
+make: *** [all] Error 2

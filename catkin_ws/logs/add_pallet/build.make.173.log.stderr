@@ -1,0 +1,20 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:28:41:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kadd_pallet::dynamic_paramsConfig[m[K’ and ‘[01m[Kint[m[K’)
+     library_struct["max_depth"] = config[01;31m[K[[m[K-1].AA_max_depth_param;
+                                         [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:29:41:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kadd_pallet::dynamic_paramsConfig[m[K’ and ‘[01m[Kint[m[K’)
+     library_struct["max_width"] = config[01;31m[K[[m[K-1].AA_max_width_param;
+                                         [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:30:41:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kadd_pallet::dynamic_paramsConfig[m[K’ and ‘[01m[Kint[m[K’)
+     library_struct["min_depth"] = config[01;31m[K[[m[K-1].AA_min_depth_param;
+                                         [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:31:41:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kadd_pallet::dynamic_paramsConfig[m[K’ and ‘[01m[Kint[m[K’)
+     library_struct["min_width"] = config[01;31m[K[[m[K-1].AA_min_width_param;
+                                         [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:33:57:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kadd_pallet::dynamic_paramsConfig[m[K’ and ‘[01m[Kint[m[K’)
+     ros::param::set(ros::this_node::getName()+"/"+config[01;31m[K[[m[K-1].AA_type_param, library_struct);
+                                                         [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

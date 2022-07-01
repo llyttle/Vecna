@@ -1,0 +1,13 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t, ros::NodeHandle)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:80:67:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KPallet[m[K’ and ‘[01m[Kconst std::map<std::__cxx11::basic_string<char>, float>[m[K’)
+         pallet = lib["Default"].as< std::map<std::string,float> >([01;31m[K)[m[K;// >> pallet.max_depth;
+                                                                   [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:21:8:[m[K [01;36m[Knote: [m[Kcandidate: constexpr Pallet& Pallet::operator=(const Pallet&)
+ struct [01;36m[KPallet[m[K {
+        [01;36m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:21:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::map<std::__cxx11::basic_string<char>, float>[m[K’ to ‘[01m[Kconst Pallet&[m[K’
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:21:8:[m[K [01;36m[Knote: [m[Kcandidate: constexpr Pallet& Pallet::operator=(Pallet&&)
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:21:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::map<std::__cxx11::basic_string<char>, float>[m[K’ to ‘[01m[KPallet&&[m[K’
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

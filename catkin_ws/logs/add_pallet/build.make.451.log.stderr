@@ -1,0 +1,114 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:28:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+     DynamicList strings, doubles, [01;31m[Kbools[m[K
+                                   [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:32:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kstrings[m[K’ was not declared in this scope
+     ROS_INFO("Reconfigure Request: [%s]", [01;31m[Ks[m[Ktrings.AA_type_param.c_str());
+                                           [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:32:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     [01;36m[KR[m[KOS_INFO("Reconfigure Request: [%s]", strings.AA_type_param.c_str());
+     [01;36m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:32:43:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstdin[m[K’
+     ROS_INFO("Reconfigure Request: [%s]", [01;36m[Ks[m[Ktrings.AA_type_param.c_str());
+                                           [01;36m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:32:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     [01;36m[KR[m[KOS_INFO("Reconfigure Request: [%s]", strings.AA_type_param.c_str());
+     [01;36m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:65:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kset(std::__cxx11::basic_string<char>, std::map<std::__cxx11::basic_string<char>, DynamicList>&)[m[K’
+         ros::param::set(ros::this_node::getName()+"/"+config.AA_type_param, write_map[01;31m[K)[m[K;
+                                                                                      [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:54:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/opt/ros/melodic/include/ros/param.h:53:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const XmlRpc::XmlRpcValue&)
+ ROSCPP_DECL void [01;36m[Kset[m[K(const std::string& key, const XmlRpc::XmlRpcValue& v);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:53:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, DynamicList>[m[K’ to ‘[01m[Kconst XmlRpc::XmlRpcValue&[m[K’
+[01m[K/opt/ros/melodic/include/ros/param.h:60:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const string&)
+ ROSCPP_DECL void [01;36m[Kset[m[K(const std::string& key, const std::string& s);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:60:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, DynamicList>[m[K’ to ‘[01m[Kconst string& {aka const std::__cxx11::basic_string<char>&}[m[K’
+[01m[K/opt/ros/melodic/include/ros/param.h:67:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const char*)
+ ROSCPP_DECL void [01;36m[Kset[m[K(const std::string& key, const char* s);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:67:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, DynamicList>[m[K’ to ‘[01m[Kconst char*[m[K’
+[01m[K/opt/ros/melodic/include/ros/param.h:74:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, double)
+ ROSCPP_DECL void [01;36m[Kset[m[K(const std::string& key, double d);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:74:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, DynamicList>[m[K’ to ‘[01m[Kdouble[m[K’
+[01m[K/opt/ros/melodic/include/ros/param.h:81:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, int)
+ ROSCPP_DECL void [01;36m[Kset[m[K(const std::string& key, int i);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:81:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, DynamicList>[m[K’ to ‘[01m[Kint[m[K’
+[01m[K/opt/ros/melodic/include/ros/param.h:88:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, bool)
+ ROSCPP_DECL void [01;36m[Kset[m[K(const std::string& key, bool b);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:88:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, DynamicList>[m[K’ to ‘[01m[Kbool[m[K’
+[01m[K/opt/ros/melodic/include/ros/param.h:97:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const std::vector<std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL void [01;36m[Kset[m[K(const std::string& key, const std::vector<std::string>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:97:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, DynamicList>[m[K’ to ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >&[m[K’
+[01m[K/opt/ros/melodic/include/ros/param.h:104:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const std::vector<double>&)
+ ROSCPP_DECL void [01;36m[Kset[m[K(const std::string& key, const std::vector<double>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:104:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, DynamicList>[m[K’ to ‘[01m[Kconst std::vector<double>&[m[K’
+[01m[K/opt/ros/melodic/include/ros/param.h:111:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const std::vector<float>&)
+ ROSCPP_DECL void [01;36m[Kset[m[K(const std::string& key, const std::vector<float>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:111:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, DynamicList>[m[K’ to ‘[01m[Kconst std::vector<float>&[m[K’
+[01m[K/opt/ros/melodic/include/ros/param.h:118:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const std::vector<int>&)
+ ROSCPP_DECL void [01;36m[Kset[m[K(const std::string& key, const std::vector<int>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:118:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, DynamicList>[m[K’ to ‘[01m[Kconst std::vector<int>&[m[K’
+[01m[K/opt/ros/melodic/include/ros/param.h:125:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const std::vector<bool>&)
+ ROSCPP_DECL void [01;36m[Kset[m[K(const std::string& key, const std::vector<bool>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:125:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, DynamicList>[m[K’ to ‘[01m[Kconst std::vector<bool>&[m[K’
+[01m[K/opt/ros/melodic/include/ros/param.h:133:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL void [01;36m[Kset[m[K(const std::string& key, const std::map<std::string, std::string>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:133:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, DynamicList>[m[K’ to ‘[01m[Kconst std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&[m[K’
+[01m[K/opt/ros/melodic/include/ros/param.h:140:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const std::map<std::__cxx11::basic_string<char>, double>&)
+ ROSCPP_DECL void [01;36m[Kset[m[K(const std::string& key, const std::map<std::string, double>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:140:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, DynamicList>[m[K’ to ‘[01m[Kconst std::map<std::__cxx11::basic_string<char>, double>&[m[K’
+[01m[K/opt/ros/melodic/include/ros/param.h:147:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const std::map<std::__cxx11::basic_string<char>, float>&)
+ ROSCPP_DECL void [01;36m[Kset[m[K(const std::string& key, const std::map<std::string, float>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:147:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, DynamicList>[m[K’ to ‘[01m[Kconst std::map<std::__cxx11::basic_string<char>, float>&[m[K’
+[01m[K/opt/ros/melodic/include/ros/param.h:154:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const std::map<std::__cxx11::basic_string<char>, int>&)
+ ROSCPP_DECL void [01;36m[Kset[m[K(const std::string& key, const std::map<std::string, int>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:154:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, DynamicList>[m[K’ to ‘[01m[Kconst std::map<std::__cxx11::basic_string<char>, int>&[m[K’
+[01m[K/opt/ros/melodic/include/ros/param.h:161:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::param::set(const string&, const std::map<std::__cxx11::basic_string<char>, bool>&)
+ ROSCPP_DECL void [01;36m[Kset[m[K(const std::string& key, const std::map<std::string, bool>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:161:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, DynamicList>[m[K’ to ‘[01m[Kconst std::map<std::__cxx11::basic_string<char>, bool>&[m[K’
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

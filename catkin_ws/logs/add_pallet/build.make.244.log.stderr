@@ -1,0 +1,10 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:12:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kuse[m[K’ does not name a type; did you mean ‘[01m[Kpause[m[K’?
+ [01;31m[Kuse[m[K YAML::XS "LoadFile";
+ [01;31m[K^~~[m[K
+ [32m[Kpause[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy[m[K’ does not name a type
+ [01;31m[Kmy[m[K $config = LoadFile("dynamic_params.yaml");
+ [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2
