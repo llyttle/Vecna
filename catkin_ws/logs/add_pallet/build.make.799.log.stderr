@@ -1,0 +1,7 @@
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/PalletLibraryNodeMain.cpp:1:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:198:5:[m[K [01;31m[Kerror: [m[K‘[01m[KYAML[m[K’ does not name a type
+     [01;31m[KYAML[m[K::Node m_Pallet_Library;
+     [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/PalletLibraryNodeMain.dir/src/PalletLibraryNodeMain.cpp.o] Error 1
+make[1]: *** [CMakeFiles/PalletLibraryNodeMain.dir/all] Error 2
+make: *** [all] Error 2

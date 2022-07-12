@@ -1,0 +1,20 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:307:93:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kvoid PalletPocketDetection::update_specific(T*, std::__cxx11::string, std::__cxx11::string)[m[K’ outside of class is not definition [[01;31m[K-fpermissive[m[K]
+ void PalletPocketDetection::update_specific(T* pointer, std::string name, std::string prefix[01;31m[K)[m[K;
+                                                                                             [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:308:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+ [01;31m[K{[m[K
+ [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletPocketDetection::PalletThreeLegFrontFaceDetectionInfo::updateParams(ros::NodeHandle&)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:331:5:[m[K [01;31m[Kerror: [m[K‘[01m[KUpdateSpecific[m[K’ was not declared in this scope
+     [01;31m[KUpdateSpecific[m[K<bool>(m_parameterPrefix, m_isDetectorEnabled);
+     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:331:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kupdate_specific[m[K’
+     [01;36m[KUpdateSpecific[m[K<bool>(m_parameterPrefix, m_isDetectorEnabled);
+     [01;36m[K^~~~~~~~~~~~~~[m[K
+     [32m[Kupdate_specific[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:331:20:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kbool[m[K’
+     UpdateSpecific<[01;31m[Kbool[m[K>(m_parameterPrefix, m_isDetectorEnabled);
+                    [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

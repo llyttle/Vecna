@@ -1,0 +1,13 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:47:79:[m[K [01;31m[Kerror: [m[Kno ‘[01m[Kvoid PalletThreeLegFrontFaceDetectionInfo::param_id(std::__cxx11::string, int*)[m[K’ member function declared in class ‘[01m[KPalletThreeLegFrontFaceDetectionInfo[m[K’
+ void PalletThreeLegFrontFaceDetectionInfo::param_id(std::string name, int* val[01;31m[K)[m[K
+                                                                               [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletThreeLegFrontFaceDetectionInfo::updateParams()[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:20:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kparam_id[m[K’ is not a member of ‘[01m[KPalletThreeLegFrontFaceDetectionInfo[m[K’
+ #define PARAM_ID(variable) PalletThreeLegFrontFaceDetectionInfo::[01;31m[Kp[m[Karam_id(#variable, (&variable))
+                                                                  [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:20:66:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KPARAM_ID[m[K’
+ #define PARAM_ID(variable) PalletThreeLegFrontFaceDetectionInfo::[01;36m[Kparam_id[m[K(#variable, (&variable))
+                                                                  [01;36m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

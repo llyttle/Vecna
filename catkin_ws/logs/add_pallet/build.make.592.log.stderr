@@ -1,0 +1,20 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:88:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kit[m[K’ was not declared in this scope
+         std::cout << [01;31m[Kit[m[K->first << " : " << it->second << std::endl;
+                      [01;31m[K^~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:88:22:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kint[m[K’
+         std::cout << [01;36m[Kit[m[K->first << " : " << it->second << std::endl;
+                      [01;36m[K^~[m[K
+                      [32m[Kint[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:94:10:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kbool enable[m[K’
+     bool [01;31m[Kenable[m[K;
+          [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:83:33:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, bool> enable[m[K’
+     std::map<std::string, bool> [01;36m[Kenable[m[K;
+                                 [01;36m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:97:15:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kenable[m[K’ from ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, bool>[m[K’ to ‘[01m[Kbool[m[K’
+     if (enable[01;31m[K)[m[K
+               [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/load_pallet.dir/src/load_pallet.cpp.o] Error 1
+make[1]: *** [CMakeFiles/load_pallet.dir/all] Error 2
+make: *** [all] Error 2

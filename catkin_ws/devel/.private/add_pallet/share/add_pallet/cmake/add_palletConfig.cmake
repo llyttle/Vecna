@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(add_pallet_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include " STREQUAL " ")
+if(NOT "/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include;/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include " STREQUAL " ")
   set(add_pallet_INCLUDE_DIRS "")
-  set(_include_dirs "/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include")
+  set(_include_dirs "/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include;/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -116,7 +116,7 @@ if(NOT "/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include " S
   endforeach()
 endif()
 
-set(libraries "")
+set(libraries "add_pallet")
 foreach(library ${libraries})
   # keep build configuration keywords, target names and absolute libraries as-is
   if("${library}" MATCHES "^(debug|optimized|general)$")

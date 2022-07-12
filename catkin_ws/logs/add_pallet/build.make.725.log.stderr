@@ -1,0 +1,67 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletThreeLegFrontFaceDetectionInfo::updateParams()[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:49:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+     std::string [01;31m[Knamespace[m[K;
+                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:50:15:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K=[m[K’ token
+     namespace [01;31m[K=[m[K "persistent/"+palletType;
+               [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:50:15:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:50:31:[m[K [01;31m[Kerror: [m[K‘[01m[KpalletType[m[K’ was not declared in this scope
+     namespace = "persistent/"+[01;31m[KpalletType[m[K;
+                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:50:31:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Km_palletType[m[K’
+     namespace = "persistent/"+[01;36m[KpalletType[m[K;
+                               [01;36m[K^~~~~~~~~~[m[K
+                               [32m[Km_palletType[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:51:36:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Knamespace[m[K’
+     std::cout << "NAMESPACE = " << [01;31m[Knamespace[m[K << std::endl;
+                                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:54:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_node[m[K’ was not declared in this scope
+     [01;31m[Km_node[m[K.param(namespace + "bools/isDetectorEnabled",
+     [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:54:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__modf[m[K’
+     [01;36m[Km_node[m[K.param(namespace + "bools/isDetectorEnabled",
+     [01;36m[K^~~~~~[m[K
+     [32m[K__modf[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:54:18:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Knamespace[m[K’
+     m_node.param([01;31m[Knamespace[m[K + "bools/isDetectorEnabled",
+                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:57:18:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Knamespace[m[K’
+     m_node.param([01;31m[Knamespace[m[K + "ints/legFrontFacePtsMinClusterSize",
+                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:60:18:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Knamespace[m[K’
+     m_node.param([01;31m[Knamespace[m[K + "ints/legFrontFacePtsMaxClusterSize",
+                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:63:18:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Knamespace[m[K’
+     m_node.param([01;31m[Knamespace[m[K + "doubles/legFrontFacePtsMaxClusterDimension",
+                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:66:18:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Knamespace[m[K’
+     m_node.param([01;31m[Knamespace[m[K + "doubles/innerLegSpacingNominal",
+                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:69:18:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Knamespace[m[K’
+     m_node.param([01;31m[Knamespace[m[K + "doubles/innerLegSpacingTolerance",
+                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:72:18:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Knamespace[m[K’
+     m_node.param([01;31m[Knamespace[m[K + "doubles/outerLegSpacingNominal",
+                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:75:18:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Knamespace[m[K’
+     m_node.param([01;31m[Knamespace[m[K + "doubles/outerLegSpacingTolerance",
+                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:78:18:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Knamespace[m[K’
+     m_node.param([01;31m[Knamespace[m[K + "bools/disableOverlappingThreeLegGroups",
+                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:81:18:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Knamespace[m[K’
+     m_node.param([01;31m[Knamespace[m[K + "doubles/maxInterLegYawDiff",
+                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:84:18:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Knamespace[m[K’
+     m_node.param([01;31m[Knamespace[m[K + "doubles/palletDepth",
+                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:87:18:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Knamespace[m[K’
+     m_node.param([01;31m[Knamespace[m[K + "doubles/frontFaceClusteringTol",
+                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:90:18:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Knamespace[m[K’
+     m_node.param([01;31m[Knamespace[m[K + "doubles/legFrontFaceToPalletFaceXOffset",
+                  [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

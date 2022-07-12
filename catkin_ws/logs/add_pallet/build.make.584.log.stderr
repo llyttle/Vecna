@@ -1,0 +1,107 @@
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:14:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:34:20:[m[K [01;31m[Kerror: [m[Kexpected nested-name-specifier before ‘[01m[KT1[m[K’
+ template <typename [01;31m[KT1[m[K T2 T3>
+                    [01;31m[K^~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:34:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[KT2[m[K’
+ template <typename T1 [01;31m[KT2[m[K T3>
+                       [01;31m[K^~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:35:66:[m[K [01;31m[Kerror: [m[K‘[01m[KT1[m[K’ was not declared in this scope
+ void update_server(std::string const& type, std::map<std::string,[01;31m[KT1[m[K> const& bool_map, std::map<std::string,T2> const& double_map, std::map<std::string,T3> const& int_map)
+                                                                  [01;31m[K^~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:35:66:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ky1[m[K’
+ void update_server(std::string const& type, std::map<std::string,[01;36m[KT1[m[K> const& bool_map, std::map<std::string,T2> const& double_map, std::map<std::string,T3> const& int_map)
+                                                                  [01;36m[K^~[m[K
+                                                                  [32m[Ky1[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:35:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+ void update_server(std::string const& type, std::map<std::string,T1[01;31m[K>[m[K const& bool_map, std::map<std::string,T2> const& double_map, std::map<std::string,T3> const& int_map)
+                                                                    [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:35:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:35:108:[m[K [01;31m[Kerror: [m[K‘[01m[KT2[m[K’ was not declared in this scope
+ void update_server(std::string const& type, std::map<std::string,T1> const& bool_map, std::map<std::string,[01;31m[KT2[m[K> const& double_map, std::map<std::string,T3> const& int_map)
+                                                                                                            [01;31m[K^~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:35:110:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+ void update_server(std::string const& type, std::map<std::string,T1> const& bool_map, std::map<std::string,T2[01;31m[K>[m[K const& double_map, std::map<std::string,T3> const& int_map)
+                                                                                                              [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:35:110:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:14:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:35:152:[m[K [01;31m[Kerror: [m[K‘[01m[KT3[m[K’ was not declared in this scope
+ void update_server(std::string const& type, std::map<std::string,T1> const& bool_map, std::map<std::string,T2> const& double_map, std::map<std::string,[01;31m[KT3[m[K> const& int_map)
+                                                                                                                                                        [01;31m[K^~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:35:154:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+ void update_server(std::string const& type, std::map<std::string,T1> const& bool_map, std::map<std::string,T2> const& double_map, std::map<std::string,T3[01;31m[K>[m[K const& int_map)
+                                                                                                                                                          [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:35:154:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:14:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:34:20:[m[K [01;31m[Kerror: [m[Kexpected nested-name-specifier before ‘[01m[KT1[m[K’
+ template <typename [01;31m[KT1[m[K T2 T3>
+                    [01;31m[K^~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:34:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[KT2[m[K’
+ template <typename T1 [01;31m[KT2[m[K T3>
+                       [01;31m[K^~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:35:66:[m[K [01;31m[Kerror: [m[K‘[01m[KT1[m[K’ was not declared in this scope
+ void update_server(std::string const& type, std::map<std::string,[01;31m[KT1[m[K> const& bool_map, std::map<std::string,T2> const& double_map, std::map<std::string,T3> const& int_map)
+                                                                  [01;31m[K^~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:35:66:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ky1[m[K’
+ void update_server(std::string const& type, std::map<std::string,[01;36m[KT1[m[K> const& bool_map, std::map<std::string,T2> const& double_map, std::map<std::string,T3> const& int_map)
+                                                                  [01;36m[K^~[m[K
+                                                                  [32m[Ky1[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:35:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+ void update_server(std::string const& type, std::map<std::string,T1[01;31m[K>[m[K const& bool_map, std::map<std::string,T2> const& double_map, std::map<std::string,T3> const& int_map)
+                                                                    [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:35:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:35:108:[m[K [01;31m[Kerror: [m[K‘[01m[KT2[m[K’ was not declared in this scope
+ void update_server(std::string const& type, std::map<std::string,T1> const& bool_map, std::map<std::string,[01;31m[KT2[m[K> const& double_map, std::map<std::string,T3> const& int_map)
+                                                                                                            [01;31m[K^~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:35:110:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+ void update_server(std::string const& type, std::map<std::string,T1> const& bool_map, std::map<std::string,T2[01;31m[K>[m[K const& double_map, std::map<std::string,T3> const& int_map)
+                                                                                                              [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:35:110:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:14:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:35:152:[m[K [01;31m[Kerror: [m[K‘[01m[KT3[m[K’ was not declared in this scope
+ void update_server(std::string const& type, std::map<std::string,T1> const& bool_map, std::map<std::string,T2> const& double_map, std::map<std::string,[01;31m[KT3[m[K> const& int_map)
+                                                                                                                                                        [01;31m[K^~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:35:154:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+ void update_server(std::string const& type, std::map<std::string,T1> const& bool_map, std::map<std::string,T2> const& double_map, std::map<std::string,T3[01;31m[K>[m[K const& int_map)
+                                                                                                                                                          [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:35:154:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:71:5:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kupdate_server<bool, double, int>(std::__cxx11::string&, std::map<std::__cxx11::basic_string<char>, bool>, std::map<std::__cxx11::basic_string<char>, double>, std::map<std::__cxx11::basic_string<char>, int>)[m[K’
+     [01;31m[K)[m[K;
+     [01;31m[K^[m[K
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:14:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:35:6:[m[K [01;36m[Knote: [m[Kcandidate: template<<declaration error> > void update_server(const string&, const int&, const int&, const int&)
+ void [01;36m[Kupdate_server[m[K(std::string const& type, std::map<std::string,T1> const& bool_map, std::map<std::string,T2> const& double_map, std::map<std::string,T3> const& int_map)
+      [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:35:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:71:5:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (3, should be at least 0)
+     [01;31m[K)[m[K;
+     [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:[m[K In function ‘[01m[Kvoid load_pallet(std::__cxx11::string)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:74:79:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kupdate_server<bool, double, int>(std::__cxx11::string&, std::map<std::__cxx11::basic_string<char>, bool>&, std::map<std::__cxx11::basic_string<char>, double>&, std::map<std::__cxx11::basic_string<char>, int>&)[m[K’
+             update_server<bool,double,int>(name, bool_map, double_map, int_map[01;31m[K)[m[K;
+                                                                               [01;31m[K^[m[K
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:14:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:35:6:[m[K [01;36m[Knote: [m[Kcandidate: template<<declaration error> > void update_server(const string&, const int&, const int&, const int&)
+ void [01;36m[Kupdate_server[m[K(std::string const& type, std::map<std::string,T1> const& bool_map, std::map<std::string,T2> const& double_map, std::map<std::string,T3> const& int_map)
+      [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:35:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:74:79:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (3, should be at least 0)
+             update_server<bool,double,int>(name, bool_map, double_map, int_map[01;31m[K)[m[K;
+                                                                               [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:87:47:[m[K [01;31m[Kerror: [m[K‘[01m[Klib[m[K’ was not declared in this scope
+     ros::param::get("/pallet_library/active", [01;31m[Klib[m[K);
+                                               [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:87:47:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Klink[m[K’
+     ros::param::get("/pallet_library/active", [01;36m[Klib[m[K);
+                                               [01;36m[K^~~[m[K
+                                               [32m[Klink[m[K
+make[2]: *** [CMakeFiles/load_pallet.dir/src/load_pallet.cpp.o] Error 1
+make[1]: *** [CMakeFiles/load_pallet.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:83:15:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Ksystem("rosparam dump /home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.yaml /pallet_library/persistent")[m[K;
+         [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

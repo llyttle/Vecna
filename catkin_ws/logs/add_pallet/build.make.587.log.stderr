@@ -1,0 +1,28 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:[m[K In function ‘[01m[Kvoid load_pallet(std::__cxx11::string)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:68:42:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble_map[m[K’
+             std::map<std::string,double> [01;31m[Kdouble_map[m[K;
+                                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:69:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble_map[m[K’ was not declared in this scope
+             [01;31m[Kdouble_map[m[K = YAML2Map<double>(Pallet_Params["doubles"]);
+             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:69:13:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kdouble_t[m[K’
+             [01;36m[Kdouble_map[m[K = YAML2Map<double>(Pallet_Params["doubles"]);
+             [01;36m[K^~~~~~~~~~[m[K
+             [32m[Kdouble_t[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:69:26:[m[K [01;31m[Kerror: [m[K‘[01m[KYAML2Map[m[K’ was not declared in this scope
+             double_map = [01;31m[KYAML2Map[m[K<double>(Pallet_Params["doubles"]);
+                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:69:35:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+             double_map = YAML2Map<[01;31m[Kdouble[m[K>(Pallet_Params["doubles"]);
+                                   [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:72:32:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+             int_map = YAML2Map<[01;31m[Kint[m[K>(Pallet_Params["ints"]);
+                                [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/load_pallet.dir/src/load_pallet.cpp.o] Error 1
+make[1]: *** [CMakeFiles/load_pallet.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:84:15:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Ksystem("rosparam dump /home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.yaml /pallet_library/persistent")[m[K;
+         [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make: *** [all] Error 2

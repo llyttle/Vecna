@@ -1,0 +1,7 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:171:1:[m[K [01;31m[Kerror: [m[K‘[01m[KPalletThreeBlockFrontFaceDetectionInfo[m[K’ does not name a type; did you mean ‘[01m[KPalletThreeLegFrontFaceDetectionInfo[m[K’?
+ [01;31m[KPalletThreeBlockFrontFaceDetectionInfo[m[K::PalletThreeBlockFrontFaceDetectionInfo(const std::string palletType)
+ [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [32m[KPalletThreeLegFrontFaceDetectionInfo[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

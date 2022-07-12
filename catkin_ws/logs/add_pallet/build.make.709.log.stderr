@@ -1,0 +1,29 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletLibraryNode::create_Pointer(std::__cxx11::string)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:37:16:[m[K [01;31m[Kerror: [m[K‘[01m[Knh[m[K’ was not declared in this scope
+     bool_map = [01;31m[Knh[m[K.getParam("persistent/"+type+"/bools");
+                [01;31m[K^~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:38:34:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, double> bool_map[m[K’
+     std::map<std::string,double> [01;31m[Kbool_map[m[K;
+                                  [01;31m[K^~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:36:32:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, bool> bool_map[m[K’
+     std::map<std::string,bool> [01;36m[Kbool_map[m[K;
+                                [01;36m[K^~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:39:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble_map[m[K’ was not declared in this scope
+     [01;31m[Kdouble_map[m[K = nh.getParam("persistent/"+type+"/doubles");
+     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:39:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kdouble_t[m[K’
+     [01;36m[Kdouble_map[m[K = nh.getParam("persistent/"+type+"/doubles");
+     [01;36m[K^~~~~~~~~~[m[K
+     [32m[Kdouble_t[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:40:31:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, int> bool_map[m[K’
+     std::map<std::string,int> [01;31m[Kbool_map[m[K;
+                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:36:32:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, bool> bool_map[m[K’
+     std::map<std::string,bool> [01;36m[Kbool_map[m[K;
+                                [01;36m[K^~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kint_map[m[K’ was not declared in this scope
+     [01;31m[Kint_map[m[K = nh.getParam("persistent/"+type+"/ints");
+     [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

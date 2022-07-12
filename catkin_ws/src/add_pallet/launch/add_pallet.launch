@@ -1,8 +1,22 @@
 <launch>
-    <!-- Load dynamic pallet parameters -->
-    <!-- <rosparam command="load" file="$(find add_pallet)/cfg/dynamic_params.yaml" /> -->
+    <arg name="stringer40ThreeLegFrontFace"                     default="true"/>
+    <arg name="stringer40ThreeLegSideFace"                      default="true"/>
+    <arg name="stringer50ThreeLegFrontFace"                     default="true"/>
+
+
+    <group ns="PalletLibraryNodeMain/active">
+        <param name="stringer40ThreeLegFrontFace"       value="$(arg stringer40ThreeLegFrontFace)"/>
+        <param name="stringer40ThreeLegSideFace"        value="$(arg stringer40ThreeLegFrontFace)"/>
+        <param name="stringer50ThreeLegFrontFace"       value="$(arg stringer50ThreeLegFrontFace)"/>
+    </group>
+
     <!-- launch the ros server  (place where new pallet detection classes are built) -->
-    <node name='pallet_library' pkg='add_pallet' type='pallet_library' clear_params = 'true' output='screen'/>
+    <node name='PalletLibraryNodeMain' pkg='add_pallet' type='PalletLibraryNodeMain' clear_params='true' output='screen'/>
+
     <!-- launch the ros client (place that sends new pallet information) -->
-    <node name='remote_add_node' pkg='add_pallet' type='remote_add' output='screen'/>
+    <!-- <node name='remote_add_node' pkg='add_pallet' type='remote_add' output='screen'/> -->
+
+    <!-- launch the ros client (place that sends new pallet information) -->
+    <!-- <node name='load_pallet' pkg='add_pallet' type='load_pallet' output='screen'/> -->
+
 </launch>

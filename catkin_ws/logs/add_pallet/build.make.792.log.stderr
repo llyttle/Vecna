@@ -1,0 +1,20 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:13:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ does not name a type; did you mean ‘[01m[Kstdin[m[K’?
+ [01;31m[Kstring[m[K type_map_to_string(map<string,T>  &m)
+ [01;31m[K^~~~~~[m[K
+ [32m[Kstdin[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:[m[K In function ‘[01m[Kvoid SetParams(std::__cxx11::string)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:63:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ktype_map_to_string[m[K’ was not declared in this scope
+     bools_string.value = [01;31m[Ktype_map_to_string[m[K<bool>(B);
+                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:63:45:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kbool[m[K’
+     bools_string.value = type_map_to_string<[01;31m[Kbool[m[K>(B);
+                                             [01;31m[K^~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:83:47:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+     doubles_string.value = type_map_to_string<[01;31m[Kdouble[m[K>(D);
+                                               [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:95:44:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+     ints_string.value = type_map_to_string<[01;31m[Kint[m[K>(I);
+                                            [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/remote_add.dir/src/remote_add.cpp.o] Error 1
+make[1]: *** [CMakeFiles/remote_add.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,16 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:87:47:[m[K [01;31m[Kerror: [m[K‘[01m[Klib[m[K’ was not declared in this scope
+     ros::param::get("/pallet_library/active", [01;31m[Klib[m[K);
+                                               [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:87:47:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Klink[m[K’
+     ros::param::get("/pallet_library/active", [01;36m[Klib[m[K);
+                                               [01;36m[K^~~[m[K
+                                               [32m[Klink[m[K
+make[2]: *** [CMakeFiles/load_pallet.dir/src/load_pallet.cpp.o] Error 1
+make[1]: *** [CMakeFiles/load_pallet.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:83:15:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Ksystem("rosparam dump /home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.yaml /pallet_library/persistent")[m[K;
+         [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make: *** [all] Error 2

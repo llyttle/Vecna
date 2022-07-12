@@ -1,5 +1,6 @@
 add_pallet
 /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/cmake.lock /home/loren.lyttle/tests/catkin_ws/devel/./cmake.lock
+/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/libadd_pallet.so /home/loren.lyttle/tests/catkin_ws/devel/lib/libadd_pallet.so
 /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/pkgconfig/add_pallet.pc /home/loren.lyttle/tests/catkin_ws/devel/lib/pkgconfig/add_pallet.pc
 /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/python2.7/dist-packages/add_pallet/__init__.py /home/loren.lyttle/tests/catkin_ws/devel/lib/python2.7/dist-packages/add_pallet/__init__.py
 /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/python2.7/dist-packages/add_pallet/cfg/dynamic_paramsConfig.py /home/loren.lyttle/tests/catkin_ws/devel/lib/python2.7/dist-packages/add_pallet/cfg/dynamic_paramsConfig.py
@@ -9,6 +10,7 @@ add_pallet
 /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/load_pallet /home/loren.lyttle/tests/catkin_ws/devel/lib/add_pallet/load_pallet
 /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/server /home/loren.lyttle/tests/catkin_ws/devel/lib/add_pallet/server
 /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/remote_add /home/loren.lyttle/tests/catkin_ws/devel/lib/add_pallet/remote_add
+/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/PalletLibraryNodeMain /home/loren.lyttle/tests/catkin_ws/devel/lib/add_pallet/PalletLibraryNodeMain
 /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/first_node /home/loren.lyttle/tests/catkin_ws/devel/lib/add_pallet/first_node
 /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include/add_pallet/dynamic_paramsConfig.h /home/loren.lyttle/tests/catkin_ws/devel/include/add_pallet/dynamic_paramsConfig.h
 /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/share/add_pallet/cmake/add_palletConfig.cmake /home/loren.lyttle/tests/catkin_ws/devel/share/add_pallet/cmake/add_palletConfig.cmake

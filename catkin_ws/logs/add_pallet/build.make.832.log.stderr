@@ -1,0 +1,26 @@
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:268:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+ }
+  [01;31m[K^[m[K
+  [32m[K;[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletLibraryNode::load_pallet(std::__cxx11::string)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:118:65:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, T> TypeMapHelper::yaml2map(YAML::Node) [with T = bool][m[K’ without object
+             TypeMapHelper::yaml2map<bool>(Pallet_Params["bools"][01;31m[K)[m[K,
+                                                                 [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:119:69:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, T> TypeMapHelper::yaml2map(YAML::Node) [with T = double][m[K’ without object
+             TypeMapHelper::yaml2map<double>(Pallet_Params["doubles"][01;31m[K)[m[K,
+                                                                     [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:120:63:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, T> TypeMapHelper::yaml2map(YAML::Node) [with T = int][m[K’ without object
+             TypeMapHelper::yaml2map<int>(Pallet_Params["ints"][01;31m[K)[m[K
+                                                               [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletLibraryNode::dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:134:7:[m[K [01;31m[Kerror: [m[K‘[01m[Km_prefix[m[K’ was not declared in this scope
+     */[01;31m[Km_prefix[m[K
+       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:134:7:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kprofil[m[K’
+     */[01;36m[Km_prefix[m[K
+       [01;36m[K^~~~~~~~[m[K
+       [32m[Kprofil[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

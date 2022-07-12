@@ -1,0 +1,5 @@
+/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/libadd_pallet.so: undefined reference to `PalletThreeLegFrontFaceDetectionInfo::PalletThreeLegFrontFaceDetectionInfo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/PalletLibraryNodeMain] Error 1
+make[1]: *** [CMakeFiles/PalletLibraryNodeMain.dir/all] Error 2
+make: *** [all] Error 2

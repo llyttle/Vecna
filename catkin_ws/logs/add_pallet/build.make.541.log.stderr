@@ -1,0 +1,13 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:88:114:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [89][m[K’ and ‘[01m[Kconst char*[m[K’ to binary ‘[01m[Koperator+[m[K’
+         resp = system([01;31m[K"rosparam dump /home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.yaml " + pallet_namespace.c_str()[m[K + "/bools");
+                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:89:114:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [89][m[K’ and ‘[01m[Kconst char*[m[K’ to binary ‘[01m[Koperator+[m[K’
+         resp = system([01;31m[K"rosparam dump /home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.yaml " + pallet_namespace.c_str()[m[K + "/doubles");
+                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:90:114:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [89][m[K’ and ‘[01m[Kconst char*[m[K’ to binary ‘[01m[Koperator+[m[K’
+         resp = system([01;31m[K"rosparam dump /home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.yaml " + pallet_namespace.c_str()[m[K + "/ints");
+                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

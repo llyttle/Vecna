@@ -1,0 +1,21 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In constructor ‘[01m[KPalletPocketDetection::PalletPocketDetection(ros::NodeHandle&)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:184:9:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KPalletPocketDetection[m[K’ does not have any field named ‘[01m[Km_node[m[K’
+         [01;31m[Km_node[m[K(n) {
+         [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:185:38:[m[K [01;31m[Kerror: [m[K‘[01m[Km_node[m[K’ was not declared in this scope
+     palletpointer1->initializeParams([01;31m[Km_node[m[K /* nodeHandle */,
+                                      [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:185:38:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__modf[m[K’
+     palletpointer1->initializeParams([01;36m[Km_node[m[K /* nodeHandle */,
+                                      [01;36m[K^~~~~~[m[K
+                                      [32m[K__modf[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:195:33:[m[K [01;31m[Kerror: [m[K‘[01m[Km_debugPalletDetection[m[K’ was not declared in this scope
+                                 [01;31m[Km_debugPalletDetection[m[K /* publishClustersCloud */,
+                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:195:33:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KPalletPocketDetection[m[K’
+                                 [01;36m[Km_debugPalletDetection[m[K /* publishClustersCloud */,
+                                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+                                 [32m[KPalletPocketDetection[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

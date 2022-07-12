@@ -1,0 +1,21 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:[m[K In function ‘[01m[Kvoid load_pallet(std::__cxx11::string)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:70:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+             [01;31m[Kstd[m[K::map<std::string,double> double_map;
+             [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:71:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble_map[m[K’ was not declared in this scope
+             [01;31m[Kdouble_map[m[K = YAML2Map<double>(Pallet_Params["doubles"])
+             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:71:13:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kdouble_t[m[K’
+             [01;36m[Kdouble_map[m[K = YAML2Map<double>(Pallet_Params["doubles"])
+             [01;36m[K^~~~~~~~~~[m[K
+             [32m[Kdouble_t[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:74:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kint_map[m[K’ was not declared in this scope
+             [01;31m[Kint_map[m[K = YAML2Map<int>(Pallet_Params["ints"])
+             [01;31m[K^~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:74:13:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kbool_map[m[K’
+             [01;36m[Kint_map[m[K = YAML2Map<int>(Pallet_Params["ints"])
+             [01;36m[K^~~~~~~[m[K
+             [32m[Kbool_map[m[K
+make[2]: *** [CMakeFiles/load_pallet.dir/src/load_pallet.cpp.o] Error 1
+make[1]: *** [CMakeFiles/load_pallet.dir/all] Error 2
+make: *** [all] Error 2

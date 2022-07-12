@@ -1,0 +1,914 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletThreeLegFrontFaceDetectionInfo::updateParams()[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:56:36:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kget(std::__cxx11::basic_string<char>, bool&, bool&)[m[K’
+                 m_isDetectorEnabled[01;31m[K)[m[K;
+                                    [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:54:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:4[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:15[m[K:
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::__cxx11::string&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::string& s);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, double&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, double& d);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, float&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, float& f);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, int&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, int& i);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, bool&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, bool& b);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, XmlRpc::XmlRpcValue&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, XmlRpc::XmlRpcValue& v);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<std::string>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<double>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<float>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<int>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<bool>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, std::string>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, double>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, float>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, int>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, bool>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:59:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kget(std::__cxx11::basic_string<char>, bool&, bool&)[m[K’
+                 m_legFrontFacePtsMinClusterSize[01;31m[K)[m[K;
+                                                [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:54:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:4[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:15[m[K:
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::__cxx11::string&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::string& s);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, double&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, double& d);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, float&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, float& f);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, int&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, int& i);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, bool&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, bool& b);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, XmlRpc::XmlRpcValue&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, XmlRpc::XmlRpcValue& v);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<std::string>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<double>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<float>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<int>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<bool>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, std::string>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, double>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, float>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, int>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, bool>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:62:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kget(std::__cxx11::basic_string<char>, int&, int&)[m[K’
+                 m_legFrontFacePtsMaxClusterSize[01;31m[K)[m[K;
+                                                [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:54:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:4[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:15[m[K:
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::__cxx11::string&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::string& s);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, double&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, double& d);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, float&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, float& f);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, int&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, int& i);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, bool&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, bool& b);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, XmlRpc::XmlRpcValue&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, XmlRpc::XmlRpcValue& v);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<std::string>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<double>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<float>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<int>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<bool>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, std::string>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, double>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, float>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, int>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, bool>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:65:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kget(std::__cxx11::basic_string<char>, double&, double&)[m[K’
+                 m_legFrontFacePtsMaxClusterDimension[01;31m[K)[m[K;
+                                                     [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:54:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:4[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:15[m[K:
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::__cxx11::string&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::string& s);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, double&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, double& d);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, float&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, float& f);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, int&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, int& i);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, bool&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, bool& b);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, XmlRpc::XmlRpcValue&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, XmlRpc::XmlRpcValue& v);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<std::string>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<double>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<float>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<int>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<bool>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, std::string>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, double>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, float>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, int>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, bool>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:68:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kget(std::__cxx11::basic_string<char>, double&, double&)[m[K’
+                 m_innerLegSpacingNominal[01;31m[K)[m[K;
+                                         [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:54:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:4[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:15[m[K:
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::__cxx11::string&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::string& s);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, double&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, double& d);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, float&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, float& f);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, int&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, int& i);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, bool&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, bool& b);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, XmlRpc::XmlRpcValue&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, XmlRpc::XmlRpcValue& v);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<std::string>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<double>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<float>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<int>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<bool>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, std::string>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, double>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, float>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, int>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, bool>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:71:43:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kget(std::__cxx11::basic_string<char>, double&, double&)[m[K’
+                 m_innerLegSpacingTolerance[01;31m[K)[m[K;
+                                           [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:54:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:4[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:15[m[K:
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::__cxx11::string&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::string& s);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, double&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, double& d);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, float&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, float& f);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, int&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, int& i);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, bool&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, bool& b);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, XmlRpc::XmlRpcValue&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, XmlRpc::XmlRpcValue& v);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<std::string>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<double>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<float>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<int>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<bool>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, std::string>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, double>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, float>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, int>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, bool>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:74:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kget(std::__cxx11::basic_string<char>, double&, double&)[m[K’
+                 m_outerLegSpacingNominal[01;31m[K)[m[K;
+                                         [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:54:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:4[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:15[m[K:
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::__cxx11::string&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::string& s);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, double&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, double& d);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, float&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, float& f);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, int&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, int& i);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, bool&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, bool& b);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, XmlRpc::XmlRpcValue&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, XmlRpc::XmlRpcValue& v);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<std::string>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<double>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<float>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<int>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<bool>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, std::string>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, double>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, float>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, int>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, bool>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:77:43:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kget(std::__cxx11::basic_string<char>, double&, double&)[m[K’
+                 m_outerLegSpacingTolerance[01;31m[K)[m[K;
+                                           [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:54:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:4[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:15[m[K:
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::__cxx11::string&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::string& s);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, double&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, double& d);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, float&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, float& f);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, int&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, int& i);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, bool&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, bool& b);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, XmlRpc::XmlRpcValue&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, XmlRpc::XmlRpcValue& v);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<std::string>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<double>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<float>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<int>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<bool>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, std::string>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, double>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, float>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, int>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, bool>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:80:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kget(std::__cxx11::basic_string<char>, bool&, bool&)[m[K’
+                 m_disableOverlappingThreeLegGroups[01;31m[K)[m[K;
+                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:54:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:4[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:15[m[K:
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::__cxx11::string&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::string& s);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, double&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, double& d);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, float&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, float& f);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, int&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, int& i);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, bool&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, bool& b);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, XmlRpc::XmlRpcValue&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, XmlRpc::XmlRpcValue& v);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<std::string>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<double>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<float>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<int>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<bool>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, std::string>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, double>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, float>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, int>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, bool>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:83:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kget(std::__cxx11::basic_string<char>, double&, double&)[m[K’
+                 m_maxInterLegYawDiff[01;31m[K)[m[K;
+                                     [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:54:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:4[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:15[m[K:
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::__cxx11::string&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::string& s);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, double&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, double& d);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, float&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, float& f);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, int&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, int& i);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, bool&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, bool& b);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, XmlRpc::XmlRpcValue&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, XmlRpc::XmlRpcValue& v);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<std::string>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<double>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<float>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<int>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<bool>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, std::string>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, double>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, float>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, int>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, bool>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:86:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kget(std::__cxx11::basic_string<char>, double&, double&)[m[K’
+                 m_palletDepth[01;31m[K)[m[K;
+                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:54:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:4[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:15[m[K:
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::__cxx11::string&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::string& s);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, double&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, double& d);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, float&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, float& f);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, int&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, int& i);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, bool&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, bool& b);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, XmlRpc::XmlRpcValue&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, XmlRpc::XmlRpcValue& v);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<std::string>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<double>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<float>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<int>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<bool>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, std::string>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, double>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, float>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, int>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, bool>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:89:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kget(std::__cxx11::basic_string<char>, double&, double&)[m[K’
+                 m_frontFaceClusteringTol[01;31m[K)[m[K;
+                                         [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:54:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:4[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:15[m[K:
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::__cxx11::string&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::string& s);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, double&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, double& d);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, float&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, float& f);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, int&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, int& i);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, bool&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, bool& b);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, XmlRpc::XmlRpcValue&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, XmlRpc::XmlRpcValue& v);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<std::string>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<double>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<float>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<int>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<bool>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, std::string>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, double>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, float>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, int>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, bool>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:92:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kget(std::__cxx11::basic_string<char>, double&, double&)[m[K’
+                 m_legFrontFaceToPalletFaceXOffset[01;31m[K)[m[K;
+                                                  [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:54:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:4[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:15[m[K:
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::__cxx11::string&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::string& s);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:172:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, double&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, double& d);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:181:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, float&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, float& f);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:190:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, int&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, int& i);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:199:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, bool&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, bool& b);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:208:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, XmlRpc::XmlRpcValue&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, XmlRpc::XmlRpcValue& v);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:217:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<std::string>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:312:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<double>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:321:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<float>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:330:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<int>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:339:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::vector<bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::vector<bool>& vec);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:348:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, std::string>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:429:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, double>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, double>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:438:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, float>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, float>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:447:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, int>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, int>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:456:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[Kcandidate: bool ros::param::get(const string&, std::map<std::__cxx11::basic_string<char>, bool>&)
+ ROSCPP_DECL bool [01;36m[Kget[m[K(const std::string& key, std::map<std::string, bool>& map);
+                  [01;36m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/param.h:465:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

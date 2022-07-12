@@ -4,5 +4,5 @@ Name: add_pallet
 Description: Description of add_pallet
 Version: 0.0.0
 Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
+Libs: -L${prefix}/lib -ladd_pallet
 Requires: dynamic_reconfigure roscpp rospy

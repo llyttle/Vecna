@@ -1,0 +1,41 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletLibraryNode::load_pallet(std::__cxx11::string)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:118:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::map<std::__cxx11::basic_string<char>, T> TypeMapHelper::yaml2map(YAML::Node) [with T = bool][m[K’ is private within this context
+             m_TypeMapHelper.yaml2map<bool>(Pallet_Params["bools"][01;31m[K)[m[K,
+                                                                  [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:59:25:[m[K [01;36m[Knote: [m[Kdeclared private here
+ std::map<std::string,T> [01;36m[KTypeMapHelper[m[K::yaml2map(YAML::Node n)
+                         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:119:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::map<std::__cxx11::basic_string<char>, T> TypeMapHelper::yaml2map(YAML::Node) [with T = double][m[K’ is private within this context
+             m_TypeMapHelper.yaml2map<double>(Pallet_Params["doubles"][01;31m[K)[m[K,
+                                                                      [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:59:25:[m[K [01;36m[Knote: [m[Kdeclared private here
+ std::map<std::string,T> [01;36m[KTypeMapHelper[m[K::yaml2map(YAML::Node n)
+                         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:120:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::map<std::__cxx11::basic_string<char>, T> TypeMapHelper::yaml2map(YAML::Node) [with T = int][m[K’ is private within this context
+             m_TypeMapHelper.yaml2map<int>(Pallet_Params["ints"][01;31m[K)[m[K
+                                                                [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:59:25:[m[K [01;36m[Knote: [m[Kdeclared private here
+ std::map<std::string,T> [01;36m[KTypeMapHelper[m[K::yaml2map(YAML::Node n)
+                         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletLibraryNode::dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:137:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::map<std::__cxx11::basic_string<char>, T> TypeMapHelper::string2map(const string&) [with T = bool; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’ is private within this context
+         m_TypeMapHelper.string2map<bool>(config.AA_dynamic_bools_string[01;31m[K)[m[K,
+                                                                        [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:23:25:[m[K [01;36m[Knote: [m[Kdeclared private here
+ std::map<std::string,T> [01;36m[KTypeMapHelper[m[K::string2map(std::string const& s)
+                         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:138:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::map<std::__cxx11::basic_string<char>, T> TypeMapHelper::string2map(const string&) [with T = double; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’ is private within this context
+         m_TypeMapHelper.string2map<double>(config.AA_dynamic_doubles_string[01;31m[K)[m[K,
+                                                                            [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:23:25:[m[K [01;36m[Knote: [m[Kdeclared private here
+ std::map<std::string,T> [01;36m[KTypeMapHelper[m[K::string2map(std::string const& s)
+                         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:139:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::map<std::__cxx11::basic_string<char>, T> TypeMapHelper::string2map(const string&) [with T = int; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’ is private within this context
+         m_TypeMapHelper.string2map<int>(config.AA_dynamic_ints_string[01;31m[K)[m[K
+                                                                      [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:23:25:[m[K [01;36m[Knote: [m[Kdeclared private here
+ std::map<std::string,T> [01;36m[KTypeMapHelper[m[K::string2map(std::string const& s)
+                         [01;36m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

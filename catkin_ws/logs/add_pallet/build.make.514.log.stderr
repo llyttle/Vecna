@@ -1,0 +1,10 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, double> string_to_type_map(const string&)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:37:65:[m[K [01;31m[Kerror: [m[K‘[01m[KConvert[m[K’ was not declared in this scope
+         m.emplace(s.substr(key_pos, key_end - key_pos), (double)[01;31m[KConvert[m[K.ChangeType(s.substr(val_pos, val_end - val_pos), double));
+                                                                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:37:122:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+         m.emplace(s.substr(key_pos, key_end - key_pos), (double)Convert.ChangeType(s.substr(val_pos, val_end - val_pos), [01;31m[Kdouble[m[K));
+                                                                                                                          [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

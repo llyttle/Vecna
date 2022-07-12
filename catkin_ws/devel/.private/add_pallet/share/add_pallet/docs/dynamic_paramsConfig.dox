@@ -2,10 +2,10 @@
 
 Reads and maintains the following parameters on the ROS server
 
-- \b "~AA_dynamic_type_param" : \b [str] Name of new pallet type min: , default: Default, max: 
-- \b "~AA_dynamic_yaml_file_path_param" : \b [str] Path to the pallet library YAML file min: , default: /home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/test.yaml, max: 
 - \b "~AA_dynamic_save_change_param" : \b [bool] Indicate whether new pallet configuration should be saved to the library or just used once min: False, default: True, max: True
 - \b "~AA_dynamic_bools_string" : \b [str] A string that holds the keys and values of bool parameters min: , default: , max: 
 - \b "~AA_dynamic_doubles_string" : \b [str] A string that holds the keys and values of double parameters min: , default: , max: 
 - \b "~AA_dynamic_ints_string" : \b [str] A string that holds the keys and values of integer parameters min: , default: , max: 
+- \b "~AA_dynamic_type_param" : \b [str] Name of new pallet type min: , default: Default, max: 
+- \b "~AA_dynamic_yaml_file_path_param" : \b [str] Path to the pallet library YAML file min: , default: /home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.yaml, max: 
 

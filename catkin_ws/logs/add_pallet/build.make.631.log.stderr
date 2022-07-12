@@ -1,0 +1,7 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In constructor ‘[01m[KPalletLibraryNode::PalletLibraryNode(ros::NodeHandle&, std::map<std::__cxx11::basic_string<char>, bool>)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:38:68:[m[K [01;31m[Kerror: [m[Klvalue required as unary ‘[01m[K&[m[K’ operand
+                     &PalletLibraryNode::load_pallet(p.first.c_str()[01;31m[K)[m[K;
+                                                                    [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

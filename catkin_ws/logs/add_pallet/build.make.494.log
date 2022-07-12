@@ -1,8 +1,0 @@
-[ 11%] Built target add_pallet_gencfg
-[35m[1mScanning dependencies of target remote_add[0m
-[ 33%] Built target test_subscriber
-[ 77%] Built target load_pallet
-[ 77%] Built target pallet_library
-[ 88%] [32mBuilding CXX object CMakeFiles/remote_add.dir/src/remote_add.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/remote_add[0m
-[100%] Built target remote_add

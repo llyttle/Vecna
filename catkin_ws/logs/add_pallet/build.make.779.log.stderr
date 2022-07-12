@@ -1,0 +1,10 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/PalletLibraryNodeMain.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/PalletLibraryNodeMain.cpp:14:22:[m[K [01;31m[Kerror: [m[K‘[01m[KPLN[m[K’ is not a class, namespace, or enumeration
+     f = boost::bind(&[01;31m[KPLN[m[K::dynamic_callback, this, _1, _2);
+                      [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/PalletLibraryNodeMain.cpp:14:45:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+     f = boost::bind(&PLN::dynamic_callback, [01;31m[Kthis[m[K, _1, _2);
+                                             [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/PalletLibraryNodeMain.dir/src/PalletLibraryNodeMain.cpp.o] Error 1
+make[1]: *** [CMakeFiles/PalletLibraryNodeMain.dir/all] Error 2
+make: *** [all] Error 2

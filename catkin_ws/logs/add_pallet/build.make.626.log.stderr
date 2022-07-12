@@ -1,0 +1,25 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In constructor ‘[01m[KPalletLibraryNode::PalletLibraryNode(ros::NodeHandle&)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:33:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kenable[m[K’ was not declared in this scope
+             for (const auto &p : [01;31m[Kenable[m[K)
+                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:33:34:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krename[m[K’
+             for (const auto &p : [01;36m[Kenable[m[K)
+                                  [01;36m[K^~~~~~[m[K
+                                  [32m[Krename[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:186:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPalletLibraryNode::PalletLibraryNode(ros::NodeHandle&, std::map<std::__cxx11::basic_string<char>, bool>&)[m[K’
+     PalletLibraryNode PLN(nh, enable[01;31m[K)[m[K;
+                                     [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:24:9:[m[K [01;36m[Knote: [m[Kcandidate: PalletLibraryNode::PalletLibraryNode(ros::NodeHandle&)
+         [01;36m[KPalletLibraryNode[m[K(ros::NodeHandle& nh)
+         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:24:9:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:19:7:[m[K [01;36m[Knote: [m[Kcandidate: constexpr PalletLibraryNode::PalletLibraryNode(const PalletLibraryNode&)
+ class [01;36m[KPalletLibraryNode[m[K{
+       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:19:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:19:7:[m[K [01;36m[Knote: [m[Kcandidate: constexpr PalletLibraryNode::PalletLibraryNode(PalletLibraryNode&&)
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:19:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

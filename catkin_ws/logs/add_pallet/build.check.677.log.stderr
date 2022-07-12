@@ -1,0 +1,9 @@
+[31m[1mCMake Error[0m at /home/loren.lyttle/tests/catkin_ws/src/add_pallet/CMakeLists.txt:156 (add_executable):
+  add_executable cannot create target "pallet_library" because another target
+  with the same name already exists.  The existing target is an executable
+  created in source directory
+  "/home/loren.lyttle/tests/catkin_ws/src/add_pallet".  See documentation for
+  policy CMP0002 for more details.
+
+
+make: *** [cmake_check_build_system] Error 1

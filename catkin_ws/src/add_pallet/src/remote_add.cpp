@@ -9,18 +9,15 @@
 #include <dynamic_reconfigure/Reconfigure.h>
 #include <dynamic_reconfigure/Config.h>
 
-using namespace dynamic_reconfigure;
-using namespace std;
-
 template <class T>
-string type_map_to_string(map<string,T>  &m)
+std::string type_map_to_string(std::map<std::string,T>  &m)
 {
     /**
      * Convert a map of type <std::string, TYPE> to a string
      * Delimeter = ','
      * Key/Value seperator = ';'
      */
-    string output = "";
+    std::string output = "";
 
 	for (auto it = m.cbegin(); it != m.cend(); it++)
     {
@@ -32,11 +29,11 @@ string type_map_to_string(map<string,T>  &m)
 
 void SetParams(std::string pallet_name)
 {
-    ReconfigureRequest srv_req;
-    ReconfigureResponse srv_resp;
-    BoolParameter save_change_param;
-    StrParameter type_param, doubles_string, bools_string, ints_string;
-    Config conf;
+    dynamic_reconfigure::ReconfigureRequest srv_req;
+    dynamic_reconfigure::ReconfigureResponse srv_resp;
+    dynamic_reconfigure::BoolParameter save_change_param;
+    dynamic_reconfigure::StrParameter type_param, doubles_string, bools_string, ints_string;
+    dynamic_reconfigure::Config conf;
 
     /**
      * Pallet Type Parameter (name used for identification)
@@ -57,8 +54,11 @@ void SetParams(std::string pallet_name)
      * Bool Parameters
      */
     std::map<std::string,bool> B;
-    B["test_switch_true"] = true;
-    B["test_switch_false"] = false;
+
+    B["m_istDetectorEnabled"] = true;
+    B["m_disableOverlappingThreeLegGroups"] = true;
+    B["extractEndCaps"] = true;
+
     bools_string.name = "AA_dynamic_bools_string";
     bools_string.value = type_map_to_string<bool>(B);
     conf.strs.push_back(bools_string);
@@ -68,10 +68,17 @@ void SetParams(std::string pallet_name)
      * Double Parameters
      */
     std::map<std::string,double> D;
-    D["max_depth"] = 2.0;
-    D["max_width"] = 2.0;
-    D["min_depth"] = 1.0;
-    D["min_width"] = 1.0;
+
+    D["m_legFrontFacePtsMaxClusterDimension"] = 5.0;
+    D["m_innerLegSpacingNominal"] = 5.0;
+    D["m_innerLegSpacingTolerance"] = 5.0;
+    D["m_outerLegSpacingNominal"] = 5.0;
+    D["m_outerLegSpacingTolerance"] = 5.0;
+    D["m_maxInterLegYawDiff"] = 5.0;
+    D["m_palletDepth"] = 5.0;
+    D["frontFaceClusteringTolerance"] = 5.0;
+    D["legFrontFaceToPalletFaceXOffset"] = 5.0;
+
     doubles_string.name = "AA_dynamic_doubles_string";
     doubles_string.value = type_map_to_string<double>(D);
     conf.strs.push_back(doubles_string);
@@ -80,18 +87,19 @@ void SetParams(std::string pallet_name)
      * Integer Parameters
      */
     std::map<std::string,int> I;
-    I["test_int1"] = 67;
-    I["test_int2"] = 14;
-    I["test_int3"] = 8;
+
+    I["m_legFrontFacePtsMinClusterSize"] = 5;
+    I["m_legFrontFacePtsMaxClusterSize"] = 5;
+
     ints_string.name = "AA_dynamic_ints_string";
     ints_string.value = type_map_to_string<int>(I);
     conf.strs.push_back(ints_string);
 
     /**
-     * add parameters as server request and push updates to the pallet_library server
+     * add parameters as server request and push updates to the PalletLibraryNode server
      */
     srv_req.config = conf;
-    ros::service::call("/pallet_library/set_parameters", srv_req, srv_resp);
+    ros::service::call("PalletLibraryNodeMain/set_parameters", srv_req, srv_resp);      //safety_carriage_lidar_feature_detector  <-- new root for dynamic reconfigure server
 }
 
 int main(int argc, char **argv)
@@ -100,16 +108,12 @@ int main(int argc, char **argv)
      * TODO: I think cin is getting in the way of clean exits of the code. ^C in the terminal is slow
      */
     ros::init(argc, argv, "remote_add");
-    // ros::NodeHandle nh;
-    // ros::Rate rate(10);
+    // ros::NodeHandle nh("~");
 
-    // while (ros::ok())
-    // {
+    // std::string type;
+    // nh.getParam("type", type);
 
-        SetParams("mario");
-
-        // rate.sleep();
-    // }
+    SetParams("stringer40_front_face");
 
     return 0;
 }

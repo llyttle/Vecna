@@ -1,0 +1,81 @@
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:15:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:188:131:[m[K [01;31m[Kerror: [m[K‘[01m[Ktype[m[K’ was not declared in this scope
+     std::shared_ptr<PalletThreeLegFrontFaceDetectionInfo> palletpointer1 = std::make_shared<PalletThreeLegFrontFaceDetectionInfo>([01;31m[Ktype[m[K);
+                                                                                                                                   [01;31m[K^~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:188:131:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/boost/bind/bind.hpp:27:0[m[K,
+                 from [01m[K/usr/include/boost/bind.hpp:22[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:4[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:15[m[K:
+[01m[K/usr/include/boost/type.hpp:14:10:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::type[m[K’
+   struct [01;36m[Ktype[m[K {};
+          [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/boost/bind.hpp:22:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:4[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:15[m[K:
+[01m[K/usr/include/boost/bind/bind.hpp:146:25:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::_bi::type[m[K’
+ template<class T> class [01;36m[Ktype[m[K {};
+                         [01;36m[K^~~~[m[K
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:15:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:189:131:[m[K [01;31m[Kerror: [m[K‘[01m[Ktype[m[K’ was not declared in this scope
+     std::shared_ptr<PalletThreeLegFrontFaceDetectionInfo> palletpointer2 = std::make_shared<PalletThreeLegFrontFaceDetectionInfo>([01;31m[Ktype[m[K);
+                                                                                                                                   [01;31m[K^~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:189:131:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/boost/bind/bind.hpp:27:0[m[K,
+                 from [01m[K/usr/include/boost/bind.hpp:22[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:4[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:15[m[K:
+[01m[K/usr/include/boost/type.hpp:14:10:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::type[m[K’
+   struct [01;36m[Ktype[m[K {};
+          [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/boost/bind.hpp:22:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:4[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:15[m[K:
+[01m[K/usr/include/boost/bind/bind.hpp:146:25:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::_bi::type[m[K’
+ template<class T> class [01;36m[Ktype[m[K {};
+                         [01;36m[K^~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In constructor ‘[01m[KPalletLibraryNode::PalletLibraryNode(ros::NodeHandle&, std::map<std::__cxx11::basic_string<char>, bool>)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:88:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[Km_palletpocketdetector[m[K’
+           [01;31m[Km_palletpocketdetector[m[K(std::make_shared<PalletPocketDetection>(nh)) {
+           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K At global scope:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:88:33:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+           m_palletpocketdetector[01;31m[K([m[Kstd::make_shared<PalletPocketDetection>(nh)) {
+                                 [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletLibraryNode::dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:157:24:[m[K [01;31m[Kerror: [m[K‘[01m[Km_palletpocketdetector[m[K’ is not a member of ‘[01m[KPalletLibraryNode[m[K’
+     PalletLibraryNode::[01;31m[Km_palletpocketdetector[m[K->palletpointer1->updateParams();
+                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In constructor ‘[01m[KPalletPocketDetection::PalletPocketDetection(ros::NodeHandle&)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:181:9:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KPalletPocketDetection[m[K’ does not have any field named ‘[01m[Km_node[m[K’
+         [01;31m[Km_node[m[K(n) {
+         [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:182:38:[m[K [01;31m[Kerror: [m[K‘[01m[Km_node[m[K’ was not declared in this scope
+     palletpointer1->initializeParams([01;31m[Km_node[m[K /* nodeHandle */,
+                                      [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:182:38:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__modf[m[K’
+     palletpointer1->initializeParams([01;36m[Km_node[m[K /* nodeHandle */,
+                                      [01;36m[K^~~~~~[m[K
+                                      [32m[K__modf[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:192:33:[m[K [01;31m[Kerror: [m[K‘[01m[Km_debugPalletDetection[m[K’ was not declared in this scope
+                                 [01;31m[Km_debugPalletDetection[m[K /* publishClustersCloud */,
+                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:192:33:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KPalletPocketDetection[m[K’
+                                 [01;36m[Km_debugPalletDetection[m[K /* publishClustersCloud */,
+                                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+                                 [32m[KPalletPocketDetection[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

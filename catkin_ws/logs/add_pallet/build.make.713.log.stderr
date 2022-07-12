@@ -1,0 +1,27 @@
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:12:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:81:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+     [01;31m[Kconst[m[K std::string m_palletType;
+     [01;31m[K^~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletLibraryNode::create_Pointer(std::__cxx11::string)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpalletpointer[m[K’ was not declared in this scope
+     [01;31m[Kpalletpointer[m[K->updateParams();
+     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:40:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcreate_Pointer[m[K’
+     [01;36m[Kpalletpointer[m[K->updateParams();
+     [01;36m[K^~~~~~~~~~~~~[m[K
+     [32m[Kcreate_Pointer[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid param_id(std::__cxx11::string, std::type_info)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:46:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before string constant
+     std::cout << name [01;31m[K"=========="[m[K << type.name() << std::endl;
+                       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K At global scope:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:51:6:[m[K [01;31m[Kerror: [m[Kprototype for ‘[01m[Kvoid PalletThreeLegFrontFaceDetectionInfo::updateParams(std::__cxx11::string, std::__cxx11::string)[m[K’ does not match any in class ‘[01m[KPalletThreeLegFrontFaceDetectionInfo[m[K’
+ void [01;31m[KPalletThreeLegFrontFaceDetectionInfo[m[K::updateParams(std::string type, std::string parameter_name)
+      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:12:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:76:10:[m[K [01;31m[Kerror: [m[Kcandidate is: void PalletThreeLegFrontFaceDetectionInfo::updateParams() const
+     void [01;31m[KupdateParams[m[K()
+          [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

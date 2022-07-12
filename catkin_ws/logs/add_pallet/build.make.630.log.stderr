@@ -1,0 +1,11 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In constructor ‘[01m[KPalletLibraryNode::PalletLibraryNode(ros::NodeHandle&, std::map<std::__cxx11::basic_string<char>, bool>)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:38:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPalletLibraryNode::load_pallet(const std::__cxx11::basic_string<char>*)[m[K’
+                     &PalletLibraryNode::load_pallet(&p.first[01;31m[K)[m[K;
+                                                             [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:67:10:[m[K [01;36m[Knote: [m[Kcandidate: void PalletLibraryNode::load_pallet(std::__cxx11::string)
+     void [01;36m[Kload_pallet[m[K(std::string name)
+          [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:67:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::__cxx11::basic_string<char>*[m[K’ to ‘[01m[Kstd::__cxx11::string {aka std::__cxx11::basic_string<char>}[m[K’
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

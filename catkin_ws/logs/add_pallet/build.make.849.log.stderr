@@ -1,0 +1,95 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletPocketDetection::PalletThreeLegFrontFaceDetectionInfo::updateParams()[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:310:28:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KPalletPocketDetection::m_node[m[K’
+     PalletPocketDetection::[01;31m[Km_node[m[K.param(m_parameterPrefix + "bools/isDetectorEnabled",
+                            [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:244:21:[m[K [01;36m[Knote: [m[Kdeclared here
+     ros::NodeHandle [01;36m[Km_node[m[K;
+                     [01;36m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:313:28:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KPalletPocketDetection::m_node[m[K’
+     PalletPocketDetection::[01;31m[Km_node[m[K.param(m_parameterPrefix + "ints/legFrontFacePtsMinClusterSize",
+                            [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:244:21:[m[K [01;36m[Knote: [m[Kdeclared here
+     ros::NodeHandle [01;36m[Km_node[m[K;
+                     [01;36m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:316:28:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KPalletPocketDetection::m_node[m[K’
+     PalletPocketDetection::[01;31m[Km_node[m[K.param(m_parameterPrefix + "ints/legFrontFacePtsMaxClusterSize",
+                            [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:244:21:[m[K [01;36m[Knote: [m[Kdeclared here
+     ros::NodeHandle [01;36m[Km_node[m[K;
+                     [01;36m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:319:28:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KPalletPocketDetection::m_node[m[K’
+     PalletPocketDetection::[01;31m[Km_node[m[K.param(m_parameterPrefix + "doubles/legFrontFacePtsMaxClusterDimension",
+                            [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:244:21:[m[K [01;36m[Knote: [m[Kdeclared here
+     ros::NodeHandle [01;36m[Km_node[m[K;
+                     [01;36m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:322:28:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KPalletPocketDetection::m_node[m[K’
+     PalletPocketDetection::[01;31m[Km_node[m[K.param(m_parameterPrefix + "doubles/innerLegSpacingNominal",
+                            [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:244:21:[m[K [01;36m[Knote: [m[Kdeclared here
+     ros::NodeHandle [01;36m[Km_node[m[K;
+                     [01;36m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:325:28:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KPalletPocketDetection::m_node[m[K’
+     PalletPocketDetection::[01;31m[Km_node[m[K.param(m_parameterPrefix + "doubles/innerLegSpacingTolerance",
+                            [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:244:21:[m[K [01;36m[Knote: [m[Kdeclared here
+     ros::NodeHandle [01;36m[Km_node[m[K;
+                     [01;36m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:328:28:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KPalletPocketDetection::m_node[m[K’
+     PalletPocketDetection::[01;31m[Km_node[m[K.param(m_parameterPrefix + "doubles/outerLegSpacingNominal",
+                            [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:244:21:[m[K [01;36m[Knote: [m[Kdeclared here
+     ros::NodeHandle [01;36m[Km_node[m[K;
+                     [01;36m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:331:28:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KPalletPocketDetection::m_node[m[K’
+     PalletPocketDetection::[01;31m[Km_node[m[K.param(m_parameterPrefix + "doubles/outerLegSpacingTolerance",
+                            [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:244:21:[m[K [01;36m[Knote: [m[Kdeclared here
+     ros::NodeHandle [01;36m[Km_node[m[K;
+                     [01;36m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:334:28:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KPalletPocketDetection::m_node[m[K’
+     PalletPocketDetection::[01;31m[Km_node[m[K.param(m_parameterPrefix + "bools/disableOverlappingThreeLegGroups",
+                            [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:244:21:[m[K [01;36m[Knote: [m[Kdeclared here
+     ros::NodeHandle [01;36m[Km_node[m[K;
+                     [01;36m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:337:28:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KPalletPocketDetection::m_node[m[K’
+     PalletPocketDetection::[01;31m[Km_node[m[K.param(m_parameterPrefix + "doubles/maxInterLegYawDiff",
+                            [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:244:21:[m[K [01;36m[Knote: [m[Kdeclared here
+     ros::NodeHandle [01;36m[Km_node[m[K;
+                     [01;36m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:340:28:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KPalletPocketDetection::m_node[m[K’
+     PalletPocketDetection::[01;31m[Km_node[m[K.param(m_parameterPrefix + "doubles/palletDepth",
+                            [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:244:21:[m[K [01;36m[Knote: [m[Kdeclared here
+     ros::NodeHandle [01;36m[Km_node[m[K;
+                     [01;36m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:343:28:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KPalletPocketDetection::m_node[m[K’
+     PalletPocketDetection::[01;31m[Km_node[m[K.param(m_parameterPrefix + "doubles/frontFaceClusteringTol",
+                            [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:244:21:[m[K [01;36m[Knote: [m[Kdeclared here
+     ros::NodeHandle [01;36m[Km_node[m[K;
+                     [01;36m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:346:28:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KPalletPocketDetection::m_node[m[K’
+     PalletPocketDetection::[01;31m[Km_node[m[K.param(m_parameterPrefix + "doubles/legFrontFaceToPalletFaceXOffset",
+                            [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:244:21:[m[K [01;36m[Knote: [m[Kdeclared here
+     ros::NodeHandle [01;36m[Km_node[m[K;
+                     [01;36m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

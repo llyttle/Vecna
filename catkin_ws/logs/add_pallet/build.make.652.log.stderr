@@ -1,0 +1,11 @@
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/PalletLibraryNodeMain.cpp:1:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:11:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kadd_pallet[m[K’ has not been declared
+     void dynamic_callback([01;31m[Kadd_pallet[m[K::dynamic_paramsConfig &config, uint32_t level);
+                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:11:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K&[m[K’ token
+     void dynamic_callback(add_pallet::dynamic_paramsConfig [01;31m[K&[m[Kconfig, uint32_t level);
+                                                            [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/PalletLibraryNodeMain.dir/src/PalletLibraryNodeMain.cpp.o] Error 1
+make[1]: *** [CMakeFiles/PalletLibraryNodeMain.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

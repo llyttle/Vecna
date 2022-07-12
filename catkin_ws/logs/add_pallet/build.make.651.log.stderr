@@ -1,0 +1,64 @@
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/PalletLibraryNodeMain.cpp:1:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:6:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+         PalletLibraryNode([01;31m[Kros[m[K::NodeHandle& nh, std::map<std::string,bool> enable);
+                           [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:6:42:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+         PalletLibraryNode(ros::NodeHandle[01;31m[K&[m[K nh, std::map<std::string,bool> enable);
+                                          [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:8:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::string[m[K’ has not been declared
+     void load_pallet(std::[01;31m[Kstring[m[K name);
+                           [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:10:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kadd_pallet[m[K’ has not been declared
+     void dynamic_callback([01;31m[Kadd_pallet[m[K::dynamic_paramsConfig &config, uint32_t level);
+                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:10:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K&[m[K’ token
+     void dynamic_callback(add_pallet::dynamic_paramsConfig [01;31m[K&[m[Kconfig, uint32_t level);
+                                                            [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:12:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::string[m[K’ has not been declared
+     void update_server(std::[01;31m[Kstring[m[K const& type, std::map<std::string,bool> const& bool_map, std::map<std::string,double> const& double_map, std::map<std::string,int> const& int_map);
+                             [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:12:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::map[m[K’ has not been declared
+     void update_server(std::string const& type, std::[01;31m[Kmap[m[K<std::string,bool> const& bool_map, std::map<std::string,double> const& double_map, std::map<std::string,int> const& int_map);
+                                                      [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:12:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+     void update_server(std::string const& type, std::map[01;31m[K<[m[Kstd::string,bool> const& bool_map, std::map<std::string,double> const& double_map, std::map<std::string,int> const& int_map);
+                                                         [01;31m[K^[m[K
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/PalletLibraryNodeMain.cpp:1:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ does not name a type
+         [01;31m[Kros[m[K::NodeHandle m_node;
+         [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/PalletLibraryNodeMain.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/PalletLibraryNodeMain.cpp:4:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+     [01;31m[Kros[m[K::init(argc, argv, "pallet_library");
+     [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/PalletLibraryNodeMain.cpp:5:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+     [01;31m[Kros[m[K::NodeHandle nh("~");
+     [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/PalletLibraryNodeMain.cpp:7:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap[m[K’ is not a member of ‘[01m[Kstd[m[K’
+     std::[01;31m[Kmap[m[K<std::string, bool> enable;
+          [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/PalletLibraryNodeMain.cpp:7:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ is not a member of ‘[01m[Kstd[m[K’
+     std::map<std::[01;31m[Kstring[m[K, bool> enable;
+                   [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/PalletLibraryNodeMain.cpp:7:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kbool[m[K’
+     std::map<std::string, [01;31m[Kbool[m[K> enable;
+                           [01;31m[K^~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/PalletLibraryNodeMain.cpp:8:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+     [01;31m[Kros[m[K::param::get("/pallet_library/active", enable);
+     [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/PalletLibraryNodeMain.cpp:8:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kenable[m[K’ was not declared in this scope
+     ros::param::get("/pallet_library/active", [01;31m[Kenable[m[K);
+                                               [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/PalletLibraryNodeMain.cpp:8:47:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kdouble[m[K’
+     ros::param::get("/pallet_library/active", [01;36m[Kenable[m[K);
+                                               [01;36m[K^~~~~~[m[K
+                                               [32m[Kdouble[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/PalletLibraryNodeMain.cpp:10:27:[m[K [01;31m[Kerror: [m[K‘[01m[Knh[m[K’ was not declared in this scope
+     PalletLibraryNode PLN([01;31m[Knh[m[K, enable);
+                           [01;31m[K^~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/PalletLibraryNodeMain.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+     [01;31m[Kros[m[K::spin();
+     [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/PalletLibraryNodeMain.dir/src/PalletLibraryNodeMain.cpp.o] Error 1
+make[1]: *** [CMakeFiles/PalletLibraryNodeMain.dir/all] Error 2
+make: *** [all] Error 2

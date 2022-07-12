@@ -1,0 +1,52 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:[m[K In function ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, T> YAML2Map(YAML::Node)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:21:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ was not declared in this scope
+     std::map<std::string,[01;31m[Kt[m[K> map;
+                          [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:21:27:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+     std::map<std::string,t[01;31m[K>[m[K map;
+                           [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:21:27:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:28:12:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::string {aka std::__cxx11::basic_string<char>}[m[K’)
+         map[01;31m[K[[m[Kkey] = value;
+            [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:[m[K In function ‘[01m[Kvoid load_pallet(std::__cxx11::string)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:68:24:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<[m[K’ token
+             bool_map = [01;31m[K<[m[Kbool>YAML2Map(Pallet_Params["bools"])
+                        [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:68:25:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kbool[m[K’
+             bool_map = <[01;31m[Kbool[m[K>YAML2Map(Pallet_Params["bools"])
+                         [01;31m[K^~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:71:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble_map[m[K’ was not declared in this scope
+             [01;31m[Kdouble_map[m[K = <double>YAML2Map(Pallet_Params["doubles"])
+             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:71:13:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kdouble_t[m[K’
+             [01;36m[Kdouble_map[m[K = <double>YAML2Map(Pallet_Params["doubles"])
+             [01;36m[K^~~~~~~~~~[m[K
+             [32m[Kdouble_t[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:71:26:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<[m[K’ token
+             double_map = [01;31m[K<[m[Kdouble>YAML2Map(Pallet_Params["doubles"])
+                          [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:71:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+             double_map = <[01;31m[Kdouble[m[K>YAML2Map(Pallet_Params["doubles"])
+                           [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:74:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kint_map[m[K’ was not declared in this scope
+             [01;31m[Kint_map[m[K = <int>YAML2Map(Pallet_Params["ints"])
+             [01;31m[K^~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:74:13:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kbool_map[m[K’
+             [01;36m[Kint_map[m[K = <int>YAML2Map(Pallet_Params["ints"])
+             [01;36m[K^~~~~~~[m[K
+             [32m[Kbool_map[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:74:23:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<[m[K’ token
+             int_map = [01;31m[K<[m[Kint>YAML2Map(Pallet_Params["ints"])
+                       [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/load_pallet.cpp:74:24:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+             int_map = <[01;31m[Kint[m[K>YAML2Map(Pallet_Params["ints"])
+                        [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/load_pallet.dir/src/load_pallet.cpp.o] Error 1
+make[1]: *** [CMakeFiles/load_pallet.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:83:15:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Ksystem("rosparam dump /home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/dynamic_params.yaml /pallet_library/persistent")[m[K;
+         [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make: *** [all] Error 2

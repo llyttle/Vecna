@@ -298,19 +298,6 @@ roscpp_generate_messages_lisp/fast:
 .PHONY : roscpp_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named pallet_library
-
-# Build rule for target.
-pallet_library: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pallet_library
-.PHONY : pallet_library
-
-# fast build rule for target.
-pallet_library/fast:
-	$(MAKE) -f CMakeFiles/pallet_library.dir/build.make CMakeFiles/pallet_library.dir/build
-.PHONY : pallet_library/fast
-
-#=============================================================================
 # Target rules for targets named tests
 
 # Build rule for target.
@@ -493,6 +480,19 @@ dynamic_reconfigure_gencfg/fast:
 .PHONY : dynamic_reconfigure_gencfg/fast
 
 #=============================================================================
+# Target rules for targets named add_pallet
+
+# Build rule for target.
+add_pallet: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 add_pallet
+.PHONY : add_pallet
+
+# fast build rule for target.
+add_pallet/fast:
+	$(MAKE) -f CMakeFiles/add_pallet.dir/build.make CMakeFiles/add_pallet.dir/build
+.PHONY : add_pallet/fast
+
+#=============================================================================
 # Target rules for targets named roscpp_generate_messages_nodejs
 
 # Build rule for target.
@@ -532,30 +532,17 @@ remote_add/fast:
 .PHONY : remote_add/fast
 
 #=============================================================================
-# Target rules for targets named load_pallet
+# Target rules for targets named PalletLibraryNodeMain
 
 # Build rule for target.
-load_pallet: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 load_pallet
-.PHONY : load_pallet
+PalletLibraryNodeMain: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PalletLibraryNodeMain
+.PHONY : PalletLibraryNodeMain
 
 # fast build rule for target.
-load_pallet/fast:
-	$(MAKE) -f CMakeFiles/load_pallet.dir/build.make CMakeFiles/load_pallet.dir/build
-.PHONY : load_pallet/fast
-
-#=============================================================================
-# Target rules for targets named test_subscriber
-
-# Build rule for target.
-test_subscriber: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test_subscriber
-.PHONY : test_subscriber
-
-# fast build rule for target.
-test_subscriber/fast:
-	$(MAKE) -f CMakeFiles/test_subscriber.dir/build.make CMakeFiles/test_subscriber.dir/build
-.PHONY : test_subscriber/fast
+PalletLibraryNodeMain/fast:
+	$(MAKE) -f CMakeFiles/PalletLibraryNodeMain.dir/build.make CMakeFiles/PalletLibraryNodeMain.dir/build
+.PHONY : PalletLibraryNodeMain/fast
 
 #=============================================================================
 # Target rules for targets named roscpp_generate_messages_cpp
@@ -622,32 +609,32 @@ gtest/fast:
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-src/load_pallet.o: src/load_pallet.cpp.o
+src/PalletLibraryNodeMain.o: src/PalletLibraryNodeMain.cpp.o
 
-.PHONY : src/load_pallet.o
+.PHONY : src/PalletLibraryNodeMain.o
 
 # target to build an object file
-src/load_pallet.cpp.o:
-	$(MAKE) -f CMakeFiles/load_pallet.dir/build.make CMakeFiles/load_pallet.dir/src/load_pallet.cpp.o
-.PHONY : src/load_pallet.cpp.o
+src/PalletLibraryNodeMain.cpp.o:
+	$(MAKE) -f CMakeFiles/PalletLibraryNodeMain.dir/build.make CMakeFiles/PalletLibraryNodeMain.dir/src/PalletLibraryNodeMain.cpp.o
+.PHONY : src/PalletLibraryNodeMain.cpp.o
 
-src/load_pallet.i: src/load_pallet.cpp.i
+src/PalletLibraryNodeMain.i: src/PalletLibraryNodeMain.cpp.i
 
-.PHONY : src/load_pallet.i
+.PHONY : src/PalletLibraryNodeMain.i
 
 # target to preprocess a source file
-src/load_pallet.cpp.i:
-	$(MAKE) -f CMakeFiles/load_pallet.dir/build.make CMakeFiles/load_pallet.dir/src/load_pallet.cpp.i
-.PHONY : src/load_pallet.cpp.i
+src/PalletLibraryNodeMain.cpp.i:
+	$(MAKE) -f CMakeFiles/PalletLibraryNodeMain.dir/build.make CMakeFiles/PalletLibraryNodeMain.dir/src/PalletLibraryNodeMain.cpp.i
+.PHONY : src/PalletLibraryNodeMain.cpp.i
 
-src/load_pallet.s: src/load_pallet.cpp.s
+src/PalletLibraryNodeMain.s: src/PalletLibraryNodeMain.cpp.s
 
-.PHONY : src/load_pallet.s
+.PHONY : src/PalletLibraryNodeMain.s
 
 # target to generate assembly for a file
-src/load_pallet.cpp.s:
-	$(MAKE) -f CMakeFiles/load_pallet.dir/build.make CMakeFiles/load_pallet.dir/src/load_pallet.cpp.s
-.PHONY : src/load_pallet.cpp.s
+src/PalletLibraryNodeMain.cpp.s:
+	$(MAKE) -f CMakeFiles/PalletLibraryNodeMain.dir/build.make CMakeFiles/PalletLibraryNodeMain.dir/src/PalletLibraryNodeMain.cpp.s
+.PHONY : src/PalletLibraryNodeMain.cpp.s
 
 src/pallet_library.o: src/pallet_library.cpp.o
 
@@ -655,7 +642,7 @@ src/pallet_library.o: src/pallet_library.cpp.o
 
 # target to build an object file
 src/pallet_library.cpp.o:
-	$(MAKE) -f CMakeFiles/pallet_library.dir/build.make CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o
+	$(MAKE) -f CMakeFiles/add_pallet.dir/build.make CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o
 .PHONY : src/pallet_library.cpp.o
 
 src/pallet_library.i: src/pallet_library.cpp.i
@@ -664,7 +651,7 @@ src/pallet_library.i: src/pallet_library.cpp.i
 
 # target to preprocess a source file
 src/pallet_library.cpp.i:
-	$(MAKE) -f CMakeFiles/pallet_library.dir/build.make CMakeFiles/pallet_library.dir/src/pallet_library.cpp.i
+	$(MAKE) -f CMakeFiles/add_pallet.dir/build.make CMakeFiles/add_pallet.dir/src/pallet_library.cpp.i
 .PHONY : src/pallet_library.cpp.i
 
 src/pallet_library.s: src/pallet_library.cpp.s
@@ -673,7 +660,7 @@ src/pallet_library.s: src/pallet_library.cpp.s
 
 # target to generate assembly for a file
 src/pallet_library.cpp.s:
-	$(MAKE) -f CMakeFiles/pallet_library.dir/build.make CMakeFiles/pallet_library.dir/src/pallet_library.cpp.s
+	$(MAKE) -f CMakeFiles/add_pallet.dir/build.make CMakeFiles/add_pallet.dir/src/pallet_library.cpp.s
 .PHONY : src/pallet_library.cpp.s
 
 src/remote_add.o: src/remote_add.cpp.o
@@ -703,33 +690,6 @@ src/remote_add.cpp.s:
 	$(MAKE) -f CMakeFiles/remote_add.dir/build.make CMakeFiles/remote_add.dir/src/remote_add.cpp.s
 .PHONY : src/remote_add.cpp.s
 
-src/test_subscriber.o: src/test_subscriber.cpp.o
-
-.PHONY : src/test_subscriber.o
-
-# target to build an object file
-src/test_subscriber.cpp.o:
-	$(MAKE) -f CMakeFiles/test_subscriber.dir/build.make CMakeFiles/test_subscriber.dir/src/test_subscriber.cpp.o
-.PHONY : src/test_subscriber.cpp.o
-
-src/test_subscriber.i: src/test_subscriber.cpp.i
-
-.PHONY : src/test_subscriber.i
-
-# target to preprocess a source file
-src/test_subscriber.cpp.i:
-	$(MAKE) -f CMakeFiles/test_subscriber.dir/build.make CMakeFiles/test_subscriber.dir/src/test_subscriber.cpp.i
-.PHONY : src/test_subscriber.cpp.i
-
-src/test_subscriber.s: src/test_subscriber.cpp.s
-
-.PHONY : src/test_subscriber.s
-
-# target to generate assembly for a file
-src/test_subscriber.cpp.s:
-	$(MAKE) -f CMakeFiles/test_subscriber.dir/build.make CMakeFiles/test_subscriber.dir/src/test_subscriber.cpp.s
-.PHONY : src/test_subscriber.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -750,14 +710,13 @@ help:
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... edit_cache"
-	@echo "... pallet_library"
 	@echo "... tests"
 	@echo "... download_extra_data"
 	@echo "... run_tests"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... clean_test_results"
-	@echo "... install/local"
 	@echo "... doxygen"
+	@echo "... install/local"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... dynamic_reconfigure_generate_messages_eus"
@@ -766,30 +725,27 @@ help:
 	@echo "... dynamic_reconfigure_generate_messages_lisp"
 	@echo "... dynamic_reconfigure_generate_messages_py"
 	@echo "... dynamic_reconfigure_gencfg"
+	@echo "... add_pallet"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... remote_add"
 	@echo "... test"
-	@echo "... load_pallet"
-	@echo "... test_subscriber"
+	@echo "... PalletLibraryNodeMain"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... rebuild_cache"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... src/load_pallet.o"
-	@echo "... src/load_pallet.i"
-	@echo "... src/load_pallet.s"
+	@echo "... src/PalletLibraryNodeMain.o"
+	@echo "... src/PalletLibraryNodeMain.i"
+	@echo "... src/PalletLibraryNodeMain.s"
 	@echo "... src/pallet_library.o"
 	@echo "... src/pallet_library.i"
 	@echo "... src/pallet_library.s"
 	@echo "... src/remote_add.o"
 	@echo "... src/remote_add.i"
 	@echo "... src/remote_add.s"
-	@echo "... src/test_subscriber.o"
-	@echo "... src/test_subscriber.i"
-	@echo "... src/test_subscriber.s"
 .PHONY : help
 
 

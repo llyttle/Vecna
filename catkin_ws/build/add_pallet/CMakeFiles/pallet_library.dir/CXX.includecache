@@ -24,8 +24,12 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h
-iostream
+/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h
+ros/ros.h
+-
+dynamic_reconfigure/server.h
+-
+add_pallet/dynamic_paramsConfig.h
 -
 
 /home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp
@@ -35,13 +39,15 @@ memory
 -
 sstream
 -
-vector
+iostream
 -
-dynamic_reconfigure/server.h
+map
 -
-add_pallet/dynamic_paramsConfig.h
+string
 -
-add_pallet/pallet_features.h
+add_pallet/PalletLibraryNode.h
+-
+yaml-cpp/yaml.h
 -
 
 /opt/ros/melodic/include/dynamic_reconfigure/BoolParameter.h

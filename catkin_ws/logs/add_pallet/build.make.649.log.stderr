@@ -1,0 +1,20 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/PalletLibraryNodeMain.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kadd_pallet/PalletLibrayrNode.h: No such file or directory
+ #include [01;31m[K<add_pallet/PalletLibrayrNode.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/PalletLibraryNodeMain.dir/src/PalletLibraryNodeMain.cpp.o] Error 1
+make[1]: *** [CMakeFiles/PalletLibraryNodeMain.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletLibraryNode::update_server(const string&, const std::map<std::__cxx11::basic_string<char>, bool>&, const std::map<std::__cxx11::basic_string<char>, double>&, const std::map<std::__cxx11::basic_string<char>, int>&)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:185:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_node[m[K’ is not a class, namespace, or enumeration
+     [01;31m[Km_node[m[K::setParam(pallet_namespace + "/bools", bool_map);
+     [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:186:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_node[m[K’ is not a class, namespace, or enumeration
+     [01;31m[Km_node[m[K::setParam(pallet_namespace + "/doubles", double_map);
+     [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:187:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_node[m[K’ is not a class, namespace, or enumeration
+     [01;31m[Km_node[m[K::setParam(pallet_namespace + "/ints", int_map);
+     [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

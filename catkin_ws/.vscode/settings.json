@@ -63,6 +63,8 @@
         "random": "cpp",
         "valarray": "cpp",
         "codecvt": "cpp",
-        "filesystem": "cpp"
+        "filesystem": "cpp",
+        "any": "cpp",
+        "unordered_set": "cpp"
     }
 }

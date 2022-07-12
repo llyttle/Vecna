@@ -1,0 +1,12 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:75:1:[m[K [01;31m[Kerror: [m[K‘[01m[KPalletLibraryNode[m[K’ does not name a type
+ [01;31m[KPalletLibraryNode[m[K::PalletLibraryNode(ros::NodeHandle& nh, std::map<std::string,bool> enable)
+ [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:101:6:[m[K [01;31m[Kerror: [m[K‘[01m[KPalletLibraryNode[m[K’ has not been declared
+ void [01;31m[KPalletLibraryNode[m[K::load_pallet(std::string name)
+      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:140:6:[m[K [01;31m[Kerror: [m[K‘[01m[KPalletLibraryNode[m[K’ has not been declared
+ void [01;31m[KPalletLibraryNode[m[K::dynamic_callback(add_pallet::dynamic_paramsConfig &config, uint32_t level)
+      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

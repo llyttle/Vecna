@@ -1,0 +1,194 @@
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:15:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:63:64:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KPalletThreeLegFrontFaceDetectionInfo[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+     PalletThreeLegFrontFaceDetectionInfo(std::string palletType[01;31m[K)[m[K;
+                                                                [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:76:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+     void paramID(std::string name, int val[01;31m[K)[m[K
+                                           [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:58:1:[m[K [01;31m[Kerror: [m[Kan anonymous struct cannot have function members
+ [01;31m[K{[m[K
+ [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:83:23:[m[K [01;31m[Kerror: [m[Kmember ‘[01m[Kconst string <unnamed class>::m_palletType[m[K’ with constructor not allowed in anonymous aggregate
+     const std::string [01;31m[Km_palletType[m[K;
+                       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:83:23:[m[K [01;31m[Kerror: [m[Kmember ‘[01m[Kconst string <unnamed class>::m_palletType[m[K’ with destructor not allowed in anonymous aggregate
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:83:23:[m[K [01;31m[Kerror: [m[Kmember ‘[01m[Kconst string <unnamed class>::m_palletType[m[K’ with copy assignment operator not allowed in anonymous aggregate
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:159:43:[m[K [01;31m[Kerror: [m[Kmember ‘[01m[Kstd::__cxx11::string <unnamed class>::m_clustersCloudPubTopic[m[K’ with constructor not allowed in anonymous aggregate
+     std::string m_clustersCloudPubTopic = [01;31m[K""[m[K;
+                                           [01;31m[K^~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:159:43:[m[K [01;31m[Kerror: [m[Kmember ‘[01m[Kstd::__cxx11::string <unnamed class>::m_clustersCloudPubTopic[m[K’ with destructor not allowed in anonymous aggregate
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:159:43:[m[K [01;31m[Kerror: [m[Kmember ‘[01m[Kstd::__cxx11::string <unnamed class>::m_clustersCloudPubTopic[m[K’ with copy assignment operator not allowed in anonymous aggregate
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:164:20:[m[K [01;31m[Kerror: [m[Kmember ‘[01m[Kros::Publisher <unnamed class>::m_clustersCloudPub[m[K’ with constructor not allowed in anonymous aggregate
+     ros::Publisher [01;31m[Km_clustersCloudPub[m[K;
+                    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:164:20:[m[K [01;31m[Kerror: [m[Kmember ‘[01m[Kros::Publisher <unnamed class>::m_clustersCloudPub[m[K’ with destructor not allowed in anonymous aggregate
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:164:20:[m[K [01;31m[Kerror: [m[Kmember ‘[01m[Kros::Publisher <unnamed class>::m_clustersCloudPub[m[K’ with copy assignment operator not allowed in anonymous aggregate
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:176:2:[m[K [01;31m[Kerror: [m[Kabstract declarator ‘[01m[K<unnamed class>[m[K’ used as declaration
+ }[01;31m[K;[m[K
+  [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletLibraryNode::create_Pointer(std::__cxx11::string)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:27:21:[m[K [01;31m[Kerror: [m[K‘[01m[KPalletThreeLegFrontFaceDetectionInfo[m[K’ was not declared in this scope
+     std::shared_ptr<[01;31m[KPalletThreeLegFrontFaceDetectionInfo[m[K> palletpointer = std::make_shared<PalletThreeLegFrontFaceDetectionInfo>(type);
+                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:27:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+     std::shared_ptr<PalletThreeLegFrontFaceDetectionInfo[01;31m[K>[m[K palletpointer = std::make_shared<PalletThreeLegFrontFaceDetectionInfo>(type);
+                                                         [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:27:134:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<PalletThreeLegFrontFaceDetectionInfo>(std::__cxx11::string&)[m[K’
+     std::shared_ptr<PalletThreeLegFrontFaceDetectionInfo> palletpointer = std::make_shared<PalletThreeLegFrontFaceDetectionInfo>(type[01;31m[K)[m[K;
+                                                                                                                                      [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/memory:81:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:4[m[K:
+[01m[K/usr/include/c++/7/bits/shared_ptr.h:703:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)
+     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/shared_ptr.h:703:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:43:18:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     palletpointer[01;31m[K->[m[KupdateParams();
+                  [01;31m[K^~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K At global scope:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:47:6:[m[K [01;31m[Kerror: [m[K‘[01m[KPalletThreeLegFrontFaceDetectionInfo[m[K’ has not been declared
+ void [01;31m[KPalletThreeLegFrontFaceDetectionInfo[m[K::param_id(std::string name, int* val)
+      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid param_id(std::__cxx11::string, int*)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:51:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_node[m[K’ was not declared in this scope
+     [01;31m[Km_node[m[K.getParam("persistent/"+palletType)
+     [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:51:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__modf[m[K’
+     [01;36m[Km_node[m[K.getParam("persistent/"+palletType)
+     [01;36m[K^~~~~~[m[K
+     [32m[K__modf[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:51:35:[m[K [01;31m[Kerror: [m[K‘[01m[KpalletType[m[K’ was not declared in this scope
+     m_node.getParam("persistent/"+[01;31m[KpalletType[m[K)
+                                   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:51:35:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kdecltype[m[K’
+     m_node.getParam("persistent/"+[01;36m[KpalletType[m[K)
+                                   [01;36m[K^~~~~~~~~~[m[K
+                                   [32m[Kdecltype[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K At global scope:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:56:6:[m[K [01;31m[Kerror: [m[K‘[01m[KPalletThreeLegFrontFaceDetectionInfo[m[K’ has not been declared
+ void [01;31m[KPalletThreeLegFrontFaceDetectionInfo[m[K::updateParams()
+      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid updateParams()[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:75:14:[m[K [01;31m[Kerror: [m[K‘[01m[Km_legFrontFacePtsMinClusterSize[m[K’ was not declared in this scope
+     PARAM_ID([01;31m[Km[m[K_legFrontFacePtsMinClusterSize);
+              [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:20:50:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KPARAM_ID[m[K’
+ #define PARAM_ID(variable) param_id(#variable, (&[01;36m[Kvariable[m[K))
+                                                  [01;36m[K^~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K At global scope:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:138:6:[m[K [01;31m[Kerror: [m[K‘[01m[KPalletThreeLegFrontFaceDetectionInfo[m[K’ has not been declared
+ void [01;31m[KPalletThreeLegFrontFaceDetectionInfo[m[K::initializeParams(ros::NodeHandle& node,
+      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid initializeParams(ros::NodeHandle&, bool, int, int, double, double, double, double, double, bool, double, double, bool, bool, double, double)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:154:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_isDetectorEnabled[m[K’ was not declared in this scope
+     [01;31m[Km_isDetectorEnabled[m[K = isDetectorEnabled;
+     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:154:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KisDetectorEnabled[m[K’
+     [01;36m[Km_isDetectorEnabled[m[K = isDetectorEnabled;
+     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+     [32m[KisDetectorEnabled[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:155:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_legFrontFacePtsMinClusterSize[m[K’ was not declared in this scope
+     [01;31m[Km_legFrontFacePtsMinClusterSize[m[K = legFrontFacePtsMinClusterSize;
+     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:155:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KlegFrontFacePtsMinClusterSize[m[K’
+     [01;36m[Km_legFrontFacePtsMinClusterSize[m[K = legFrontFacePtsMinClusterSize;
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+     [32m[KlegFrontFacePtsMinClusterSize[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:156:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_legFrontFacePtsMaxClusterSize[m[K’ was not declared in this scope
+     [01;31m[Km_legFrontFacePtsMaxClusterSize[m[K = legFrontFacePtsMaxClusterSize;
+     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:156:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KlegFrontFacePtsMaxClusterSize[m[K’
+     [01;36m[Km_legFrontFacePtsMaxClusterSize[m[K = legFrontFacePtsMaxClusterSize;
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+     [32m[KlegFrontFacePtsMaxClusterSize[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:157:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_legFrontFacePtsMaxClusterDimension[m[K’ was not declared in this scope
+     [01;31m[Km_legFrontFacePtsMaxClusterDimension[m[K = legFrontFacePtsMaxClusterDimension;
+     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:157:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KlegFrontFacePtsMaxClusterDimension[m[K’
+     [01;36m[Km_legFrontFacePtsMaxClusterDimension[m[K = legFrontFacePtsMaxClusterDimension;
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+     [32m[KlegFrontFacePtsMaxClusterDimension[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:158:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_innerLegSpacingNominal[m[K’ was not declared in this scope
+     [01;31m[Km_innerLegSpacingNominal[m[K = innerLegSpacingNominal;
+     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:158:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KinnerLegSpacingNominal[m[K’
+     [01;36m[Km_innerLegSpacingNominal[m[K = innerLegSpacingNominal;
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+     [32m[KinnerLegSpacingNominal[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:159:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_innerLegSpacingTolerance[m[K’ was not declared in this scope
+     [01;31m[Km_innerLegSpacingTolerance[m[K = innerLegSpacingTolerance;
+     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:159:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KinnerLegSpacingTolerance[m[K’
+     [01;36m[Km_innerLegSpacingTolerance[m[K = innerLegSpacingTolerance;
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+     [32m[KinnerLegSpacingTolerance[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:160:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_outerLegSpacingNominal[m[K’ was not declared in this scope
+     [01;31m[Km_outerLegSpacingNominal[m[K = outerLegSpacingNominal;
+     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:160:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KouterLegSpacingNominal[m[K’
+     [01;36m[Km_outerLegSpacingNominal[m[K = outerLegSpacingNominal;
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+     [32m[KouterLegSpacingNominal[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:161:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_outerLegSpacingTolerance[m[K’ was not declared in this scope
+     [01;31m[Km_outerLegSpacingTolerance[m[K = outerLegSpacingTolerance;
+     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:161:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KouterLegSpacingTolerance[m[K’
+     [01;36m[Km_outerLegSpacingTolerance[m[K = outerLegSpacingTolerance;
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+     [32m[KouterLegSpacingTolerance[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:162:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_disableOverlappingThreeLegGroups[m[K’ was not declared in this scope
+     [01;31m[Km_disableOverlappingThreeLegGroups[m[K = disableOverlappingThreeLegGroups;
+     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:162:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KdisableOverlappingThreeLegGroups[m[K’
+     [01;36m[Km_disableOverlappingThreeLegGroups[m[K = disableOverlappingThreeLegGroups;
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+     [32m[KdisableOverlappingThreeLegGroups[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:163:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_maxInterLegYawDiff[m[K’ was not declared in this scope
+     [01;31m[Km_maxInterLegYawDiff[m[K = maxInterLegYawDiff;
+     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:163:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KmaxInterLegYawDiff[m[K’
+     [01;36m[Km_maxInterLegYawDiff[m[K = maxInterLegYawDiff;
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+     [32m[KmaxInterLegYawDiff[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:164:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_palletDepth[m[K’ was not declared in this scope
+     [01;31m[Km_palletDepth[m[K = palletDepth;
+     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:164:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KpalletDepth[m[K’
+     [01;36m[Km_palletDepth[m[K = palletDepth;
+     [01;36m[K^~~~~~~~~~~~~[m[K
+     [32m[KpalletDepth[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:165:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_publishClustersCloud[m[K’ was not declared in this scope
+     [01;31m[Km_publishClustersCloud[m[K = publishClustersCloud;
+     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:165:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KpublishClustersCloud[m[K’
+     [01;36m[Km_publishClustersCloud[m[K = publishClustersCloud;
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+     [32m[KpublishClustersCloud[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:170:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_extractEndCapClusters[m[K’ was not declared in this scope
+     [01;31m[Km_extractEndCapClusters[m[K = extractEndCaps;
+     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:170:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KextractEndCaps[m[K’
+     [01;36m[Km_extractEndCapClusters[m[K = extractEndCaps;
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+     [32m[KextractEndCaps[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:171:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_frontFaceClusteringTol[m[K’ was not declared in this scope
+     [01;31m[Km_frontFaceClusteringTol[m[K = frontFaceClusteringTolerance;
+     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:171:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KfrontFaceClusteringTolerance[m[K’
+     [01;36m[Km_frontFaceClusteringTol[m[K = frontFaceClusteringTolerance;
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+     [32m[KfrontFaceClusteringTolerance[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:172:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_legFrontFaceToPalletFaceXOffset[m[K’ was not declared in this scope
+     [01;31m[Km_legFrontFaceToPalletFaceXOffset[m[K = legFrontFaceToPalletFaceXOffset;
+     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:172:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KlegFrontFaceToPalletFaceXOffset[m[K’
+     [01;36m[Km_legFrontFaceToPalletFaceXOffset[m[K = legFrontFaceToPalletFaceXOffset;
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+     [32m[KlegFrontFaceToPalletFaceXOffset[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K At global scope:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:177:1:[m[K [01;31m[Kerror: [m[K‘[01m[KPalletThreeLegFrontFaceDetectionInfo[m[K’ does not name a type
+ [01;31m[KPalletThreeLegFrontFaceDetectionInfo[m[K::PalletThreeLegFrontFaceDetectionInfo(const std::string palletType)
+ [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

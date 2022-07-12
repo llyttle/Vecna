@@ -1,0 +1,14 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletLibraryNode::create_Pointer(std::__cxx11::string)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:20:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kn[m[K’ was not declared in this scope
+     palletpointer->initializeParams([01;31m[Kn[m[K /* nodeHandle */,
+                                     [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:20:37:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kyn[m[K’
+     palletpointer->initializeParams([01;36m[Kn[m[K /* nodeHandle */,
+                                     [01;36m[K^[m[K
+                                     [32m[Kyn[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:30:37:[m[K [01;31m[Kerror: [m[K‘[01m[Km_debugPalletDetection[m[K’ was not declared in this scope
+                                     [01;31m[Km_debugPalletDetection[m[K /* publishClustersCloud */,
+                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

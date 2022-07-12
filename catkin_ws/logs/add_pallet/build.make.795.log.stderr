@@ -1,0 +1,70 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:13:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ was not declared in this scope
+ std::string type_map_to_string(std::map<[01;31m[Kstring[m[K,T>  &m)
+                                         [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:13:41:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/7/iosfwd:39:0[m[K,
+                 from [01m[K/usr/include/c++/7/ios:38[m[K,
+                 from [01m[K/usr/include/c++/7/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/7/iostream:39[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:1[m[K:
+[01m[K/usr/include/c++/7/bits/stringfwd.h:74:33:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::string[m[K’
+   typedef basic_string<char>    [01;36m[Kstring[m[K;
+                                 [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stringfwd.h:74:33:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::string[m[K’
+In file included from [01m[K/usr/include/boost/lexical_cast/detail/converter_lexical.hpp:52:0[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/try_lexical_convert.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:2[m[K:
+[01m[K/usr/include/boost/container/container_fwd.hpp:195:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::container::string[m[K’
+ [01;36m[Kstring[m[K;
+ [01;36m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:13:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ std::string type_map_to_string(std::map<string,T[01;31m[K>[m[K  &m)
+                                                 [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:13:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:13:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:[m[K In function ‘[01m[Kstd::__cxx11::string type_map_to_string(int&)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:22:19:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kcbegin[m[K’ in ‘[01m[Km[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  for (auto it = m.[01;31m[Kcbegin[m[K(); it != m.cend(); it++)
+                   [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:22:37:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kcend[m[K’ in ‘[01m[Km[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  for (auto it = m.cbegin(); it != m.[01;31m[Kcend[m[K(); it++)
+                                     [01;31m[K^~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:[m[K In function ‘[01m[Kvoid SetParams(std::__cxx11::string)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:63:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktype_map_to_string<bool>(std::map<std::__cxx11::basic_string<char>, bool>&)[m[K’
+     bools_string.value = type_map_to_string<bool>(B[01;31m[K)[m[K;
+                                                    [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:13:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> std::__cxx11::string type_map_to_string(int&)
+ std::string [01;36m[Ktype_map_to_string[m[K(std::map<string,T>  &m)
+             [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:13:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:63:52:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[KB[m[K’ (type ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, bool>[m[K’) to type ‘[01m[Kint&[m[K’
+     bools_string.value = type_map_to_string<bool>(B[01;36m[K)[m[K;
+                                                    [01;36m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:83:56:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktype_map_to_string<double>(std::map<std::__cxx11::basic_string<char>, double>&)[m[K’
+     doubles_string.value = type_map_to_string<double>(D[01;31m[K)[m[K;
+                                                        [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:13:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> std::__cxx11::string type_map_to_string(int&)
+ std::string [01;36m[Ktype_map_to_string[m[K(std::map<string,T>  &m)
+             [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:13:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:83:56:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[KD[m[K’ (type ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, double>[m[K’) to type ‘[01m[Kint&[m[K’
+     doubles_string.value = type_map_to_string<double>(D[01;36m[K)[m[K;
+                                                        [01;36m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:95:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktype_map_to_string<int>(std::map<std::__cxx11::basic_string<char>, int>&)[m[K’
+     ints_string.value = type_map_to_string<int>(I[01;31m[K)[m[K;
+                                                  [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:13:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> std::__cxx11::string type_map_to_string(int&)
+ std::string [01;36m[Ktype_map_to_string[m[K(std::map<string,T>  &m)
+             [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:13:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/remote_add.cpp:95:50:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[KI[m[K’ (type ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, int>[m[K’) to type ‘[01m[Kint&[m[K’
+     ints_string.value = type_map_to_string<int>(I[01;36m[K)[m[K;
+                                                  [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/remote_add.dir/src/remote_add.cpp.o] Error 1
+make[1]: *** [CMakeFiles/remote_add.dir/all] Error 2
+make: *** [all] Error 2

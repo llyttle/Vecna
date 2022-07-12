@@ -1,0 +1,20 @@
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:14:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:[m[K In function ‘[01m[Kvoid update_server(const string&, const std::map<std::__cxx11::basic_string<char>, bool>&, const std::map<std::__cxx11::basic_string<char>, double>&, const std::map<std::__cxx11::basic_string<char>, int>&)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+     [01;31m[Kros[m[K::param::set(pallet_namespace + "/bools", bool_map);
+     [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+     [01;31m[Kros[m[K::param::set(pallet_namespace + "/doubles", double_map);
+     [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/pallet_features.h:42:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+     [01;31m[Kros[m[K::param::set(pallet_namespace + "/ints", int_map);
+     [01;31m[K^~~[m[K
+CMakeFiles/PalletLibraryNodeMain.dir/src/PalletLibraryNodeMain.cpp.o: In function `main':
+PalletLibraryNodeMain.cpp:(.text.startup+0x1ca): undefined reference to `PalletLibraryNode::PalletLibraryNode(ros::NodeHandle&, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, bool, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, bool> > >)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/PalletLibraryNodeMain] Error 1
+make[1]: *** [CMakeFiles/PalletLibraryNodeMain.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

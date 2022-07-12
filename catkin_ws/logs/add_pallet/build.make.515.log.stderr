@@ -1,0 +1,17 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, double> string_to_type_map(const string&)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:43:32:[m[K [01;31m[Kerror: [m[K‘[01m[KConvert[m[K’ was not declared in this scope
+         m.emplace(key, (double)[01;31m[KConvert[m[K.ChangeType(val, typepf(double)));
+                                [01;31m[K^~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:43:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+         m.emplace(key, (double)Convert.ChangeType(val, typepf([01;31m[Kdouble[m[K)));
+                                                               [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:43:56:[m[K [01;31m[Kerror: [m[K‘[01m[Ktypepf[m[K’ was not declared in this scope
+         m.emplace(key, (double)Convert.ChangeType(val, [01;31m[Ktypepf[m[K(double)));
+                                                        [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:43:56:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktypeof[m[K’
+         m.emplace(key, (double)Convert.ChangeType(val, [01;36m[Ktypepf[m[K(double)));
+                                                        [01;36m[K^~~~~~[m[K
+                                                        [32m[Ktypeof[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

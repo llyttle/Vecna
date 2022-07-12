@@ -1,0 +1,31 @@
+In file included from [01m[K/usr/include/boost/bind.hpp:22:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+/usr/include/boost/bind/bind.hpp: In instantiation of ‘[01m[Kstruct boost::_bi::result_traits<boost::_bi::unspecified, void (Pallet_Library::*)(add_pallet::dynamic_paramsConfig&, unsigned int)>[m[K’:
+[01m[K/usr/include/boost/bind/bind.hpp:1284:48:[m[K   required from ‘[01m[Kclass boost::_bi::bind_t<boost::_bi::unspecified, void (Pallet_Library::*)(add_pallet::dynamic_paramsConfig&, unsigned int), boost::_bi::list2<boost::arg<1>, boost::arg<2> > >[m[K’
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:27:70:[m[K   required from here
+[01m[K/usr/include/boost/bind/bind.hpp:75:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid (Pallet_Library::*)(add_pallet::dynamic_paramsConfig&, unsigned int)[m[K’ is not a class, struct, or union type
+     typedef typename F::result_type [01;31m[Ktype[m[K;
+                                     [01;31m[K^~~~[m[K
+In file included from [01m[K/usr/include/boost/function/detail/maybe_include.hpp:23:0[m[K,
+                 from [01m[K/usr/include/boost/function/detail/function_iterate.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/iteration/detail/iter/forward1.hpp:57[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:64[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/forwards.h:40[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+/usr/include/boost/function/function_template.hpp: In instantiation of ‘[01m[Kstatic void boost::detail::function::void_function_obj_invoker2<FunctionObj, R, T0, T1>::invoke(boost::detail::function::function_buffer&, T0, T1) [with FunctionObj = boost::_bi::bind_t<boost::_bi::unspecified, void (Pallet_Library::*)(add_pallet::dynamic_paramsConfig&, unsigned int), boost::_bi::list2<boost::arg<1>, boost::arg<2> > >; R = void; T0 = add_pallet::dynamic_paramsConfig&; T1 = unsigned int][m[K’:
+[01m[K/usr/include/boost/function/function_template.hpp:925:38:[m[K   required from ‘[01m[Kvoid boost::function2<R, T1, T2>::assign_to(Functor) [with Functor = boost::_bi::bind_t<boost::_bi::unspecified, void (Pallet_Library::*)(add_pallet::dynamic_paramsConfig&, unsigned int), boost::_bi::list2<boost::arg<1>, boost::arg<2> > >; R = void; T0 = add_pallet::dynamic_paramsConfig&; T1 = unsigned int][m[K’
+[01m[K/usr/include/boost/function/function_template.hpp:716:7:[m[K   required from ‘[01m[Kboost::function2<R, T1, T2>::function2(Functor, typename boost::enable_if_c<(! boost::is_integral<Functor>::value), int>::type) [with Functor = boost::_bi::bind_t<boost::_bi::unspecified, void (Pallet_Library::*)(add_pallet::dynamic_paramsConfig&, unsigned int), boost::_bi::list2<boost::arg<1>, boost::arg<2> > >; R = void; T0 = add_pallet::dynamic_paramsConfig&; T1 = unsigned int; typename boost::enable_if_c<(! boost::is_integral<Functor>::value), int>::type = int][m[K’
+[01m[K/usr/include/boost/function/function_template.hpp:1061:16:[m[K   required from ‘[01m[Kboost::function<R(T0, T1)>::function(Functor, typename boost::enable_if_c<(! boost::is_integral<Functor>::value), int>::type) [with Functor = boost::_bi::bind_t<boost::_bi::unspecified, void (Pallet_Library::*)(add_pallet::dynamic_paramsConfig&, unsigned int), boost::_bi::list2<boost::arg<1>, boost::arg<2> > >; R = void; T0 = add_pallet::dynamic_paramsConfig&; T1 = unsigned int; typename boost::enable_if_c<(! boost::is_integral<Functor>::value), int>::type = int][m[K’
+[01m[K/usr/include/boost/function/function_template.hpp:1114:5:[m[K   required from ‘[01m[Ktypename boost::enable_if_c<(! boost::is_integral<Functor>::value), boost::function<R(T0, T1)>&>::type boost::function<R(T0, T1)>::operator=(Functor) [with Functor = boost::_bi::bind_t<boost::_bi::unspecified, void (Pallet_Library::*)(add_pallet::dynamic_paramsConfig&, unsigned int), boost::_bi::list2<boost::arg<1>, boost::arg<2> > >; R = void; T0 = add_pallet::dynamic_paramsConfig&; T1 = unsigned int; typename boost::enable_if_c<(! boost::is_integral<Functor>::value), boost::function<R(T0, T1)>&>::type = boost::function<void(add_pallet::dynamic_paramsConfig&, unsigned int)>&][m[K’
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:27:70:[m[K   required from here
+[01m[K/usr/include/boost/function/function_template.hpp:159:11:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(boost::_bi::bind_t<boost::_bi::unspecified, void (Pallet_Library::*)(add_pallet::dynamic_paramsConfig&, unsigned int), boost::_bi::list2<boost::arg<1>, boost::arg<2> > >) (add_pallet::dynamic_paramsConfig&, unsigned int)[m[K’
+           [01;31m[KB[m[KOOST_FUNCTION_RETURN((*f)(BOOST_FUNCTION_ARGS));
+           [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

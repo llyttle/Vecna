@@ -1,0 +1,37 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In constructor ‘[01m[KPallet_Library::Pallet_Library(ros::NodeHandle*, std::map<std::__cxx11::basic_string<char>, bool>)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:27:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kdynamic_reconfigure::Server<add_pallet::dynamic_paramsConfig>::setCallback(void (Pallet_Library::*)(add_pallet::dynamic_paramsConfig&, uint32_t), Pallet_Library*)[m[K’
+             server.setCallback(&Pallet_Library::dynamic_callback, this[01;31m[K)[m[K;
+                                                                       [01;31m[K^[m[K
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:8:0[m[K:
+[01m[K/opt/ros/melodic/include/dynamic_reconfigure/server.h:85:8:[m[K [01;36m[Knote: [m[Kcandidate: void dynamic_reconfigure::Server<ConfigType>::setCallback(const CallbackType&) [with ConfigType = add_pallet::dynamic_paramsConfig; dynamic_reconfigure::Server<ConfigType>::CallbackType = boost::function<void(add_pallet::dynamic_paramsConfig&, unsigned int)>]
+   void [01;36m[KsetCallback[m[K(const CallbackType &callback)
+        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/dynamic_reconfigure/server.h:85:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:34:57:[m[K [01;31m[Kerror: [m[Klvalue required as unary ‘[01m[K&[m[K’ operand
+                     &Pallet_Library::load_pallet(p.first[01;31m[K)[m[K;
+                                                         [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:182:51:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[KPallet_Library::Pallet_Library(Pallet_Library&&)[m[K’
+     Pallet_Library PL = Pallet_Library(&nh, enable[01;31m[K)[m[K;
+                                                   [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:19:7:[m[K [01;36m[Knote: [m[K‘[01m[KPallet_Library::Pallet_Library(Pallet_Library&&)[m[K’ is implicitly deleted because the default definition would be ill-formed:
+ class [01;36m[KPallet_Library[m[K{
+       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:19:7:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Kdynamic_reconfigure::Server<add_pallet::dynamic_paramsConfig>::Server(dynamic_reconfigure::Server<add_pallet::dynamic_paramsConfig>&&)[m[K’
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:8:0[m[K:
+[01m[K/opt/ros/melodic/include/dynamic_reconfigure/server.h:64:7:[m[K [01;36m[Knote: [m[K‘[01m[Kdynamic_reconfigure::Server<add_pallet::dynamic_paramsConfig>::Server(dynamic_reconfigure::Server<add_pallet::dynamic_paramsConfig>&&)[m[K’ is implicitly deleted because the default definition would be ill-formed:
+ class [01;36m[KServer[m[K
+       [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/melodic/include/dynamic_reconfigure/server.h:64:7:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Kboost::recursive_mutex::recursive_mutex(const boost::recursive_mutex&)[m[K’
+In file included from [01m[K/usr/include/boost/thread/detail/move.hpp:26:0[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/melodic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:8[m[K:
+[01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:61:9:[m[K [01;36m[Knote: [m[Kdeclared here
+         [01;36m[KB[m[KOOST_THREAD_NO_COPYABLE(recursive_mutex)
+         [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

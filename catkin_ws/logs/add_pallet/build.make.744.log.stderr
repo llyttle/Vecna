@@ -1,0 +1,20 @@
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:15:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:17:21:[m[K [01;31m[Kerror: [m[K‘[01m[KPalletThreeLegFrontFaceDetectionInfo[m[K’ was not declared in this scope
+     std::shared_ptr<[01;31m[KPalletThreeLegFrontFaceDetectionInfo[m[K> palletpointer;
+                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:17:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+     std::shared_ptr<PalletThreeLegFrontFaceDetectionInfo[01;31m[K>[m[K palletpointer;
+                                                         [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletLibraryNode::create_Pointer(std::__cxx11::string)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:217:99:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::shared_ptr<PalletThreeLegFrontFaceDetectionInfo>[m[K’ to ‘[01m[Kint[m[K’ in assignment
+     PalletLibraryNode::palletpointer = std::make_shared<PalletThreeLegFrontFaceDetectionInfo>(type[01;31m[K)[m[K;
+                                                                                                   [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:221:37:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     PalletLibraryNode::palletpointer[01;31m[K->[m[KinitializeParams(m_node /* nodeHandle */,
+                                     [01;31m[K^~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:235:37:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     PalletLibraryNode::palletpointer[01;31m[K->[m[KupdateParams();
+                                     [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,7 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, double> string_to_type_map(const string&)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:42:50:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kdouble[m[K’ in assignment
+         val = s.substr(val_pos, val_end - val_pos[01;31m[K)[m[K;
+                                                  [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

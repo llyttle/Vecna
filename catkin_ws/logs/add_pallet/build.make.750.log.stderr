@@ -1,0 +1,43 @@
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:15:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:48:21:[m[K [01;31m[Kerror: [m[K‘[01m[KPalletPocketDetection[m[K’ was not declared in this scope
+     std::shared_ptr<[01;31m[KPalletPocketDetection[m[K> m_palletpocketdetector;
+                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:48:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+     std::shared_ptr<PalletPocketDetection[01;31m[K>[m[K m_palletpocketdetector;
+                                          [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In constructor ‘[01m[KPalletLibraryNode::PalletLibraryNode(ros::NodeHandle&, std::map<std::__cxx11::basic_string<char>, bool>)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:88:73:[m[K [01;31m[Kerror: [m[Kinvalid user-defined conversion from ‘[01m[Kstd::shared_ptr<PalletPocketDetection>[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+           m_palletpocketdetector([01;31m[Kstd::make_shared<PalletPocketDetection>(nh)[m[K) {
+                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/shared_ptr.h:52:0[m[K,
+                 from [01m[K/usr/include/c++/7/memory:81[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:4[m[K:
+[01m[K/usr/include/c++/7/bits/shared_ptr_base.h:1260:16:[m[K [01;36m[Knote: [m[Kcandidate is: std::__shared_ptr<_Tp, _Lp>::operator bool() const [with _Tp = PalletPocketDetection; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2] <near match>
+       explicit [01;36m[Koperator[m[K bool() const // never throws
+                [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/shared_ptr_base.h:1260:16:[m[K [01;36m[Knote: [m[K  return type ‘[01m[Kbool[m[K’ of explicit conversion function cannot be converted to ‘[01m[Kint[m[K’ with a qualification conversion
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletLibraryNode::dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:157:46:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     PalletLibraryNode::m_palletpocketdetector[01;31m[K->[m[Kpalletpointer1->updateParams();
+                                              [01;31m[K^~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In constructor ‘[01m[KPalletPocketDetection::PalletPocketDetection(ros::NodeHandle&)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:181:9:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KPalletPocketDetection[m[K’ does not have any field named ‘[01m[Km_node[m[K’
+         [01;31m[Km_node[m[K(n) {
+         [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:182:38:[m[K [01;31m[Kerror: [m[K‘[01m[Km_node[m[K’ was not declared in this scope
+     palletpointer1->initializeParams([01;31m[Km_node[m[K /* nodeHandle */,
+                                      [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:182:38:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__modf[m[K’
+     palletpointer1->initializeParams([01;36m[Km_node[m[K /* nodeHandle */,
+                                      [01;36m[K^~~~~~[m[K
+                                      [32m[K__modf[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:192:33:[m[K [01;31m[Kerror: [m[K‘[01m[Km_debugPalletDetection[m[K’ was not declared in this scope
+                                 [01;31m[Km_debugPalletDetection[m[K /* publishClustersCloud */,
+                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:192:33:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KPalletPocketDetection[m[K’
+                                 [01;36m[Km_debugPalletDetection[m[K /* publishClustersCloud */,
+                                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+                                 [32m[KPalletPocketDetection[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

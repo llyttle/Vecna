@@ -1,0 +1,48 @@
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:[m[K In function ‘[01m[Kint update_specific(T, std::__cxx11::string)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:28:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kif constexpr[m[K’ only available with -std=c++1z or -std=gnu++1z
+     if [01;35m[Kconstexpr[m[K (std::is_same<T, bool>){
+        [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:28:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+     if constexpr (std::is_same<T, bool>[01;31m[K)[m[K{
+                                        [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:29:9:[m[K [01;31m[Kerror: [m[K‘[01m[Km_node[m[K’ was not declared in this scope
+         [01;31m[Km_node[m[K.param(prefix + "bools/" + name.substr(2),
+         [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:29:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__modf[m[K’
+         [01;36m[Km_node[m[K.param(prefix + "bools/" + name.substr(2),
+         [01;36m[K^~~~~~[m[K
+         [32m[K__modf[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:32:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kif constexpr[m[K’ only available with -std=c++1z or -std=gnu++1z
+     else if [01;35m[Kconstexpr[m[K (std::is_same<T, double>) {
+             [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:32:47:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+     else if constexpr (std::is_same<T, double>[01;31m[K)[m[K {
+                                               [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:33:9:[m[K [01;31m[Kerror: [m[K‘[01m[Km_node[m[K’ was not declared in this scope
+         [01;31m[Km_node[m[K.param(prefix + "doubles/" + name.substr(2),
+         [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:33:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__modf[m[K’
+         [01;36m[Km_node[m[K.param(prefix + "doubles/" + name.substr(2),
+         [01;36m[K^~~~~~[m[K
+         [32m[K__modf[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:36:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kif constexpr[m[K’ only available with -std=c++1z or -std=gnu++1z
+     else if [01;35m[Kconstexpr[m[K (std::is_same<T, int>) {
+             [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:36:44:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+     else if constexpr (std::is_same<T, int>[01;31m[K)[m[K {
+                                            [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:37:9:[m[K [01;31m[Kerror: [m[K‘[01m[Km_node[m[K’ was not declared in this scope
+         [01;31m[Km_node[m[K.param(prefix + "ints/" + name.substr(2),
+         [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:37:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__modf[m[K’
+         [01;36m[Km_node[m[K.param(prefix + "ints/" + name.substr(2),
+         [01;36m[K^~~~~~[m[K
+         [32m[K__modf[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletPocketDetection::PalletThreeLegFrontFaceDetectionInfo::updateParams(ros::NodeHandle&)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:308:53:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvoid PalletPocketDetection::update_specific(T*, std::__cxx11::string) [with T = bool; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’ without object
+     update_specific<bool>(SPLIT(m_isDetectorEnabled)[01;31m[K)[m[K;
+                                                     [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

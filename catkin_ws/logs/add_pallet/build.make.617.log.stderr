@@ -1,0 +1,81 @@
+In file included from [01m[K/usr/include/boost/function/detail/maybe_include.hpp:23:0[m[K,
+                 from [01m[K/usr/include/boost/function/detail/function_iterate.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/iteration/detail/iter/forward1.hpp:57[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:64[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/forwards.h:40[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+/usr/include/boost/function/function_template.hpp: In instantiation of ‘[01m[Kstatic void boost::detail::function::function_void_mem_invoker2<MemberPtr, R, T0, T1>::invoke(boost::detail::function::function_buffer&, T0, T1) [with MemberPtr = void (Pallet_Library::*)(add_pallet::dynamic_paramsConfig&, unsigned int); R = void; T0 = add_pallet::dynamic_paramsConfig&; T1 = unsigned int][m[K’:
+[01m[K/usr/include/boost/function/function_template.hpp:925:38:[m[K   required from ‘[01m[Kvoid boost::function2<R, T1, T2>::assign_to(Functor) [with Functor = void (Pallet_Library::*)(add_pallet::dynamic_paramsConfig&, unsigned int); R = void; T0 = add_pallet::dynamic_paramsConfig&; T1 = unsigned int][m[K’
+[01m[K/usr/include/boost/function/function_template.hpp:716:7:[m[K   required from ‘[01m[Kboost::function2<R, T1, T2>::function2(Functor, typename boost::enable_if_c<(! boost::is_integral<Functor>::value), int>::type) [with Functor = void (Pallet_Library::*)(add_pallet::dynamic_paramsConfig&, unsigned int); R = void; T0 = add_pallet::dynamic_paramsConfig&; T1 = unsigned int; typename boost::enable_if_c<(! boost::is_integral<Functor>::value), int>::type = int][m[K’
+[01m[K/usr/include/boost/function/function_template.hpp:1061:16:[m[K   required from ‘[01m[Kboost::function<R(T0, T1)>::function(Functor, typename boost::enable_if_c<(! boost::is_integral<Functor>::value), int>::type) [with Functor = void (Pallet_Library::*)(add_pallet::dynamic_paramsConfig&, unsigned int); R = void; T0 = add_pallet::dynamic_paramsConfig&; T1 = unsigned int; typename boost::enable_if_c<(! boost::is_integral<Functor>::value), int>::type = int][m[K’
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:27:65:[m[K   required from here
+[01m[K/usr/include/boost/function/function_template.hpp:231:11:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(boost::_mfi::mf2<void, Pallet_Library, add_pallet::dynamic_paramsConfig&, unsigned int>) (add_pallet::dynamic_paramsConfig&, unsigned int)[m[K’
+           [01;31m[KB[m[KOOST_FUNCTION_RETURN(boost::mem_fn(*f)(BOOST_FUNCTION_ARGS));
+           [01;31m[K^[m[K
+In file included from [01m[K/usr/include/boost/bind/mem_fn.hpp:215:0[m[K,
+                 from [01m[K/usr/include/boost/mem_fn.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/function/detail/prologue.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:24[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/forwards.h:40[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:278:7:[m[K [01;36m[Knote: [m[Kcandidate: R boost::_mfi::mf2<R, T, A1, A2>::operator()(T*, A1, A2) const [with R = void; T = Pallet_Library; A1 = add_pallet::dynamic_paramsConfig&; A2 = unsigned int]
+     R [01;36m[Koperator[m[K()(T * p, A1 a1, A2 a2) const
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:278:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:283:25:[m[K [01;36m[Knote: [m[Kcandidate: template<class U> R boost::_mfi::mf2<R, T, A1, A2>::operator()(U&, A1, A2) const [with U = U; R = void; T = Pallet_Library; A1 = add_pallet::dynamic_paramsConfig&; A2 = unsigned int]
+     template<class U> R [01;36m[Koperator[m[K()(U & u, A1 a1, A2 a2) const
+                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:283:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function/detail/maybe_include.hpp:23:0[m[K,
+                 from [01m[K/usr/include/boost/function/detail/function_iterate.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/iteration/detail/iter/forward1.hpp:57[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:64[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/forwards.h:40[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/function/function_template.hpp:231:11:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+           [01;36m[KB[m[KOOST_FUNCTION_RETURN(boost::mem_fn(*f)(BOOST_FUNCTION_ARGS));
+           [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/bind/mem_fn.hpp:215:0[m[K,
+                 from [01m[K/usr/include/boost/mem_fn.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/function/detail/prologue.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:24[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/forwards.h:40[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:291:25:[m[K [01;36m[Knote: [m[Kcandidate: template<class U> R boost::_mfi::mf2<R, T, A1, A2>::operator()(const U&, A1, A2) const [with U = U; R = void; T = Pallet_Library; A1 = add_pallet::dynamic_paramsConfig&; A2 = unsigned int]
+     template<class U> R [01;36m[Koperator[m[K()(U const & u, A1 a1, A2 a2) const
+                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:291:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function/detail/maybe_include.hpp:23:0[m[K,
+                 from [01m[K/usr/include/boost/function/detail/function_iterate.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/iteration/detail/iter/forward1.hpp:57[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:64[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/forwards.h:40[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/function/function_template.hpp:231:11:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+           [01;36m[KB[m[KOOST_FUNCTION_RETURN(boost::mem_fn(*f)(BOOST_FUNCTION_ARGS));
+           [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/bind/mem_fn.hpp:215:0[m[K,
+                 from [01m[K/usr/include/boost/mem_fn.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/function/detail/prologue.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:24[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/forwards.h:40[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:299:7:[m[K [01;36m[Knote: [m[Kcandidate: R boost::_mfi::mf2<R, T, A1, A2>::operator()(T&, A1, A2) const [with R = void; T = Pallet_Library; A1 = add_pallet::dynamic_paramsConfig&; A2 = unsigned int]
+     R [01;36m[Koperator[m[K()(T & t, A1 a1, A2 a2) const
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:299:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

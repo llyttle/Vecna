@@ -1,0 +1,17 @@
+/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/libadd_pallet.so: undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'
+/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/libadd_pallet.so: undefined reference to `YAML::detail::node_data::empty_scalar[abi:cxx11]'
+/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/libadd_pallet.so: undefined reference to `YAML::detail::memory::create_node()'
+/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/libadd_pallet.so: undefined reference to `dynamic_reconfigure::__init_mutex__'
+/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/libadd_pallet.so: undefined reference to `YAML::detail::node_data::set_null()'
+/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/libadd_pallet.so: undefined reference to `YAML::detail::node_data::set_scalar(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/libadd_pallet.so: undefined reference to `YAML::detail::node_data::end()'
+/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/libadd_pallet.so: undefined reference to `YAML::detail::node_data::convert_to_map(boost::shared_ptr<YAML::detail::memory_holder>)'
+/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/libadd_pallet.so: undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'
+/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/libadd_pallet.so: undefined reference to `YAML::detail::node_data::begin()'
+/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/libadd_pallet.so: undefined reference to `YAML::LoadFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/libadd_pallet.so: undefined reference to `YAML::detail::node_data::mark_defined()'
+/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/libadd_pallet.so: undefined reference to `YAML::convert<bool>::decode(YAML::Node const&, bool&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/lib/add_pallet/PalletLibraryNodeMain] Error 1
+make[1]: *** [CMakeFiles/PalletLibraryNodeMain.dir/all] Error 2
+make: *** [all] Error 2

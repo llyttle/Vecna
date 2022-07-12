@@ -258,7 +258,7 @@ clean: CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/clean
 CMakeFiles/add_pallet_gencfg.dir/all:
 	$(MAKE) -f CMakeFiles/add_pallet_gencfg.dir/build.make CMakeFiles/add_pallet_gencfg.dir/depend
 	$(MAKE) -f CMakeFiles/add_pallet_gencfg.dir/build.make CMakeFiles/add_pallet_gencfg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loren.lyttle/tests/catkin_ws/build/add_pallet/CMakeFiles --progress-num=1 "Built target add_pallet_gencfg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loren.lyttle/tests/catkin_ws/build/add_pallet/CMakeFiles --progress-num=5 "Built target add_pallet_gencfg"
 .PHONY : CMakeFiles/add_pallet_gencfg.dir/all
 
 # Include target in all.
@@ -381,43 +381,6 @@ CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/pallet_library.dir
-
-# All Build rule for target.
-CMakeFiles/pallet_library.dir/all: CMakeFiles/add_pallet_gencfg.dir/all
-	$(MAKE) -f CMakeFiles/pallet_library.dir/build.make CMakeFiles/pallet_library.dir/depend
-	$(MAKE) -f CMakeFiles/pallet_library.dir/build.make CMakeFiles/pallet_library.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loren.lyttle/tests/catkin_ws/build/add_pallet/CMakeFiles --progress-num=15,16 "Built target pallet_library"
-.PHONY : CMakeFiles/pallet_library.dir/all
-
-# Include target in all.
-all: CMakeFiles/pallet_library.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/pallet_library.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/loren.lyttle/tests/catkin_ws/build/add_pallet/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pallet_library.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/loren.lyttle/tests/catkin_ws/build/add_pallet/CMakeFiles 0
-.PHONY : CMakeFiles/pallet_library.dir/rule
-
-# Convenience name for target.
-pallet_library: CMakeFiles/pallet_library.dir/rule
-
-.PHONY : pallet_library
-
-# clean rule for target.
-CMakeFiles/pallet_library.dir/clean:
-	$(MAKE) -f CMakeFiles/pallet_library.dir/build.make CMakeFiles/pallet_library.dir/clean
-.PHONY : CMakeFiles/pallet_library.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/pallet_library.dir/clean
 
 .PHONY : clean
 
@@ -870,6 +833,64 @@ clean: CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/add_pallet.dir
+
+# All Build rule for target.
+CMakeFiles/add_pallet.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/add_pallet.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+CMakeFiles/add_pallet.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
+CMakeFiles/add_pallet.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+CMakeFiles/add_pallet.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+CMakeFiles/add_pallet.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
+CMakeFiles/add_pallet.dir/all: CMakeFiles/add_pallet_gencfg.dir/all
+CMakeFiles/add_pallet.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
+CMakeFiles/add_pallet.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
+CMakeFiles/add_pallet.dir/all: CMakeFiles/roscpp_generate_messages_lisp.dir/all
+CMakeFiles/add_pallet.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+CMakeFiles/add_pallet.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+CMakeFiles/add_pallet.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/add_pallet.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all
+CMakeFiles/add_pallet.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+CMakeFiles/add_pallet.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
+CMakeFiles/add_pallet.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
+CMakeFiles/add_pallet.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
+CMakeFiles/add_pallet.dir/all: CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+CMakeFiles/add_pallet.dir/all: CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+CMakeFiles/add_pallet.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
+CMakeFiles/add_pallet.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/add_pallet.dir/build.make CMakeFiles/add_pallet.dir/depend
+	$(MAKE) -f CMakeFiles/add_pallet.dir/build.make CMakeFiles/add_pallet.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loren.lyttle/tests/catkin_ws/build/add_pallet/CMakeFiles --progress-num=3,4 "Built target add_pallet"
+.PHONY : CMakeFiles/add_pallet.dir/all
+
+# Include target in all.
+all: CMakeFiles/add_pallet.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/add_pallet.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/loren.lyttle/tests/catkin_ws/build/add_pallet/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/add_pallet.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/loren.lyttle/tests/catkin_ws/build/add_pallet/CMakeFiles 0
+.PHONY : CMakeFiles/add_pallet.dir/rule
+
+# Convenience name for target.
+add_pallet: CMakeFiles/add_pallet.dir/rule
+
+.PHONY : add_pallet
+
+# clean rule for target.
+CMakeFiles/add_pallet.dir/clean:
+	$(MAKE) -f CMakeFiles/add_pallet.dir/build.make CMakeFiles/add_pallet.dir/clean
+.PHONY : CMakeFiles/add_pallet.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/add_pallet.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/roscpp_generate_messages_nodejs.dir
 
 # All Build rule for target.
@@ -971,76 +992,39 @@ clean: CMakeFiles/remote_add.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/load_pallet.dir
+# Target rules for target CMakeFiles/PalletLibraryNodeMain.dir
 
 # All Build rule for target.
-CMakeFiles/load_pallet.dir/all: CMakeFiles/add_pallet_gencfg.dir/all
-	$(MAKE) -f CMakeFiles/load_pallet.dir/build.make CMakeFiles/load_pallet.dir/depend
-	$(MAKE) -f CMakeFiles/load_pallet.dir/build.make CMakeFiles/load_pallet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loren.lyttle/tests/catkin_ws/build/add_pallet/CMakeFiles --progress-num=13,14 "Built target load_pallet"
-.PHONY : CMakeFiles/load_pallet.dir/all
+CMakeFiles/PalletLibraryNodeMain.dir/all: CMakeFiles/add_pallet.dir/all
+	$(MAKE) -f CMakeFiles/PalletLibraryNodeMain.dir/build.make CMakeFiles/PalletLibraryNodeMain.dir/depend
+	$(MAKE) -f CMakeFiles/PalletLibraryNodeMain.dir/build.make CMakeFiles/PalletLibraryNodeMain.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loren.lyttle/tests/catkin_ws/build/add_pallet/CMakeFiles --progress-num=1,2 "Built target PalletLibraryNodeMain"
+.PHONY : CMakeFiles/PalletLibraryNodeMain.dir/all
 
 # Include target in all.
-all: CMakeFiles/load_pallet.dir/all
+all: CMakeFiles/PalletLibraryNodeMain.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/load_pallet.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/loren.lyttle/tests/catkin_ws/build/add_pallet/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/load_pallet.dir/all
+CMakeFiles/PalletLibraryNodeMain.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/loren.lyttle/tests/catkin_ws/build/add_pallet/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/PalletLibraryNodeMain.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/loren.lyttle/tests/catkin_ws/build/add_pallet/CMakeFiles 0
-.PHONY : CMakeFiles/load_pallet.dir/rule
+.PHONY : CMakeFiles/PalletLibraryNodeMain.dir/rule
 
 # Convenience name for target.
-load_pallet: CMakeFiles/load_pallet.dir/rule
+PalletLibraryNodeMain: CMakeFiles/PalletLibraryNodeMain.dir/rule
 
-.PHONY : load_pallet
-
-# clean rule for target.
-CMakeFiles/load_pallet.dir/clean:
-	$(MAKE) -f CMakeFiles/load_pallet.dir/build.make CMakeFiles/load_pallet.dir/clean
-.PHONY : CMakeFiles/load_pallet.dir/clean
+.PHONY : PalletLibraryNodeMain
 
 # clean rule for target.
-clean: CMakeFiles/load_pallet.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/test_subscriber.dir
-
-# All Build rule for target.
-CMakeFiles/test_subscriber.dir/all: CMakeFiles/add_pallet_gencfg.dir/all
-	$(MAKE) -f CMakeFiles/test_subscriber.dir/build.make CMakeFiles/test_subscriber.dir/depend
-	$(MAKE) -f CMakeFiles/test_subscriber.dir/build.make CMakeFiles/test_subscriber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loren.lyttle/tests/catkin_ws/build/add_pallet/CMakeFiles --progress-num=19,20 "Built target test_subscriber"
-.PHONY : CMakeFiles/test_subscriber.dir/all
-
-# Include target in all.
-all: CMakeFiles/test_subscriber.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/test_subscriber.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/loren.lyttle/tests/catkin_ws/build/add_pallet/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test_subscriber.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/loren.lyttle/tests/catkin_ws/build/add_pallet/CMakeFiles 0
-.PHONY : CMakeFiles/test_subscriber.dir/rule
-
-# Convenience name for target.
-test_subscriber: CMakeFiles/test_subscriber.dir/rule
-
-.PHONY : test_subscriber
+CMakeFiles/PalletLibraryNodeMain.dir/clean:
+	$(MAKE) -f CMakeFiles/PalletLibraryNodeMain.dir/build.make CMakeFiles/PalletLibraryNodeMain.dir/clean
+.PHONY : CMakeFiles/PalletLibraryNodeMain.dir/clean
 
 # clean rule for target.
-CMakeFiles/test_subscriber.dir/clean:
-	$(MAKE) -f CMakeFiles/test_subscriber.dir/build.make CMakeFiles/test_subscriber.dir/clean
-.PHONY : CMakeFiles/test_subscriber.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/test_subscriber.dir/clean
+clean: CMakeFiles/PalletLibraryNodeMain.dir/clean
 
 .PHONY : clean
 
@@ -1121,7 +1105,7 @@ gtest/googlemock/preinstall: gtest/googlemock/gtest/preinstall
 gtest/googlemock/CMakeFiles/gmock_main.dir/all:
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loren.lyttle/tests/catkin_ws/build/add_pallet/CMakeFiles --progress-num=5,6,7,8 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loren.lyttle/tests/catkin_ws/build/add_pallet/CMakeFiles --progress-num=9,10,11,12 "Built target gmock_main"
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1153,7 +1137,7 @@ clean: gtest/googlemock/CMakeFiles/gmock_main.dir/clean
 gtest/googlemock/CMakeFiles/gmock.dir/all:
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loren.lyttle/tests/catkin_ws/build/add_pallet/CMakeFiles --progress-num=2,3,4 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loren.lyttle/tests/catkin_ws/build/add_pallet/CMakeFiles --progress-num=6,7,8 "Built target gmock"
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1204,7 +1188,7 @@ gtest/googlemock/gtest/preinstall:
 gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/all: gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loren.lyttle/tests/catkin_ws/build/add_pallet/CMakeFiles --progress-num=11,12 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loren.lyttle/tests/catkin_ws/build/add_pallet/CMakeFiles --progress-num=15,16 "Built target gtest_main"
 .PHONY : gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1236,7 +1220,7 @@ clean: gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/clean
 gtest/googlemock/gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loren.lyttle/tests/catkin_ws/build/add_pallet/CMakeFiles --progress-num=9,10 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loren.lyttle/tests/catkin_ws/build/add_pallet/CMakeFiles --progress-num=13,14 "Built target gtest"
 .PHONY : gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.

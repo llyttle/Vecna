@@ -1,0 +1,10 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:58:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring_to_type_map[m[K’ was not declared in this scope
+     auto m = [01;31m[Kstring_to_type_map[m[K<double>(write_map["doubles_string"]);
+              [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:58:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+     auto m = string_to_type_map<[01;31m[Kdouble[m[K>(write_map["doubles_string"]);
+                                 [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

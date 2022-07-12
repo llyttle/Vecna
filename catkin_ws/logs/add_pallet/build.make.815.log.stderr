@@ -1,0 +1,14 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:339:98:[m[K [01;31m[Kerror: [m[Kdefinition of implicitly-declared ‘[01m[KPalletPocketDetection::PalletThreeLegSideFaceDetectionInfo::~PalletThreeLegSideFaceDetectionInfo()[m[K’
+ PalletPocketDetection::PalletThreeLegSideFaceDetectionInfo::~PalletThreeLegSideFaceDetectionInfo([01;31m[K)[m[K
+                                                                                                  [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletPocketDetection::PalletThreeLegSideFaceDetectionInfo::updateParams()[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:348:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kprefix[m[K’ was not declared in this scope
+     ros::param::param([01;31m[Kprefix[m[K + "bools/isDetectorEnabled",
+                       [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:348:23:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Km_prefix[m[K’
+     ros::param::param([01;36m[Kprefix[m[K + "bools/isDetectorEnabled",
+                       [01;36m[K^~~~~~[m[K
+                       [32m[Km_prefix[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,27 @@
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:24:22:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kupdate_specific[m[K’ declared void
+ void update_specific([01;31m[KT[m[K pointer, std::string name, std::string prefix)
+                      [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:24:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kpointer[m[K’
+ void update_specific(T [01;31m[Kpointer[m[K, std::string name, std::string prefix)
+                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:24:45:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kname[m[K’
+ void update_specific(T pointer, std::string [01;31m[Kname[m[K, std::string prefix)
+                                             [01;31m[K^~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:24:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kprefix[m[K’
+ void update_specific(T pointer, std::string name, std::string [01;31m[Kprefix[m[K)
+                                                               [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletPocketDetection::PalletThreeLegFrontFaceDetectionInfo::updateParams(ros::NodeHandle&)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:308:5:[m[K [01;31m[Kerror: [m[K‘[01m[KUpdateSpecific[m[K’ was not declared in this scope
+     [01;31m[KUpdateSpecific[m[K<bool>(m_parameterPrefix, m_isDetectorEnabled);
+     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:308:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kupdate_specific[m[K’
+     [01;36m[KUpdateSpecific[m[K<bool>(m_parameterPrefix, m_isDetectorEnabled);
+     [01;36m[K^~~~~~~~~~~~~~[m[K
+     [32m[Kupdate_specific[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:308:20:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kbool[m[K’
+     UpdateSpecific<[01;31m[Kbool[m[K>(m_parameterPrefix, m_isDetectorEnabled);
+                    [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

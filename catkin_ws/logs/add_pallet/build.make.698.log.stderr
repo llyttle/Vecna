@@ -1,0 +1,13 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:16:57:[m[K [01;31m[Kerror: [m[K‘[01m[KT[m[K’ has not been declared
+ void PalletLibraryNode::getFromParams(std::string type, [01;31m[KT[m[K parameter)
+                                                         [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:16:6:[m[K [01;31m[Kerror: [m[Kprototype for ‘[01m[Kvoid PalletLibraryNode::getFromParams(std::__cxx11::string, int)[m[K’ does not match any in class ‘[01m[KPalletLibraryNode[m[K’
+ void [01;31m[KPalletLibraryNode[m[K::getFromParams(std::string type, T parameter)
+      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:12:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:47:10:[m[K [01;31m[Kerror: [m[Kcandidate is: template<class T> void PalletLibraryNode::getFromParams(std::__cxx11::string, T)
+     void [01;31m[KgetFromParams[m[K(std::string type, T parameter);
+          [01;31m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

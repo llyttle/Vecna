@@ -1,0 +1,10 @@
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:12:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:122:35:[m[K [01;31m[Kerror: [m[K‘[01m[KDEG2RAD[m[K’ was not declared in this scope
+     double m_maxInterLegYawDiff = [01;31m[KDEG2RAD[m[K(5.0);
+                                   [01;31m[K^~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:16:56:[m[K [01;31m[Kerror: [m[Kno ‘[01m[Kvoid PalletLibraryNode::create_Pointer(std::__cxx11::string)[m[K’ member function declared in class ‘[01m[KPalletLibraryNode[m[K’
+ void PalletLibraryNode::create_Pointer(std::string type[01;31m[K)[m[K
+                                                        [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

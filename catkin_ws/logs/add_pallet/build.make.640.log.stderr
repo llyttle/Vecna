@@ -1,0 +1,10 @@
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:16:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:11:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPalletLibraryNode::[m[K’ on member ‘[01m[Kload_pallet[m[K’ [[01;31m[K-fpermissive[m[K]
+     void [01;31m[KPalletLibraryNode[m[K::load_pallet(std::string name);
+          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:13:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPalletLibraryNode::[m[K’ on member ‘[01m[Kdynamic_callback[m[K’ [[01;31m[K-fpermissive[m[K]
+     void [01;31m[KPalletLibraryNode[m[K::dynamic_callback(add_pallet::dynamic_paramsConfig &config, uint32_t level);
+          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

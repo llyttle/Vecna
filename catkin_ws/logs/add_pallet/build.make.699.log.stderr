@@ -1,0 +1,21 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletLibraryNode::getFromParams(std::__cxx11::string, T)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:19:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+     std::string [01;31m[Knamespace[m[K, varname;
+                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvarname[m[K’ was not declared in this scope
+     [01;31m[Kvarname[m[K = get_name(parameter);
+     [01;31m[K^~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:20:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kbasename[m[K’
+     [01;36m[Kvarname[m[K = get_name(parameter);
+     [01;36m[K^~~~~~~[m[K
+     [32m[Kbasename[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:21:15:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K=[m[K’ token
+     namespace [01;31m[K=[m[K "persistent/"+type+"/"+typeid(parameter).name()+"s/"+varname;
+               [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:21:15:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:22:37:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Knamespace[m[K’
+     std::cout << "NAMESPACE == " << [01;31m[Knamespace[m[K << std::endl;
+                                     [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

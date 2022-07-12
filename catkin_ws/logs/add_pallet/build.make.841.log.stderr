@@ -1,0 +1,12 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletLibraryNode::load_pallet(std::__cxx11::string)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:127:9:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPalletLibraryNode::update_server(std::__cxx11::string&, YAML::Node, YAML::Node, YAML::Node)[m[K’
+         [01;31m[K)[m[K;
+         [01;31m[K^[m[K
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:295:10:[m[K [01;36m[Knote: [m[Kcandidate: void PalletLibraryNode::update_server(const string&, const std::map<std::__cxx11::basic_string<char>, bool>&, const std::map<std::__cxx11::basic_string<char>, double>&, const std::map<std::__cxx11::basic_string<char>, int>&)
+     void [01;36m[Kupdate_server[m[K(std::string const& type, std::map<std::string,bool> const& bool_map, std::map<std::string,double> const& double_map, std::map<std::string,int> const& int_map);
+          [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:295:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KYAML::Node[m[K’ to ‘[01m[Kconst std::map<std::__cxx11::basic_string<char>, bool>&[m[K’
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

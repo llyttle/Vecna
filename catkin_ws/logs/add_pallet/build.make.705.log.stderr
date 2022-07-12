@@ -1,0 +1,11 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletLibraryNode::create_Pointer(std::__cxx11::string)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpalletpointer[m[K’ was not declared in this scope
+     [01;31m[Kpalletpointer[m[K->initializeParams(m_node /* nodeHandle */,
+     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:38:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcreate_Pointer[m[K’
+     [01;36m[Kpalletpointer[m[K->initializeParams(m_node /* nodeHandle */,
+     [01;36m[K^~~~~~~~~~~~~[m[K
+     [32m[Kcreate_Pointer[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

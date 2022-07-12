@@ -1,0 +1,41 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletLibraryNode::load_pallet(std::__cxx11::string)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:118:13:[m[K [01;31m[Kerror: [m[K‘[01m[Km_TypeMapHelper[m[K’ is not a class, namespace, or enumeration
+             [01;31m[Km_TypeMapHelper[m[K::yaml2map<bool>(Pallet_Params["bools"]),
+             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:118:39:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kbool[m[K’
+             m_TypeMapHelper::yaml2map<[01;31m[Kbool[m[K>(Pallet_Params["bools"]),
+                                       [01;31m[K^~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:119:13:[m[K [01;31m[Kerror: [m[K‘[01m[Km_TypeMapHelper[m[K’ is not a class, namespace, or enumeration
+             [01;31m[Km_TypeMapHelper[m[K::yaml2map<double>(Pallet_Params["doubles"]),
+             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:119:39:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+             m_TypeMapHelper::yaml2map<[01;31m[Kdouble[m[K>(Pallet_Params["doubles"]),
+                                       [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:120:13:[m[K [01;31m[Kerror: [m[K‘[01m[Km_TypeMapHelper[m[K’ is not a class, namespace, or enumeration
+             [01;31m[Km_TypeMapHelper[m[K::yaml2map<int>(Pallet_Params["ints"])
+             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:120:39:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+             m_TypeMapHelper::yaml2map<[01;31m[Kint[m[K>(Pallet_Params["ints"])
+                                       [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletLibraryNode::dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:137:9:[m[K [01;31m[Kerror: [m[K‘[01m[Km_TypeMapHelper[m[K’ is not a class, namespace, or enumeration
+         [01;31m[Km_TypeMapHelper[m[K::string2map<bool>(config.AA_dynamic_bools_string),
+         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:137:37:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kbool[m[K’
+         m_TypeMapHelper::string2map<[01;31m[Kbool[m[K>(config.AA_dynamic_bools_string),
+                                     [01;31m[K^~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:138:9:[m[K [01;31m[Kerror: [m[K‘[01m[Km_TypeMapHelper[m[K’ is not a class, namespace, or enumeration
+         [01;31m[Km_TypeMapHelper[m[K::string2map<double>(config.AA_dynamic_doubles_string),
+         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:138:37:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+         m_TypeMapHelper::string2map<[01;31m[Kdouble[m[K>(config.AA_dynamic_doubles_string),
+                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:139:9:[m[K [01;31m[Kerror: [m[K‘[01m[Km_TypeMapHelper[m[K’ is not a class, namespace, or enumeration
+         [01;31m[Km_TypeMapHelper[m[K::string2map<int>(config.AA_dynamic_ints_string)
+         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:139:37:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+         m_TypeMapHelper::string2map<[01;31m[Kint[m[K>(config.AA_dynamic_ints_string)
+                                     [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

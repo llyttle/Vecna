@@ -1,0 +1,7 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletLibraryNode::dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:150:43:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kstd::shared_ptr<PalletPocketDetection>[m[K’ to non-scalar type ‘[01m[KPalletPocketDetection[m[K’ requested
+         PalletPocketDetection detectors = [01;31m[KPalletLibraryNode[m[K::m_palletpocketdetector;
+                                           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

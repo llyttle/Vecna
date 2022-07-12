@@ -1,0 +1,24 @@
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:15:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:47:33:[m[K [01;31m[Kerror: [m[K‘[01m[KPalletThreeLegFrontFaceDetectionInfo[m[K’ was not declared in this scope
+     std::vector<std::shared_ptr<[01;31m[KPalletThreeLegFrontFaceDetectionInfo[m[K>> ThreeLegFrontFaceDetectorUpdateList;
+                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:47:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:47:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+     std::vector<std::shared_ptr<PalletThreeLegFrontFaceDetectionInfo[01;31m[K>>[m[K ThreeLegFrontFaceDetectorUpdateList;
+                                                                     [01;31m[K^~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:47:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:26:16:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kpush_back[m[K’ declared void
+ void push_back([01;31m[K_CharT[m[K __c)
+                [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:26:16:[m[K [01;31m[Kerror: [m[K‘[01m[K_CharT[m[K’ was not declared in this scope
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:26:16:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ku_char[m[K’
+ void push_back([01;36m[K_CharT[m[K __c)
+                [01;36m[K^~~~~~[m[K
+                [32m[Ku_char[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletLibraryNode::create_Pointer(std::__cxx11::string)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:246:60:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[K((PalletLibraryNode*)this)->PalletLibraryNode::ThreeLegFrontFaceDetectorUpdateList[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+     PalletLibraryNode::ThreeLegFrontFaceDetectorUpdateList.[01;31m[Kpush_back[m[K(palletpointer);
+                                                            [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,11 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In constructor ‘[01m[KPalletLibraryNode::PalletLibraryNode(ros::NodeHandle&, std::map<std::__cxx11::basic_string<char>, bool>)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:33:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kenable[m[K’ was not declared in this scope
+             for (const auto &p : [01;31m[Kenable[m[K)
+                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:33:34:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krename[m[K’
+             for (const auto &p : [01;36m[Kenable[m[K)
+                                  [01;36m[K^~~~~~[m[K
+                                  [32m[Krename[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

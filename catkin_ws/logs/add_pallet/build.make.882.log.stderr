@@ -1,0 +1,17 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:17:72:[m[K [01;31m[Kerror: [m[Kno ‘[01m[Kint PalletPocketDetection::update_specific(T*, std::__cxx11::string)[m[K’ member function declared in class ‘[01m[KPalletPocketDetection[m[K’
+ int PalletPocketDetection::update_specific(T* pointer, std::string name[01;31m[K)[m[K
+                                                                        [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletPocketDetection::PalletThreeLegFrontFaceDetectionInfo::updateParams(ros::NodeHandle&)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:381:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kupdate_specific[m[K’ was not declared in this scope
+     [01;31m[Kupdate_specific[m[K<bool>(SPLIT(m_isDetectorEnabled));
+     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:381:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kpthread_setspecific[m[K’
+     [01;36m[Kupdate_specific[m[K<bool>(SPLIT(m_isDetectorEnabled));
+     [01;36m[K^~~~~~~~~~~~~~~[m[K
+     [32m[Kpthread_setspecific[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:381:21:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kbool[m[K’
+     update_specific<[01;31m[Kbool[m[K>(SPLIT(m_isDetectorEnabled));
+                     [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

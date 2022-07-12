@@ -1,0 +1,14 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletLibraryNode::getFromParams(std::__cxx11::string, T)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:22:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+     std::string [01;31m[Knamespace[m[K;
+                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:26:15:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K=[m[K’ token
+     namespace [01;31m[K=[m[K "persistent/"+type+"/"+typeid(parameter).name()+"s/"+varname;
+               [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:26:15:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:27:37:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Knamespace[m[K’
+     std::cout << "NAMESPACE == " << [01;31m[Knamespace[m[K << std::endl;
+                                     [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,14 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:202:6:[m[K [01;31m[Kerror: [m[Kprototype for ‘[01m[Kvoid PalletPocketDetection::update_specific(ros::NodeHandle&, const T*, std::__cxx11::string)[m[K’ does not match any in class ‘[01m[KPalletPocketDetection[m[K’
+ void [01;31m[KPalletPocketDetection[m[K::update_specific(ros::NodeHandle& m_node, const T* pointer, const std::string name)
+      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13:0[m[K:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:35:9:[m[K [01;31m[Kerror: [m[Kcandidate is: template<class T> int PalletPocketDetection::update_specific(ros::NodeHandle&, T*, std::__cxx11::string)
+     int [01;31m[Kupdate_specific[m[K(ros::NodeHandle& m_node, T* pointer, std::string name);
+         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletPocketDetection::PalletThreeLegFrontFaceDetectionInfo::updateParams(ros::NodeHandle&)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:379:70:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kint PalletPocketDetection::update_specific(ros::NodeHandle&, T*, std::__cxx11::string) [with T = bool; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’ without object
+     result = update_specific<bool>(m_node, SPLIT(m_isDetectorEnabled)[01;31m[K)[m[K;
+                                                                      [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

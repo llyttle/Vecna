@@ -1,0 +1,12 @@
+[31m[1mCMake Error[0m at /home/loren.lyttle/tests/catkin_ws/src/add_pallet/CMakeLists.txt:128 (add_library):
+  Cannot find source file:
+
+    src/add_pallet/src/pallet_library.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: add_pallet
+CMake Error: Cannot determine link language for target "add_pallet".
+make: *** [cmake_check_build_system] Error 1

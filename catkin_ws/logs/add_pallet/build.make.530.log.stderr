@@ -1,0 +1,588 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:25:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kany[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ std::map<std::[01;31m[Kany[m[K> string_to_type_map(std::string const& s)
+               [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:25:15:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include/add_pallet/dynamic_paramsConfig.h:26:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:12[m[K:
+[01m[K/usr/include/boost/any.hpp:37:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::any[m[K’
+     class [01;36m[Kany[m[K
+           [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_plus.hpp:48:0[m[K,
+                 from [01m[K/usr/include/boost/next_prior.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/utility.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_plus_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_plus_assign.hpp:60:0[m[K,
+                 from [01m[K/usr/include/boost/next_prior.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/utility.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_plus_assign_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_minus.hpp:54:0[m[K,
+                 from [01m[K/usr/include/boost/next_prior.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/utility.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_minus_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_minus_assign.hpp:59:0[m[K,
+                 from [01m[K/usr/include/boost/next_prior.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/utility.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_minus_assign_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_left_shift.hpp:43:0[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/detail/converter_lexical.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/try_lexical_convert.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_left_shift_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_right_shift.hpp:43:0[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/detail/converter_lexical.hpp:39[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/try_lexical_convert.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_right_shift_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:25:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kany[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ std::map<std::[01;31m[Kany[m[K> string_to_type_map(std::string const& s)
+               [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:25:15:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include/add_pallet/dynamic_paramsConfig.h:26:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:12[m[K:
+[01m[K/usr/include/boost/any.hpp:37:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::any[m[K’
+     class [01;36m[Kany[m[K
+           [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_plus.hpp:48:0[m[K,
+                 from [01m[K/usr/include/boost/next_prior.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/utility.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_plus_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_plus_assign.hpp:60:0[m[K,
+                 from [01m[K/usr/include/boost/next_prior.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/utility.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_plus_assign_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_minus.hpp:54:0[m[K,
+                 from [01m[K/usr/include/boost/next_prior.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/utility.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_minus_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_minus_assign.hpp:59:0[m[K,
+                 from [01m[K/usr/include/boost/next_prior.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/utility.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_minus_assign_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_left_shift.hpp:43:0[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/detail/converter_lexical.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/try_lexical_convert.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_left_shift_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_right_shift.hpp:43:0[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/detail/converter_lexical.hpp:39[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/try_lexical_convert.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_right_shift_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:25:18:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (1, should be at least 2)
+ std::map<std::any[01;31m[K>[m[K string_to_type_map(std::string const& s)
+                  [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/map:61:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/console.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/c++/7/bits/stl_map.h:99:11:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> class std::map[m[K’
+     class [01;36m[Kmap[m[K
+           [01;36m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kint string_to_type_map(const string&)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:27:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kany[m[K’ is not a member of ‘[01m[Kstd[m[K’
+     std::map<std::string,std::[01;31m[Kany[m[K> m;
+                               [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:27:31:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include/add_pallet/dynamic_paramsConfig.h:26:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:12[m[K:
+[01m[K/usr/include/boost/any.hpp:37:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::any[m[K’
+     class [01;36m[Kany[m[K
+           [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_plus.hpp:48:0[m[K,
+                 from [01m[K/usr/include/boost/next_prior.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/utility.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_plus_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_plus_assign.hpp:60:0[m[K,
+                 from [01m[K/usr/include/boost/next_prior.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/utility.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_plus_assign_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_minus.hpp:54:0[m[K,
+                 from [01m[K/usr/include/boost/next_prior.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/utility.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_minus_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_minus_assign.hpp:59:0[m[K,
+                 from [01m[K/usr/include/boost/next_prior.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/utility.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_minus_assign_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_left_shift.hpp:43:0[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/detail/converter_lexical.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/try_lexical_convert.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_left_shift_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_right_shift.hpp:43:0[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/detail/converter_lexical.hpp:39[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/try_lexical_convert.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_right_shift_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:27:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kany[m[K’ is not a member of ‘[01m[Kstd[m[K’
+     std::map<std::string,std::[01;31m[Kany[m[K> m;
+                               [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:27:31:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include/add_pallet/dynamic_paramsConfig.h:26:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:12[m[K:
+[01m[K/usr/include/boost/any.hpp:37:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::any[m[K’
+     class [01;36m[Kany[m[K
+           [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_plus.hpp:48:0[m[K,
+                 from [01m[K/usr/include/boost/next_prior.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/utility.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_plus_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_plus_assign.hpp:60:0[m[K,
+                 from [01m[K/usr/include/boost/next_prior.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/utility.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_plus_assign_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_minus.hpp:54:0[m[K,
+                 from [01m[K/usr/include/boost/next_prior.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/utility.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_minus_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_minus_assign.hpp:59:0[m[K,
+                 from [01m[K/usr/include/boost/next_prior.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/utility.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_minus_assign_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_left_shift.hpp:43:0[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/detail/converter_lexical.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/try_lexical_convert.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_left_shift_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_right_shift.hpp:43:0[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/detail/converter_lexical.hpp:39[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/try_lexical_convert.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_right_shift_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:27:34:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+     std::map<std::string,std::any[01;31m[K>[m[K m;
+                                  [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:27:34:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:48:11:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kemplace[m[K’ in ‘[01m[Km[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+         m.[01;31m[Kemplace[m[K(key, val);
+           [01;31m[K^~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In function ‘[01m[Kvoid dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:61:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kany[m[K’ is not a member of ‘[01m[Kstd[m[K’
+     std::map<std::string,std::map<std::string,std::[01;31m[Kany[m[K>> write_map;
+                                                    [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:61:52:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include/add_pallet/dynamic_paramsConfig.h:26:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:12[m[K:
+[01m[K/usr/include/boost/any.hpp:37:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::any[m[K’
+     class [01;36m[Kany[m[K
+           [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_plus.hpp:48:0[m[K,
+                 from [01m[K/usr/include/boost/next_prior.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/utility.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_plus_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_plus_assign.hpp:60:0[m[K,
+                 from [01m[K/usr/include/boost/next_prior.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/utility.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_plus_assign_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_minus.hpp:54:0[m[K,
+                 from [01m[K/usr/include/boost/next_prior.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/utility.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_minus_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_minus_assign.hpp:59:0[m[K,
+                 from [01m[K/usr/include/boost/next_prior.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/utility.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_minus_assign_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_left_shift.hpp:43:0[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/detail/converter_lexical.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/try_lexical_convert.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_left_shift_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_right_shift.hpp:43:0[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/detail/converter_lexical.hpp:39[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/try_lexical_convert.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_right_shift_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:61:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kany[m[K’ is not a member of ‘[01m[Kstd[m[K’
+     std::map<std::string,std::map<std::string,std::[01;31m[Kany[m[K>> write_map;
+                                                    [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:61:52:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include/add_pallet/dynamic_paramsConfig.h:26:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:12[m[K:
+[01m[K/usr/include/boost/any.hpp:37:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::any[m[K’
+     class [01;36m[Kany[m[K
+           [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_plus.hpp:48:0[m[K,
+                 from [01m[K/usr/include/boost/next_prior.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/utility.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_plus_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_plus_assign.hpp:60:0[m[K,
+                 from [01m[K/usr/include/boost/next_prior.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/utility.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_plus_assign_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_minus.hpp:54:0[m[K,
+                 from [01m[K/usr/include/boost/next_prior.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/utility.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_minus_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_minus_assign.hpp:59:0[m[K,
+                 from [01m[K/usr/include/boost/next_prior.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/utility.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_minus_assign_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_left_shift.hpp:43:0[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/detail/converter_lexical.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/try_lexical_convert.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_left_shift_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/boost/type_traits/has_right_shift.hpp:43:0[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/detail/converter_lexical.hpp:39[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/try_lexical_convert.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:1[m[K:
+[01m[K/usr/include/boost/type_traits/detail/has_binary_operator.hpp:67:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::detail::has_right_shift_impl::any[m[K’
+ struct [01;36m[Kany[m[K { template <class T> any(T const&); };
+        [01;36m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:61:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+     std::map<std::string,std::map<std::string,std::[01;31m[Kany[m[K>> write_map;
+                                                    [01;31m[K^~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:61:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:61:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+     std::map<std::string,std::map<std::string,std::any[01;31m[K>>[m[K write_map;
+                                                       [01;31m[K^~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:61:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

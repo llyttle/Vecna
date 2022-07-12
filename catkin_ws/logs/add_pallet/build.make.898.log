@@ -1,0 +1,102 @@
+[  0%] Built target roscpp_generate_messages_cpp
+[ 14%] Built target add_pallet_gencfg
+[ 14%] Built target rosgraph_msgs_generate_messages_py
+[ 14%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 14%] Built target std_msgs_generate_messages_eus
+[ 14%] Built target dynamic_reconfigure_generate_messages_nodejs
+[ 14%] Built target rosgraph_msgs_generate_messages_lisp
+[ 14%] Built target rosgraph_msgs_generate_messages_eus
+[ 14%] Built target roscpp_generate_messages_py
+[ 14%] Built target std_msgs_generate_messages_py
+[ 14%] Built target roscpp_generate_messages_lisp
+[ 14%] Built target std_msgs_generate_messages_cpp
+[ 14%] Built target std_msgs_generate_messages_lisp
+[ 14%] Built target std_msgs_generate_messages_nodejs
+[ 14%] Built target rosgraph_msgs_generate_messages_cpp
+[ 14%] Built target dynamic_reconfigure_generate_messages_eus
+[ 14%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 14%] Built target dynamic_reconfigure_generate_messages_py
+[ 14%] Built target dynamic_reconfigure_gencfg
+[ 14%] Built target dynamic_reconfigure_generate_messages_lisp
+[ 14%] Built target roscpp_generate_messages_nodejs
+[ 14%] Built target roscpp_generate_messages_eus
+[ 42%] Built target remote_add
+[35m[1mScanning dependencies of target add_pallet[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o[0m
+/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp: In instantiation of ‘[01m[Kvoid PalletPocketDetection::PalletThreeLegFrontFaceDetectionInfo::update_specific(ros::NodeHandle&, const T*, std::__cxx11::string) [with T = bool; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:376:61:[m[K   required from here
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:311:9:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::param(std::__cxx11::basic_string<char>, const bool&, const bool&)[m[K’
+         [01;31m[Km_node[m[K.param(m_parameterPrefix + "bools/" + name.substr(2),
+         [01;31m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:4[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:2120:8:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> bool ros::NodeHandle::param(const string&, T&, const T&) const
+   bool [01;36m[Kparam[m[K(const std::string& param_name, T& param_val, const T& default_val) const
+        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:2120:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:311:9:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst T[m[K’ (‘[01m[Kconst bool[m[K’ and ‘[01m[Kbool[m[K’)
+         [01;36m[Km_node[m[K.param(m_parameterPrefix + "bools/" + name.substr(2),
+         [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:4[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:2153:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> T ros::NodeHandle::param(const string&, const T&) const
+   T [01;36m[Kparam[m[K(const std::string& param_name, const T& default_val) const
+     [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:2153:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:311:9:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+         [01;36m[Km_node[m[K.param(m_parameterPrefix + "bools/" + name.substr(2),
+         [01;36m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:315:9:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::param(std::__cxx11::basic_string<char>, const bool&, const bool&)[m[K’
+         [01;31m[Km_node[m[K.param(m_parameterPrefix + "doubles/" + name.substr(2),
+         [01;31m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:4[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:2120:8:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> bool ros::NodeHandle::param(const string&, T&, const T&) const
+   bool [01;36m[Kparam[m[K(const std::string& param_name, T& param_val, const T& default_val) const
+        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:2120:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:315:9:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst T[m[K’ (‘[01m[Kconst bool[m[K’ and ‘[01m[Kbool[m[K’)
+         [01;36m[Km_node[m[K.param(m_parameterPrefix + "doubles/" + name.substr(2),
+         [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:4[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:2153:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> T ros::NodeHandle::param(const string&, const T&) const
+   T [01;36m[Kparam[m[K(const std::string& param_name, const T& default_val) const
+     [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:2153:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:315:9:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+         [01;36m[Km_node[m[K.param(m_parameterPrefix + "doubles/" + name.substr(2),
+         [01;36m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:319:9:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::param(std::__cxx11::basic_string<char>, const bool&, const bool&)[m[K’
+         [01;31m[Km_node[m[K.param(m_parameterPrefix +"ints/" + name.substr(2),
+         [01;31m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:4[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:2120:8:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> bool ros::NodeHandle::param(const string&, T&, const T&) const
+   bool [01;36m[Kparam[m[K(const std::string& param_name, T& param_val, const T& default_val) const
+        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:2120:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:319:9:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst T[m[K’ (‘[01m[Kconst bool[m[K’ and ‘[01m[Kbool[m[K’)
+         [01;36m[Km_node[m[K.param(m_parameterPrefix +"ints/" + name.substr(2),
+         [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include/add_pallet/PalletLibraryNode.h:4[m[K,
+                 from [01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:13[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:2153:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> T ros::NodeHandle::param(const string&, const T&) const
+   T [01;36m[Kparam[m[K(const std::string& param_name, const T& default_val) const
+     [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:2153:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:319:9:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+         [01;36m[Km_node[m[K.param(m_parameterPrefix +"ints/" + name.substr(2),
+         [01;36m[K^~~~~~[m[K
+CMakeFiles/add_pallet.dir/build.make:62: recipe for target 'CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o' failed
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+CMakeFiles/Makefile2:861: recipe for target 'CMakeFiles/add_pallet.dir/all' failed
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

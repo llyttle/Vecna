@@ -3,6 +3,6 @@ prefix=/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet
 Name: add_pallet
 Description: Description of add_pallet
 Version: 0.0.0
-Cflags: -I/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include
-Libs: -L${prefix}/lib 
+Cflags: -I/home/loren.lyttle/tests/catkin_ws/devel/.private/add_pallet/include -I/home/loren.lyttle/tests/catkin_ws/src/add_pallet/include
+Libs: -L${prefix}/lib -ladd_pallet
 Requires: dynamic_reconfigure roscpp rospy

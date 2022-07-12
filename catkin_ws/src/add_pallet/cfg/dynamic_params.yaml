@@ -1,14 +1,40 @@
-AA_dynamic_bools_string: ''
-AA_dynamic_doubles_string: ''
-AA_dynamic_ints_string: ''
-AA_dynamic_save_change_param: true
-AA_dynamic_type_param: Default
-AA_dynamic_yaml_file_path_param: /home/loren.lyttle/tests/catkin_ws/src/add_pallet/cfg/test.yaml
 Default:
-  bools_string: ''
-  doubles_string: ''
-  ints_string: ''
-mario:
-  bools_string: test_switch_false:0,test_switch_true:1
-  doubles_string: max_depth:2.000000,max_width:2.000000,min_depth:1.000000,min_width:1.000000
-  ints_string: test_int1:67,test_int2:14,test_int3:8
+  bools: {}
+  doubles: {}
+  ints: {}
+stringer40ThreeLegFrontFace:
+  bools:
+    m_istDetectorEnabled: true
+    m_disableOverlappingThreeLegGroups: false
+    extractEndCaps: true
+  doubles:
+    m_legFrontFacePtsMaxClusterDimension: 0.04
+    m_innerLegSpacingNominal: 0.46
+    m_innerLegSpacingTolerance: 0.05
+    m_outerLegSpacingNominal: 0.944
+    m_outerLegSpacingTolerance: 0.05
+    m_maxInterLegYawDiff: 5.0
+    m_palletDepth: 1.22
+    frontFaceClusteringTolerance: 0.02
+    legFrontFaceToPalletFaceXOffset: 0.0
+  ints:
+    m_legFrontFacePtsMinClusterSize: 3
+    m_legFrontFacePtsMaxClusterSize: 15
+stringer40ThreeLegSideFace:
+  bools:
+    m_istDetectorEnabled: true
+    m_disableOverlappingThreeLegGroups: false
+    extractEndCaps: true
+  doubles:
+    m_legFrontFacePtsMaxClusterDimension: 0.04
+    m_innerLegSpacingNominal: 0.46
+    m_innerLegSpacingTolerance: 0.05
+    m_outerLegSpacingNominal: 0.944
+    m_outerLegSpacingTolerance: 0.05
+    m_maxInterLegYawDiff: 5.0
+    m_palletDepth: 1.22
+    frontFaceClusteringTolerance: 0.02
+    legFrontFaceToPalletFaceXOffset: 0.0
+  ints:
+    m_legFrontFacePtsMinClusterSize: 3
+    m_legFrontFacePtsMaxClusterSize: 15

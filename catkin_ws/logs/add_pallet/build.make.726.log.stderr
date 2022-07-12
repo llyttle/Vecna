@@ -1,0 +1,18 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletThreeLegFrontFaceDetectionInfo::updateParams()[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:50:28:[m[K [01;31m[Kerror: [m[K‘[01m[KpalletType[m[K’ was not declared in this scope
+     prefix = "persistent/"+[01;31m[KpalletType[m[K;
+                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:50:28:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Km_palletType[m[K’
+     prefix = "persistent/"+[01;36m[KpalletType[m[K;
+                            [01;36m[K^~~~~~~~~~[m[K
+                            [32m[Km_palletType[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:54:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_node[m[K’ was not declared in this scope
+     [01;31m[Km_node[m[K.param(prefix + "bools/isDetectorEnabled",
+     [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:54:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__modf[m[K’
+     [01;36m[Km_node[m[K.param(prefix + "bools/isDetectorEnabled",
+     [01;36m[K^~~~~~[m[K
+     [32m[K__modf[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

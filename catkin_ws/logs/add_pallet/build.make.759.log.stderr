@@ -1,0 +1,16 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletLibraryNode::dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:160:40:[m[K [01;31m[Kerror: [m[Kswitch quantity not an integer
+     switch(config.AA_dynamic_type_param[01;31m[K)[m[K {
+                                        [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:161:52:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K("stringer40ThreeLegFrontFaceDetector")[m[K’ from ‘[01m[Kconst char [36][m[K’ to ‘[01m[K<type error>[m[K’
+         case ("stringer40ThreeLegFrontFaceDetector"[01;31m[K)[m[K:
+                                                    [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:164:52:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K("stringer50ThreeLegFrontFaceDetector")[m[K’ from ‘[01m[Kconst char [36][m[K’ to ‘[01m[K<type error>[m[K’
+         case ("stringer50ThreeLegFrontFaceDetector"[01;31m[K)[m[K;
+                                                    [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:164:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K:[m[K’ before ‘[01m[K;[m[K’ token
+         case ("stringer50ThreeLegFrontFaceDetector")[01;31m[K;[m[K
+                                                     [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

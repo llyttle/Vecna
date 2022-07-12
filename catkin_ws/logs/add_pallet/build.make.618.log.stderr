@@ -1,0 +1,13 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In constructor ‘[01m[KPallet_Library::Pallet_Library(ros::NodeHandle*, std::map<std::__cxx11::basic_string<char>, bool>)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:27:29:[m[K [01;31m[Kerror: [m[K‘[01m[KPallet[m[K’ has not been declared
+             f = boost::bind([01;31m[KPallet[m[K::Library::dynamic_callback, _1, _2);
+                             [01;31m[K^~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:28:64:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid Pallet_Library::dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’
+             server.setCallback(Pallet_Library::dynamic_callback[01;31m[K)[m[K;
+                                                                [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:137:10:[m[K [01;36m[Knote: [m[Kdeclared here
+     void [01;36m[Kdynamic_callback[m[K(add_pallet::dynamic_paramsConfig &config, uint32_t level)
+          [01;36m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pallet_library.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pallet_library.dir/all] Error 2
+make: *** [all] Error 2

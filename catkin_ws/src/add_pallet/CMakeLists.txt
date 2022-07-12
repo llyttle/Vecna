@@ -105,8 +105,8 @@ generate_dynamic_reconfigure_options(
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-#  INCLUDE_DIRS include
-#  LIBRARIES add_pallet
+ INCLUDE_DIRS include
+ LIBRARIES ${PROJECT_NAME}
  CATKIN_DEPENDS dynamic_reconfigure roscpp rospy
 #  DEPENDS system_lib
 )
@@ -125,9 +125,13 @@ include_directories(
 )
 
 ## Declare a C++ library
-# add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/add_pallet.cpp
-# )
+add_library(${PROJECT_NAME}
+  src/pallet_library.cpp
+)
+
+target_link_libraries(${PROJECT_NAME} ${catkin_LIBRARIES} ${YAML_CPP_LIBRARIES})
+
+add_dependencies(${PROJECT_NAME} ${catkin_EXPORTED_TARGETS} ${PROJECT_NAME}_gencfg)
 
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
@@ -139,9 +143,9 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(server src/server.cpp)
 
-add_executable(pallet_library src/pallet_library.cpp) # Server Node
-target_link_libraries(pallet_library ${catkin_LIBRARIES})
-add_dependencies(pallet_library ${PROJECT_NAME}_gencfg)
+# add_executable(pallet_library src/pallet_library.cpp) # Server Node
+# target_link_libraries(pallet_library ${catkin_LIBRARIES} ${YAML_CPP_LIBRARIES})
+# add_dependencies(pallet_library ${PROJECT_NAME}_gencfg)
 
 
 add_executable(remote_add src/remote_add.cpp) # Client Node
@@ -149,13 +153,13 @@ target_link_libraries(remote_add ${catkin_LIBRARIES})
 add_dependencies(remote_add ${PROJECT_NAME}_gencfg)
 
 
-add_executable(load_pallet src/load_pallet.cpp) # Client Node
-target_link_libraries(load_pallet ${catkin_LIBRARIES} ${YAML_CPP_LIBRARIES})
-add_dependencies(load_pallet ${PROJECT_NAME}_gencfg)
+add_executable(PalletLibraryNodeMain src/PalletLibraryNodeMain.cpp) # Server Node
+target_link_libraries(PalletLibraryNodeMain ${catkin_LIBRARIES} ${PROJECT_NAME})
+# add_dependencies(PalletLibraryNodeMain ${PROJECT_NAME}_gencfg)
 
-add_executable(test_subscriber src/test_subscriber.cpp) # Client Node
-target_link_libraries(test_subscriber ${catkin_LIBRARIES})
-add_dependencies(test_subscriber ${PROJECT_NAME}_gencfg)
+# add_executable(pallet_library src/pallet_library.cpp) # Client Node
+# target_link_libraries(pallet_library ${catkin_LIBRARIES})
+# add_dependencies(pallet_library ${PROJECT_NAME}_gencfg)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the

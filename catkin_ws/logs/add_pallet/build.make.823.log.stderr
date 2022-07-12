@@ -1,0 +1,16 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:132:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kdetector[m[K’
+ bool check_for_name(boost::any_cast [01;31m[Kdetector[m[K, std::string name)
+                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:132:59:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kname[m[K’
+ bool check_for_name(boost::any_cast detector, std::string [01;31m[Kname[m[K)
+                                                           [01;31m[K^~~~[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:132:63:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+ bool check_for_name(boost::any_cast detector, std::string name[01;31m[K)[m[K
+                                                               [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:[m[K In member function ‘[01m[Kvoid PalletLibraryNode::dynamic_callback(add_pallet::dynamic_paramsConfig&, uint32_t)[m[K’:
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:166:143:[m[K [01;31m[Kerror: [m[K‘[01m[Kcheck_for_name[m[K’ cannot be used as a function
+         else if (check_for_name(PalletLibraryNode::m_palletpocketdetector->m_stringer40ThreeLegFrontFaceDetector, config.AA_dynamic_type_param[01;31m[K)[m[K) {}
+                                                                                                                                               [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2

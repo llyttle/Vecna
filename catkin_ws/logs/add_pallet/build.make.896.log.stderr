@@ -1,0 +1,9 @@
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:202:148:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kvoid PalletPocketDetection::PalletThreeLegFrontFaceDetectionInfo::update_specific(ros::NodeHandle&, const T*, std::__cxx11::string)[m[K’ outside of class is not definition [[01;31m[K-fpermissive[m[K]
+ void PalletPocketDetection::PalletThreeLegFrontFaceDetectionInfo::update_specific(ros::NodeHandle& m_node, const T* pointer, const std::string name[01;31m[K)[m[K;
+                                                                                                                                                    [01;31m[K^[m[K
+[01m[K/home/loren.lyttle/tests/catkin_ws/src/add_pallet/src/pallet_library.cpp:203:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+ [01;31m[K{[m[K
+ [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/add_pallet.dir/src/pallet_library.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_pallet.dir/all] Error 2
+make: *** [all] Error 2
